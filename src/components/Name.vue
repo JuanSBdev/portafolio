@@ -2,8 +2,8 @@
 </script>
 <template>
     <div class="wraper">
-        <h1>Juan Lluvia S.B.</h1>
-        <h2>Desarrollador web </h2>
+        <h1>{ Juan Lluvia S.B. } </h1>
+        <h2>Desarrollador web <div class="titila"> _ </div>  </h2>
     </div>
 </template>
 <style scoped>
@@ -20,4 +20,5 @@ h2{
     justify-content: center;
     align-content: center;
 }
+
 </style>
