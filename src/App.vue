@@ -30,6 +30,8 @@ header{
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
+    border-bottom: 1px solid white;
+    position: fixed;
 }
 a{
   text-decoration: none;
