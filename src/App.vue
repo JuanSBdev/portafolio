@@ -32,6 +32,7 @@ header{
     flex-flow: row wrap;
     border-bottom: 1px solid white;
     position: fixed;
+    z-index: 10;
 }
 a{
   text-decoration: none;

@@ -19,7 +19,5 @@
       align-items: center;
 
 }
-.logob{
-}
 
 </style>
