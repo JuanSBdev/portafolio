@@ -5,8 +5,11 @@ import btnHeader from './components/Btns.vue'
 </script>
 
 <template>
-      <name/>
-      <btnHeader/>
+  <header>
+    <name/>
+    <btnHeader/>
+
+  </header>
 
       <router-view></router-view>
 </template>
@@ -16,13 +19,8 @@ import btnHeader from './components/Btns.vue'
 
 </style>
 <style scoped>
-.wrapper{
-  position: relative;
-  display: flex;
-  width: 99.9%;
-  padding-bottom: 30%;
-  justify-content: center;
-	background: #83cee0; 
+header{
+  background-color: #00BFFF;
 }
 
 </style>

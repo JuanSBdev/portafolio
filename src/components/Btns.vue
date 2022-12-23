@@ -1,9 +1,6 @@
 <template>
     <div class="btn-header">
         <router-link to="/skills" class="btn-skill">Skills</router-link>
-        <router-link to="/skills" class="btn-skill">Skills</router-link>
-        <router-link to="/skills" class="btn-skill">Skills</router-link>
-        <router-link to="/skills" class="btn-skill">Skills</router-link>
 
     </div>
 </template>
