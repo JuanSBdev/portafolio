@@ -6,8 +6,12 @@
 
 
   <main id="main">
-    <router-view></router-view>
+    
   </main>
 </template>
 <style scoped>
+main{
+  background-color: black;
+  width: 200px;
+}
 </style>

@@ -4,7 +4,7 @@
         <spam class="diva"></spam>
         <router-link to="/proyects" class="btn-skill">Proyects</router-link>
         <spam class="diva"></spam>
-        <router-link to="/contacto" class="btn-skill">Contact Me!</router-link>
+        <router-link to="/contacto" class="btn-skill">Contact</router-link>
 
     </div>
 </template>
@@ -12,23 +12,28 @@
 
 .btn-header{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
-    padding: 2%;
+    padding: 1%;
     
 }
 .btn-skill{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
     text-decoration: none;
-    padding: 2rem;
+    padding: 10%;
     border-radius: 1rem;
     color: rgb(253, 253, 253);
-    margin-left: 1%;
-    margin-right: 1%;
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: .8rem;
 }
 .btn-skill:hover{
     background: rgba(115, 130, 206, 0.568);
     }
 .diva{
     border: 1px solid white;
+    background-color:wheat ;
 }
 </style>

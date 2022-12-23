@@ -1,4 +1,9 @@
 :root{
-	background: #00BFFF; 
-}
+	background: rgb(67,15,88);
+	background: linear-gradient(180deg, rgba(67,15,88,1) 9%, rgba(102,67,181,1) 97%);
 
+}
+main{
+	background: rgb(2,2,48);
+	background: linear-gradient(180deg, rgba(2,2,48,1) 99%, rgba(73,22,242,1) 100%);
+}
