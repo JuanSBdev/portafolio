@@ -8,7 +8,7 @@ setTimeout(function() { titi = !titi; console.log(titi) }, 3000);
 <template>
     <div class="wraper">
         <h1>{ Juan Lluvia SB } </h1>
-        <h2>Desarrollador web <spam class="titi" v-if="titi" > _ </spam>  </h2>
+        <h2> Frontend Developer<spam class="titi" v-if="titi" > _ </spam>  </h2>
     </div>
 </template>
 <style scoped>

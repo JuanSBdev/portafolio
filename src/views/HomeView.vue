@@ -3,15 +3,25 @@
 </script>
 
 <template>
-
-
-  <main id="main">
-    
-  </main>
+  <div class="home">
+    <p>Welcome..</p>
+  </div>
 </template>
 <style scoped>
-main{
+@import '../assets/base.css';
+.home{
   background-color: black;
-  width: 200px;
+  position:relative;  
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+p{
+  color: rgb(252, 253, 253);
+  font-size: 4rem;
+  font-family: 'Staatliches', cursive;
 }
 </style>
