@@ -11,6 +11,7 @@
 <style scoped>
 
 .btn-header{
+    font-family: 'Staatliches', cursive;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
