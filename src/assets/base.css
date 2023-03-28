@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
+:root{
+	background-color: black;
+}
 main{
-	background: rgb(2,2,48);
-	background: linear-gradient(180deg, rgba(2,2,48,1) 99%, rgba(73,22,242,1) 100%);
+	background-color: black;
 }
