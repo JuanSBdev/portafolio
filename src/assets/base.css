@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-:root{
-	background-color: black;
-}
+
+
 main{
-	background-color: black;
+	font-family: 'Staatliches';
+	
 }
+.first-color { 
+	background: #fda403; 
+}
+	
+.second-color { 
+	background: #e8751a; 
+}
+
+.third-color { 
+	background: #c51350; 
+}
+
+.fourth-color { 
+	background: #8a1253; }

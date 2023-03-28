@@ -10,7 +10,10 @@ import Carta from './components/Carta.vue';
     <Header/>
   </header> -->
 <main>
-  <router-view></router-view>
+  <div class="eso">
+
+    <router-view></router-view>
+  </div>
 
 </main>
 <footer>
@@ -19,6 +22,5 @@ import Carta from './components/Carta.vue';
 
 <style >
 @import "./assets/base.css"
-
 </style>
 
