@@ -14,7 +14,7 @@
 
 .logos-wraper{
       position: relative;
-      padding-top: 15%;
+      padding-top: 5%;
       display: flex;
       width: 60%;
       align-items: center;

@@ -18,7 +18,7 @@
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .containe{
-    top: 6rem;
+    top: 6 rem;
     position: relative;
     width: 100%;
     border-radius: 1rem;

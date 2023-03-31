@@ -1,6 +1,7 @@
 <script setup>
 import TxtSk from '../components/TxtSk.vue';
-import SkillsLogos from '../components/Skills.vue'
+import SkillsLogos from '../components/Skills.vue';
+import Donde from '../components/Donde.vue'
 </script>
 
 <template>
@@ -9,8 +10,8 @@ import SkillsLogos from '../components/Skills.vue'
     </div>
     <div class="otro">
         <SkillsLogos/>
-
     </div>
+        <Donde/>
 </template>
 <style scoped>
 .container{
@@ -19,6 +20,7 @@ import SkillsLogos from '../components/Skills.vue'
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-top: 5rem;
 
 }
 .otro{
