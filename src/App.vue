@@ -14,13 +14,7 @@ import SkillsView from './views/SkillsView.vue';
   <div>
     <router-view></router-view>
   </div>
-  <div class="abajo">
-    <router-link to="Skills">
-      <input type="button" id="boton-abajo" value="">
-
-    </router-link>
-    
-  </div>
+  
 </main>
 <footer>
 </footer>
