@@ -1,0 +1,2 @@
+onClick de la flecha tiene que ser el cambio de router view
+para pasar a la siguiente card.
