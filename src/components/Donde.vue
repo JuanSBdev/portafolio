@@ -70,19 +70,24 @@ h2{
         position:relative;
         bottom: 8rem;
         border-radius: 1rem;
-        background-color: rgba(177, 125, 236, 0.61);
+        background-color: rgba(118, 61, 184, 0.034);
         padding: rem;
-        box-shadow: 10px 5px 5px black;
+        box-shadow: 5px 5px 5px black;
     }
     :hover.ver{
-        background-color: rgba(219, 223, 30, 0.39);
+        background-color: rgba(236, 240, 9, 0.39);
     }
 
  #p2 {
     z-index: 10;
-        color: rgb(14, 11, 11);
+        color: rgba(14, 11, 11, 0.295);
+        padding: 5%;
+        margin-bottom: 0% ;
         padding-top: .8rem;
         font-size: 1.2rem;
+    }
+    :hover#p2{
+        color: black;
     }
     .coder a{
         text-decoration: none;
