@@ -3,19 +3,18 @@ import Carta from '../components/Carta.vue';
 </script>
 <template>
     <div class="contenedor-home">
-    </div>
-    <div class="abajo">
+      <h1>Welcome</h1>
 
-    <router-link to="Skills" >
-      <input type="button" id="none" v-if="s" value="">
-      <img id="boton-abajo" src="https://cdn-icons-png.flaticon.com/512/786/786401.png" alt="">
-    </router-link>
-  </div>
+      <router-link to="Skills" >
+        <p>portafolio</p>
+      </router-link>
+      <router-link to="Cv"></router-link>
+    </div>
 </template>
 <style scoped>
 .contenedor-home{
   position: relative;
-  padding: 20%;
+  padding: 18%;
 }
 
 </style>
