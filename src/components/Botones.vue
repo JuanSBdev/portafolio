@@ -3,9 +3,11 @@
         <router-link class="col-12" to="Skills" >
         <p>portfolio</p>
       </router-link>
-      <router-link class="col-12" to="Cv">
-        <p>Download CV</p>
-      </router-link>
+      <div>
+        <a href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
+            <p>Download CV</p>
+        </a>
+    </div>
 
     </div>
 </template>
@@ -23,5 +25,8 @@ a{
     justify-content: center;
     text-decoration: none;
 
+}
+img{
+  width: 10%;
 }
 </style>
