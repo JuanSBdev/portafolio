@@ -13,21 +13,63 @@ import Botones from '../components/Botones.vue';
     </div>
     </div>
 </template>
+
 <style scoped>
-@-webkit-keyframes fadein {
-  0%{
-    opacity: .4;
-
+@media screen and (max-width:575px) {
+  .contenedor-home{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 50%;
   }
+  h1{
+    padding: 8%;
+  }
+  .izq{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .der img{
+    width: 100%;
+  }
+}
+@media screen and (min-width:575px) {
+  .contenedor-home{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  h1{
+    padding: 8%;
+  }
+  .izq{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .der img{
+    width: 100%;
+  }
+}
+@media  screen and (min-width: 900px) {
   
-  25%{
-opacity: 1;
-  }
-  40%{
-    opacity: 1;
-
-  }
-      50%{
+  @-webkit-keyframes fadein {
+    0%{
+      opacity: .4;
+      
+    }
+    
+    25%{
+      opacity: 1;
+    }
+    40%{
+      opacity: 1;
+      
+    }
+    50%{
       opacity: .5;
     }
     75%{
@@ -35,7 +77,7 @@ opacity: 1;
     }
     80%{
       opacity: 1;
-
+      
     }
     90%{
       opacity: .6;
@@ -44,32 +86,33 @@ opacity: 1;
       opacity: 1;
     }
 
-}
-
-
-h1{
+  }
   
-  padding-top: 2%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  font-size: 5rem;
-
-}
-img{
-  -webkit-animation: fadein .1s ease alternate infinite;
+  
+  h1{
+    
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 5rem;
+    
+  }
+  img{
+    -webkit-animation: fadein .1s ease alternate infinite;
     -moz-animation: fadein 4s ease alternate infinite;
     animation: fadein 2s ease infinite;
-
-  width: 80%;
+    
+    width: 80%;
+  }
+  .contenedor-home{
+    position: relative;
+    display: flex;
+    width: 100%;
+  }
+  .izq{
+    padding-top: 10%;
+  }
 }
-.contenedor-home{
-  position: relative;
-  display: flex;
-  width: 100%;
-}
-.izq{
-  padding-top: 10%;
-}
-
+  
 </style>

@@ -24,6 +24,7 @@ a{
     font-size: 2rem;
     justify-content: center;
     text-decoration: none;
+    
 
 }
 img{
