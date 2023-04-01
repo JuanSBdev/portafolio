@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+;
+
+
+
+
 @media screen and  ( max-width:900px){
 
 	main{
@@ -73,4 +78,6 @@
 	}
 	
 	.fourth-color { 
-		background: #8a1253; }
+		background: #8a1253;
+	 }
+	 
