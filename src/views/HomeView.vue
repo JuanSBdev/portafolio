@@ -15,48 +15,7 @@ import Botones from '../components/Botones.vue';
 </template>
 
 <style scoped>
-@media screen and (max-width:575px) {
-  .contenedor-home{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    padding-bottom: 50%;
-  }
-  h1{
-    padding: 8%;
-  }
-  .izq{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-  }
-  .der img{
-    width: 100%;
-  }
-}
-@media screen and (min-width:575px) {
-  .contenedor-home{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-  }
-  h1{
-    padding: 8%;
-  }
-  .izq{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-  }
-  .der img{
-    width: 100%;
-  }
-}
-@media  screen and (min-width: 900px) {
-  
-  @-webkit-keyframes fadein {
+@-webkit-keyframes fadein {
     0%{
       opacity: .4;
       
@@ -87,6 +46,55 @@ import Botones from '../components/Botones.vue';
     }
 
   }
+@media screen and (max-width:575px) {
+  .contenedor-home{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 50%;
+  }
+  h1{
+    padding: 8%;
+  }
+  .izq{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .der img{
+    width: 100%;
+    -webkit-animation: fadein .1s ease alternate infinite;
+    -moz-animation: fadein .4s ease alternate infinite;
+    animation: fadein .2s ease infinite;
+  }
+}
+@media screen and (min-width:575px) {
+  
+  .contenedor-home{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+  }
+  h1{
+    padding: 8%;
+  }
+  .izq{
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .der img{
+    width: 100%;
+    -webkit-animation: fadein .1s ease alternate infinite;
+    -moz-animation: fadein 4s ease alternate infinite;
+    animation: fadein 2s ease infinite;
+  }
+}
+@media  screen and (min-width: 900px) {
+  
+  
   
   
   h1{
