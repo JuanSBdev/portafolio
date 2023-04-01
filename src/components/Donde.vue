@@ -1,13 +1,22 @@
+<script setup>
+
+
+</script>
 <template>
     <div class="containerDonde">
         <h2> ¿Donde me capacito?</h2>
         <div class="wraper">
-            <div class="coder col-3">
+            <div  class="coder col-3">
                 <h3> Coderhouse</h3>
                 <p>Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
-                <a href="https://i.ibb.co/c3HF8N1/coder-cert.png">
-                        <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                <a href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
+                    <div class="ver" >
+                        <p id="p2">ver certificado</p>
+                    </div>
+                
                 </a>
+                
 
             </div>
             <div class="soy col-3">
@@ -44,15 +53,40 @@ h2{
     text-align: center;
 
 }
-p{
-    padding: 1rem;
-}
+
 .coder img{
     width:90%;
     padding: 0%;
 }
 :hover.coder img{
-    transform: scale(1.2);
+    filter: blur(1px);
+    
+}
+.ver{
+        display:flex;
+        margin-left: 20%;
+        justify-content: center;
+        width: 60%;
+        position:relative;
+        bottom: 8rem;
+        border-radius: 1rem;
+        background-color: rgba(177, 125, 236, 0.61);
+        padding: rem;
+        box-shadow: 10px 5px 5px black;
+    }
+    :hover.ver{
+        background-color: rgba(219, 223, 30, 0.39);
+    }
+
+ #p2 {
+    z-index: 10;
+        color: rgb(14, 11, 11);
+        padding-top: .8rem;
+        font-size: 1.2rem;
+    }
+    .coder a{
+        text-decoration: none;
+        
 }
 .soy img{
     width: 100%;
