@@ -10,16 +10,19 @@
             <a href="https://www.linkedin.com/in/jlsb/"> Mi linkedIn</a>
         </div>
     </div>
-    <a target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
+    <div class="cv">
+        <a id="cv" target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
             <p>Download CV</p>
         </a>
+
+    </div>
 </template>
 <style scoped>
 img{
     width: 20%;
 }
 h6{
-    margin-top: 12%;
+    margin-top: 15%;
     display: flex;
     justify-content: center;
     font-size: 2rem;
@@ -34,6 +37,7 @@ p{
     justify-content: center;
     flex-flow: row nowrap;
     align-items: center;
+    padding-bottom: 2%;
 }
 .email{
     margin-left: -10%;
@@ -52,6 +56,10 @@ p{
     padding-left: 2rem;
     font-size: 2rem;
 
+}
+#cv{
+    width: 100%;
+    padding: 0%;
 }
 
 </style>

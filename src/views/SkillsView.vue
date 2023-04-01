@@ -29,7 +29,7 @@ import Carta from '../components/Carta.vue';
   justify-content: center;
   align-items: center;
   align-content: center;
-  padding-top: 5rem;
+  padding-top: 6rem;
 
 }
 .otro{

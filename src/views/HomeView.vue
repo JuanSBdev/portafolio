@@ -69,7 +69,7 @@ import Botones from '../components/Botones.vue';
     animation: fadein 2s ease infinite;
   }
 }
-@media screen and (min-width:575px) {
+@media screen and ( max-width: 899px ) {
   
   .contenedor-home{
     width: 100%;
@@ -106,21 +106,22 @@ import Botones from '../components/Botones.vue';
     font-size: 5rem;
     
   }
-  img{
-    -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein .1s ease alternate infinite;
-    animation: fadein 2s ease infinite;
-    
-    width: 80%;
-  }
   .contenedor-home{
     position: relative;
     display: flex;
+    flex-flow: row nowrap;
     width: 100%;
   }
-  .izq{
-    padding-top: 10%;
+  .der img{
+    width: 100%;
+    -webkit-animation: fadein .1s ease alternate infinite;
+    -moz-animation: fadein .1s ease alternate infinite;
+    animation: fadein 2s ease infinite;
   }
+  .izq{
+    padding-top: 15%;
+  }
+  
 }
   
 </style>

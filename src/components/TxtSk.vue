@@ -24,6 +24,7 @@
     border-radius: 1rem;
     display: flex;
     text-align: center;
+    padding-top: 5%;
 }
 p{
     font-size: 1.5rem;
