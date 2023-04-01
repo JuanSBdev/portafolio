@@ -5,7 +5,9 @@
             <div class="coder col-3">
                 <h3> Coderhouse</h3>
                 <p>Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
-                <img src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                <router-link to="Certificado">
+                    <img v src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                </router-link>
             </div>
             <div class="soy col-3">
                 <h3> Soy Henry </h3>
@@ -16,7 +18,8 @@
             </div>
             <div class="udemy col-3">
                 <h3>Udemy</h3>
-                <img src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                <p>Donde aprendi, aprendo y refuerzo conocimientos en Vue.js 3, JavaScript, consultas API con framaworks, y diseño.</p>
+                <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
 
             </div>
         </div>
@@ -34,10 +37,11 @@ h2{
 .wraper{
     width: 100%;
     display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
+
 }
 p{
     padding: 1rem;
@@ -46,9 +50,13 @@ p{
     width:100%;
     padding: 0%;
 }
+:hover.coder img{
+    transform: scale(1.2);
+}
 .soy img{
     width: 100%;
-
+    margin-top: 10%;
+    padding-bottom: 20%;
 }
 .udemy img{
     width:100%;
