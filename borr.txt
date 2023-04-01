@@ -1,3 +1,4 @@
 onClick de la flecha tiene que ser el cambio de router view
 para pasar a la siguiente card.
-> Agregar donde aabajo en skills.-
+> Agregar donde aabajo en skills.- Listo
+> Al certificado agregarle cartel de ver y sacar el scale()

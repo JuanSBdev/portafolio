@@ -17,6 +17,7 @@ import Este from '../components/Este.vue'
         <Donde/>
         <Proyects/>
         <Este/>
+        <Contacto/>
 </template>
 <style scoped>
 .container{
