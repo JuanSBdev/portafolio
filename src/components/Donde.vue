@@ -47,7 +47,7 @@ p{
     padding: 1rem;
 }
 .coder img{
-    width:100%;
+    width:90%;
     padding: 0%;
 }
 :hover.coder img{
