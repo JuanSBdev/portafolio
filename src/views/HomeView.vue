@@ -65,8 +65,8 @@ import Botones from '../components/Botones.vue';
   .der img{
     width: 100%;
     -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein .4s ease alternate infinite;
-    animation: fadein .2s ease infinite;
+    -moz-animation: fadein .1s ease alternate infinite;
+    animation: fadein 2s ease infinite;
   }
 }
 @media screen and (min-width:575px) {
@@ -88,7 +88,7 @@ import Botones from '../components/Botones.vue';
   .der img{
     width: 100%;
     -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein 4s ease alternate infinite;
+    -moz-animation: fadein .1s ease alternate infinite;
     animation: fadein 2s ease infinite;
   }
 }
@@ -108,7 +108,7 @@ import Botones from '../components/Botones.vue';
   }
   img{
     -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein 4s ease alternate infinite;
+    -moz-animation: fadein .1s ease alternate infinite;
     animation: fadein 2s ease infinite;
     
     width: 80%;
