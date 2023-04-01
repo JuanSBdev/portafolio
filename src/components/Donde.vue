@@ -5,9 +5,10 @@
             <div class="coder col-3">
                 <h3> Coderhouse</h3>
                 <p>Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
-                <router-link to="Certificado">
-                    <img v src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
-                </router-link>
+                <a href="https://i.ibb.co/c3HF8N1/coder-cert.png">
+                        <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                </a>
+
             </div>
             <div class="soy col-3">
                 <h3> Soy Henry </h3>

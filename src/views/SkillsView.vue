@@ -2,6 +2,7 @@
 import TxtSk from '../components/TxtSk.vue';
 import SkillsLogos from '../components/Skills.vue';
 import Donde from '../components/Donde.vue'
+import Proyects from '../components/Proyects.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Donde from '../components/Donde.vue'
         <SkillsLogos/>
     </div>
         <Donde/>
+        <Proyects/>
 </template>
 <style scoped>
 .container{
