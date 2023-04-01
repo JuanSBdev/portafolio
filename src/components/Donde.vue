@@ -10,7 +10,7 @@
                 <h3> Coderhouse</h3>
                 <p>Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
                 <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
-                <a href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
+                <a target="_blank" href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
                     <div class="ver" >
                         <p id="p2">ver certificado</p>
                     </div>

@@ -4,7 +4,7 @@
         <p>portfolio</p>
       </router-link>
       <div>
-        <a href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
+        <a target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
             <p>Download CV</p>
         </a>
     </div>
