@@ -40,8 +40,9 @@
   }
 .container{
   left: 13%;
-  top: 2rem;
+  top: 3rem;
   width: 70%;
+  padding: 3rem;
   border: 5px solid rgb(5, 3, 3);
   border-radius: 1rem;
   background-color: aqua;

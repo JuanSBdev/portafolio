@@ -10,7 +10,7 @@ import Carta from '../components/Carta.vue';
 </script>
 
 <template>
-  <Carta/>
+    <Carta/>
     <div class="container">
         <TxtSk></TxtSk>
     </div>
