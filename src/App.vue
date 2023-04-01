@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import Footer from './components/Este.vue'
 import Carta from './components/Carta.vue';
 import SkillsView from './views/SkillsView.vue';
 import HomeView from './views/HomeView.vue';
@@ -20,6 +20,7 @@ import HomeView from './views/HomeView.vue';
   
 </main>
 <footer>
+  
 </footer>
 </template>
 

@@ -3,7 +3,7 @@
     
     <div class="contenedor-pro">
         <h5 class="h3-con">
-            Proyectos
+            { Some Proyects }
         </h5>
         <div class="wraper row">
             <div class="calculadora col-2">
@@ -50,6 +50,9 @@
     }
     img{
         width: 60%;
+    }
+    img:hover{
+        transform: scale(1.2);
     }
     .contenedor-pro{
         margin-right: 1%;
