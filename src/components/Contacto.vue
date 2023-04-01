@@ -1,5 +1,5 @@
 <template>
-    <h6 class="">Reach me:</h6>
+    <h6 class=""> [ Reach me ]</h6>
     <div class="contenedor">
         <div class="email">
             <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
@@ -10,6 +10,9 @@
             <a href="https://www.linkedin.com/in/jlsb/"> Mi linkedIn</a>
         </div>
     </div>
+    <a href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
+            <p>Download CV</p>
+        </a>
 </template>
 <style scoped>
 img{
