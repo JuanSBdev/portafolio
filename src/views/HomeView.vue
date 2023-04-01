@@ -2,8 +2,7 @@
 import Carta from '../components/Carta.vue';
 </script>
 <template>
-    <div class="contenedor">
-      <Carta></Carta>
+    <div class="contenedor-home">
     </div>
     <div class="abajo">
 
@@ -14,4 +13,9 @@ import Carta from '../components/Carta.vue';
   </div>
 </template>
 <style scoped>
+.contenedor-home{
+  position: relative;
+  padding: 20%;
+}
+
 </style>
