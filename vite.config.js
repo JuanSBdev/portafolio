@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/portafolio',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     assetsDir: 'assets',
-    outDir: 'dist',
+    outDir: './dist',
     emptyOutDir: true
   }
 })
