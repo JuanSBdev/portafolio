@@ -15,37 +15,7 @@ import Botones from '../components/Botones.vue';
 </template>
 
 <style scoped>
-@-webkit-keyframes fadein {
-    0%{
-      opacity: .4;
-      
-    }
-    
-    25%{
-      opacity: 1;
-    }
-    40%{
-      opacity: 1;
-      
-    }
-    50%{
-      opacity: .5;
-    }
-    75%{
-      opacity: .3;
-    }
-    80%{
-      opacity: 1;
-      
-    }
-    90%{
-      opacity: .6;
-    }
-    100%{
-      opacity: 1;
-    }
 
-  }
 @media screen and (max-width:575px) {
   .contenedor-home{
     width: 100%;
