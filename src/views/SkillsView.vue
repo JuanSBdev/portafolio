@@ -23,6 +23,24 @@ import Carta from '../components/Carta.vue';
         <Contacto/>
 </template>
 <style scoped>
+@media screen and (max-width: 574px) {
+  .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-top: 6rem;
+    
+  }
+  .otro{
+    position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+}
+@media screen and (min-width: 575px) {
 .container{
     position: relative;
   display: flex;
@@ -30,13 +48,15 @@ import Carta from '../components/Carta.vue';
   align-items: center;
   align-content: center;
   padding-top: 6rem;
-
+  
 }
 .otro{
     position: relative;
   display: flex;
   justify-content: center;
   width: 100%;
-  padding-right: 0%;
 }
+
+}
+
 </style>
