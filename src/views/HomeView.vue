@@ -87,7 +87,7 @@ import Botones from '../components/Botones.vue';
   }
   h1{
     
-    padding-top: 2%;
+    padding-top: 30%;
     padding-bottom: 15%;
     display: flex;
     justify-content: center;
@@ -102,6 +102,8 @@ import Botones from '../components/Botones.vue';
     flex-flow: row nowrap;
     width: 100%;
     padding-bottom: 2%;
+    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+    background-size: contain ;
   }
   .der img{
     width: 90%;
@@ -112,16 +114,11 @@ import Botones from '../components/Botones.vue';
     animation: fadein 5s ease infinite;
   }
   .izq{
-    background-image: url('');
-    background-size: 5%;
-    background-repeat: repeat;
-    background-color: #9263cf10;
-    box-shadow: 0px 1px 6px 6px rgba(0,0,0,0.57);
-    padding-top: 8%;
-    width: 25%;
+    box-shadow: -1px 0px 40px 0px rgba(24, 1, 24, 0.904);
+     width: 25%;
     margin: 5%;
     margin-left: 15%;
-    border-radius: 1rem;
+    border-radius: .5rem;
   }
   
 }

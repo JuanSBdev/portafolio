@@ -10,18 +10,21 @@ import Carta from '../components/Carta.vue';
 </script>
 
 <template>
+  <div class="wraper">
+
     <Carta/>
     <div class="container">
-        <TxtSk></TxtSk>
+      <TxtSk></TxtSk>
     </div>
     <div class="otro">
-        <SkillsLogos/>
+      <SkillsLogos/>
     </div>
-        <Donde/>
-        <Proyects/>
-        <Este/>
-        <Contacto/>
-</template>
+    <Donde/>
+    <Proyects/>
+    <Este/>
+    <Contacto/>
+  </div>
+  </template>
 <style scoped>
 @media screen and (max-width: 574px) {
   .container{
@@ -41,6 +44,11 @@ import Carta from '../components/Carta.vue';
 }
 }
 @media screen and (min-width: 575px) {
+  .wraper{
+    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+    background-size: cover ;
+
+  }
 .container{
     position: relative;
   display: flex;
