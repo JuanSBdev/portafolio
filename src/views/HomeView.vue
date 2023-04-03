@@ -9,7 +9,7 @@ import Botones from '../components/Botones.vue';
       <Botones/>
     </div>
     <div class="der">
-      <img src="https://cdn.shopify.com/s/files/1/0590/7506/8066/products/Alien-512-Adventure_-alien_-astronomy_-monster_-outer-space_-space_-ufo_2b647b82-0d11-4200-9349-0edf691646eb.png?v=1631522821" alt="">
+      <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
     </div>
     </div>
 </template>
@@ -55,13 +55,21 @@ import Botones from '../components/Botones.vue';
     flex-flow: column wrap;
     align-items: center;
   }
+  .der{
+    display: flex;
+    justify-content: center;
+  }
   .der img{
-    width: 100%;
+    width: 80%;
+    max-width: 590px;
+    transform: rotate(180deg);
+
     -webkit-animation: fadein .1s ease alternate infinite;
     -moz-animation: fadein .1s ease alternate infinite;
     animation: fadein 2s ease infinite;
   }
 }
+
 @media  screen and (min-width: 900px) {
   
   
@@ -81,9 +89,11 @@ import Botones from '../components/Botones.vue';
     display: flex;
     flex-flow: row nowrap;
     width: 100%;
+    padding-bottom: 2%;
   }
   .der img{
-    width: 100%;
+    width: 90%;
+    transform: rotate(90deg);
     -webkit-animation: fadein .1s ease alternate infinite;
     -moz-animation: fadein .1s ease alternate infinite;
     animation: fadein 2s ease infinite;
