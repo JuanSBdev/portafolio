@@ -23,6 +23,9 @@
             <p>HTML5, CSS, SASS, GIT, GITHUB</p>
             <p> JavaScript, Vue3, SEO, UX/UI</p>
           </div>
+          <div class="logos">
+            
+          </div>
         </div>
     
     </div>
@@ -70,7 +73,6 @@ background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, 
 }
 .foto img{
   border-radius: 6rem;
-  border: 5px solid black;
   width: 50%;
   margin-bottom: 10%;
   min-width: 130px;
@@ -83,9 +85,9 @@ background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, 
   top: 3rem;
   width: 70%;
   padding: 3rem;
-  border: 5px solid rgb(5, 3, 3);
   border-radius: 1rem;
-  background-color: aqua;
+  border: 1px solid gray;
+  box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
   background: rgb(0,230,77);
 background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, rgba(66,219,66,1) 100%);
 
