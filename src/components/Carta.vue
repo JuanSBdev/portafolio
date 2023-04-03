@@ -6,7 +6,7 @@
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
             <h2>i'm Juan Lluvia</h2>
-            <h3> Front-end  Developer</h3>
+            <h3> Frontend  Developer</h3>
           </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
@@ -43,35 +43,52 @@
 </template>
 <style scoped>
 @media screen and (max-width: 574px) {
-  .foto{
-  display: flex;
-  flex-flow: column;
-  align-items: start;
-  margin-bottom: 10%;
-}
-.foto img{
-  border-radius: 6rem;
-  border: 5px solid black;
-  width: 50%;
-  margin-bottom: 10%;
-  min-width: 180px;
-  margin-top: -20%;
-  align-self: center;
-}
   h3{
     font-size: 1.5rem;
   }
-.container{
-  left: 18%;
-  top: 4rem;
-  width: 70%;
-  padding: 3rem;
-  border: 5px solid rgb(5, 3, 3);
-  border-radius: 1rem;
-  background: rgb(0,230,77);
-background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, rgba(66,219,66,1) 100%);
-
+  .container{
+    
+    left: 13%;
+    top: 1rem;
+    width: 75%;
+    padding: 3rem;
+    border-radius: 1rem;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
+    background: rgb(0,230,77);
+    background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, rgba(66,219,66,1) 100%);
+    
+  }
+  .foto{
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin-left: 2%;
 }
+.foto img{
+  border-radius: 6rem;
+  width: 70%;
+  margin-bottom: 10%;
+  min-width: 100px;
+  opacity: .9;
+}
+  .logos{
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.logos img{
+  display: flex;
+  align-items: center;
+  align-content: start;
+
+  width: 40%;
+}
+ #github{
+  width: 100%;
+ }
 
 
 }
