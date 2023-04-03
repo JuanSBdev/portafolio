@@ -27,6 +27,11 @@ import Carta from '../components/Carta.vue';
   </template>
 <style scoped>
 @media screen and (max-width: 574px) {
+  .wraper{
+    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+    background-size: cover ;
+    background-repeat: repeat-y;
+  }
   .container{
     position: relative;
     display: flex;

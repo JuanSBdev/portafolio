@@ -47,11 +47,10 @@
     font-size: 1.5rem;
   }
   .container{
-    
     left: 13%;
-    top: 1rem;
     width: 75%;
-    padding: 3rem;
+    top: 2rem;
+    padding: 2rem;
     border-radius: 1rem;
     border: 1px solid gray;
     box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
@@ -64,6 +63,7 @@
   flex-flow: column;
   align-items: center;
   margin-left: 2%;
+  margin-top: -2rem;
 }
 .foto img{
   border-radius: 6rem;
@@ -135,9 +135,12 @@ background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, 
   align-content: start;
 
   width: 50%;
+  min-width: 70px;
 }
  #github{
   width: 120%;
+  min-width: 40px;
+
  }
 }
 
