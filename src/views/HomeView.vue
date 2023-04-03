@@ -35,9 +35,9 @@ import Botones from '../components/Botones.vue';
   }
   .der img{
     width: 100%;
-    -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein .1s ease alternate infinite;
-    animation: fadein 2s ease infinite;
+    -webkit-animation: tit .1s ease alternate infinite;
+    -moz-animation: tit .1s ease alternate infinite;
+    animation: tit 2s ease infinite;
   }
 }
 @media screen and ( max-width: 899px ) {
@@ -65,9 +65,9 @@ import Botones from '../components/Botones.vue';
     max-width: 590px;
     transform: rotate(180deg);
 
-    -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein .1s ease alternate infinite;
-    animation: fadein 2s ease infinite;
+    -webkit-animation: tit .1s ease alternate infinite;
+    -moz-animation: tit .1s ease alternate infinite;
+    animation: tit 2s ease infinite;
   }
 }
 
@@ -79,11 +79,13 @@ import Botones from '../components/Botones.vue';
   h1{
     
     padding-top: 2%;
+    padding-bottom: 15%;
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 5rem;
-    
+    font-size: 4rem;
+    width: 100%;
+    overflow: hidden;
   }
   .contenedor-home{
     position: relative;
