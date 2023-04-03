@@ -25,6 +25,7 @@ import Botones from '../components/Botones.vue';
   }
   h1{
     padding: 8%;
+    
   }
   .izq{
     width: 100%;
@@ -97,7 +98,7 @@ import Botones from '../components/Botones.vue';
     transform: rotate(90deg);
     -webkit-animation: fadein .1s ease alternate infinite;
     -moz-animation: fadein .1s ease alternate infinite;
-    animation: fadein 2s ease infinite;
+    animation: fadein 5s ease infinite;
   }
   .izq{
     background-image: url('');
