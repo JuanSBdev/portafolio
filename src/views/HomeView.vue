@@ -5,7 +5,7 @@ import Botones from '../components/Botones.vue';
 <template>
   <div class="contenedor-home ">
     <div class="izq col-6">
-      <h1>Welcome</h1> 
+      <h1>Welcome <div class="h1"><p>{}</p></div> </h1> 
       <Botones/>
     </div>
     <div class="der">
@@ -27,6 +27,9 @@ import Botones from '../components/Botones.vue';
     padding: 8%;
     
   }
+  .h1{
+    display: none;
+  }
   .izq{
     width: 100%;
     display: flex;
@@ -40,7 +43,7 @@ import Botones from '../components/Botones.vue';
     animation: tit 2s ease infinite;
   }
 }
-@media screen and ( max-width: 899px ) {
+@media screen and ( max-width: 1099px ) {
   
   .contenedor-home{
     width: 100%;
@@ -49,6 +52,9 @@ import Botones from '../components/Botones.vue';
   }
   h1{
     padding: 8%;
+  }
+  .h1{
+    display: none;
   }
   .izq{
     width: 100%;
@@ -71,11 +77,14 @@ import Botones from '../components/Botones.vue';
   }
 }
 
-@media  screen and (min-width: 900px) {
+@media  screen and (min-width: 1100px) {
   
   
   
-  
+  .h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4rem;
+  }
   h1{
     
     padding-top: 2%;
