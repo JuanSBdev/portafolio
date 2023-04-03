@@ -7,7 +7,7 @@
         </div>
         <div class="linkedin">
             <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?w=2000" alt="">
-            <a href="https://www.linkedin.com/in/jlsb/"> Mi linkedIn</a>
+            <a href="https://www.linkedin.com/in/jlsb/"> <p>Mi linkedIn  </p> </a>
         </div>
     </div>
     <div class="cv">
@@ -18,6 +18,61 @@
     </div>
 </template>
 <style scoped>
+@media screen and (max-width: 574px) {
+    img{
+    width: 50%;
+}
+h6{
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+p{
+    display: flex;
+    justify-content: center;
+
+}
+.contenedor{
+    display: flex;
+    justify-content: center;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 10%;
+}
+.email{
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.email p{
+    padding: 10%;
+
+}
+.linkedin{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.linkedin a{
+    padding: 10%;
+    text-decoration: none;
+    font-size: 1.8rem;
+
+}
+.cv{
+    width: 100%;
+    padding-bottom: 1%;
+    margin-top: 10%;
+}
+}
+@media screen and (min-width: 575px) {
+
 img{
     width: 20%;
 }
@@ -57,9 +112,9 @@ p{
     font-size: 2rem;
 
 }
-#cv{
+.cv{
     width: 100%;
-    padding: 0%;
+    padding-bottom: 1%;
 }
-
+}
 </style>
