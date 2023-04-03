@@ -7,9 +7,9 @@ import HomeView from './views/HomeView.vue';
 </script>
 
 <template>
-  <!--<header>
-    <Header/>
-  </header> -->
+  <head>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2534/2534928.png" type="image/x-icon">
+  </head>
 <main>
   <div>
       <router-view>
