@@ -100,7 +100,7 @@ import Botones from '../components/Botones.vue';
     position: relative;
     display: flex;
     flex-flow: row nowrap;
-    width: 100%;
+    width: 10%;
     padding-bottom: 2%;
   }
   .der img{
