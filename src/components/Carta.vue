@@ -5,14 +5,14 @@
         <div class="profile col-sm-4">
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
-            <h3> Front-end  Developer</h3>
             <h2>i'm Juan Lluvia</h2>
+            <h3> Front-end  Developer</h3>
           </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
               <img src="https://static.vecteezy.com/system/resources/previews/018/930/483/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="">
             </a>
-            <a href="https://github.com/JuanSBdev">
+            <a  href="https://github.com/JuanSBdev">
               <img id="github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
             </a>
           </div>
@@ -86,7 +86,7 @@ background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, 
   border-radius: 6rem;
   width: 70%;
   margin-bottom: 10%;
-  min-width: 130px;
+  min-width: 100px;
   opacity: .9;
 }
   h3{
