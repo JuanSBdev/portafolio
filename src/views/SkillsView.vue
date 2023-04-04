@@ -10,20 +10,28 @@ import Carta from '../components/Carta.vue';
 
 <template>
   <div class="wraper">
-
+    <div v-motion-fade >
     <Carta/>
+    </div>
+    <div v-motion-slide-visible-bottom >
     <div class="container">
       <TxtSk></TxtSk>
     </div>
-  
+  </div>
     <div class="otro">
         <SkillsLogos />
     </div>
-
-      <Donde/>
+            <Donde/>
+    <div v-motion-pop-visible>
     <Proyects/>
+    </div>
+    <div v-motion-pop-visible>
     <Este/>
+    </div>
+    <div v-motion-slide-visible-top >
+
     <Contacto/>
+    </div>
   </div>
   </template>
 <style scoped>
@@ -53,6 +61,8 @@ import Carta from '../components/Carta.vue';
   .wraper{
     background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
     background-size: cover ;
+    overflow: hidden;
+
 
   }
 .container{
