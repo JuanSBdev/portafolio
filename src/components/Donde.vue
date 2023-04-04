@@ -3,6 +3,7 @@
 
 </script>
 <template>
+
     <div class="containerDonde">
         <h2> ¿Donde me capacito?</h2>
         <div class="wraper row">

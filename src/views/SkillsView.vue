@@ -6,7 +6,6 @@ import Proyects from '../components/Proyects.vue'
 import Este from '../components/Este.vue'
 import Contacto from '../components/Contacto.vue'
 import Carta from '../components/Carta.vue';
-
 </script>
 
 <template>
@@ -16,10 +15,12 @@ import Carta from '../components/Carta.vue';
     <div class="container">
       <TxtSk></TxtSk>
     </div>
+  
     <div class="otro">
-      <SkillsLogos/>
+        <SkillsLogos />
     </div>
-    <Donde/>
+
+      <Donde/>
     <Proyects/>
     <Este/>
     <Contacto/>
