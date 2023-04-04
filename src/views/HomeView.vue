@@ -4,7 +4,7 @@ import Botones from '../components/Botones.vue';
 </script>
 <template>
   <div class="contenedor-home ">
-    <div class="izq col-6">
+    <div class="izq ">
       <h1>Welcome <div class="h1"><p>{}</p></div> </h1> 
       <Botones/>
     </div>
