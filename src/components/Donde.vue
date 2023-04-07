@@ -40,7 +40,18 @@
 <style scoped>
 @media screen and (max-width: 574px) {
     img{
-        width: 60%;
+        width: 40%;
+        margin-bottom: 12%;
+    }
+    p{
+        width: 80%;
+    }
+    h2{
+        font-size: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 4rem;
     }
     #p2 {
         color: rgba(14, 11, 11, 0.295);
@@ -51,17 +62,16 @@
         font-size: 1.2rem;
     }
     .containerDonde{
-    margin-top: 8%;
-}
-h2{
-    font-size: 2rem;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 1%;
+        width: 100%;
+
 }
 .wraper{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 0%;
     display: flex;
     flex-flow: row-reverse wrap;
     justify-content: space-evenly;
@@ -69,7 +79,6 @@ h2{
     text-align: center;
 
 }
-
 
 :hover.coder img{
     filter: blur(1px);
