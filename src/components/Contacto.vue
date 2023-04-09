@@ -72,6 +72,23 @@ p{
     padding-bottom: 1%;
     margin-top: 10%;
 }
+.cv p{
+    color:black ;
+}
+#cv{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#img-d{
+    width: 5%;
+}
 #img-d{
     width: 10%;
 }
