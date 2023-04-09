@@ -6,7 +6,7 @@
             { Some Proyects }
         </h5>
         <div class="wraper row">
-            <div class="calculadora col-6 col-sm-2">
+            <div class="calculadora col-6 col-sm-2 py-5">
                 <h6>Calculadora</h6>
                 <a href="https://juansbdev.github.io/appCalculadora/">
                     <img src="https://ayudahosting.online/wp-content/uploads/2021/02/031-calculator.png" alt="">
@@ -42,7 +42,29 @@
     </div>
 </template>
 <style scoped>
-
+@media screen and (max-width: 574px) {
+    h5{
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+    img{
+        width: 60%;
+    }
+    .wraper{
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    } 
+    .carta img{
+        width:40% ;
+    }
+}
+@media screen and (min-width: 575px) {
     h5{
         font-size: 4rem;
         display: flex;
@@ -62,5 +84,8 @@
         padding-top: 3rem;
         display: flex;
         justify-content: center;
+        text-align: center;
+        align-items: baseline;
     }
+}
 </style>
