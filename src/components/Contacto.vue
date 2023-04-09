@@ -12,7 +12,9 @@
     </div>
     <div class="cv">
         <a id="cv" target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
-            <p>Download CV</p>
+            <p> Download CV</p>
+            <img id="img-d" class="img-down " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
+
         </a>
 
     </div>
@@ -70,6 +72,9 @@ p{
     padding-bottom: 1%;
     margin-top: 10%;
 }
+#img-d{
+    width: 10%;
+}
 }
 @media screen and (min-width: 575px) {
 
@@ -85,7 +90,6 @@ h6{
 p{
     display: flex;
     justify-content: center;
-
 }
 .contenedor{
     display: flex;
@@ -115,6 +119,26 @@ p{
 .cv{
     width: 100%;
     padding-bottom: 1%;
+}
+.cv p{
+    color:black ;
+}
+#cv{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#img-d{
+    width: 5%;
+}
+:hover.cv{
+    transform: scale(1.1);
 }
 }
 </style>
