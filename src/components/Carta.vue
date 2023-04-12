@@ -129,11 +129,10 @@
     padding-left: 5%;
 
   border-radius: 1rem;
-  border: 1px solid gray;
+  border: 1px solid rgb(80, 11, 119);
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
-  background: rgb(0,230,77);
-background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, rgba(66,219,66,1) 100%);
-
+background: rgb(189,63,223);
+background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(186, 50, 199, 0.863) 96%);
 }
 .con2{
   display: flex;
