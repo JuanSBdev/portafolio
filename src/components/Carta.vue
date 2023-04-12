@@ -20,6 +20,8 @@
 
         
         <div class="div col-sm-7">
+          <div class="con2">
+
             <div class="info">
               <h3>Basic Info</h3>
              <p>I'm 25 years old. </p>
@@ -28,14 +30,21 @@
                 i've got an english B1 level<br/>
                 & A2 deustch</p>
             </div>
-    
-          <div class="skills ">
-            <h3>technologies</h3>
-            <p>HTML5 / CSS - SASS - bootstrap / mockups </p>
-            <p> JavaScript - Vue3 / SEO / UX/UI</p>
-            <p>SFC -Mobile first  / GIT - GITHUB</p>
+            <div class="skills ">
+              <h3>technologies</h3>
+              <p>HTML5 / CSS - SASS - bootstrap / mockups </p>
+              <p> JavaScript - Vue3 / SEO / UX/UI</p>
+              <p>SFC -Mobile first  / GIT - GITHUB / NPM</p>
+            </div>
           </div>
-          
+          <div class="con3">
+            <div class="presenta">
+              <p>Desarrollador front-end capacitado en Coderhouse y autodidacta. Específicamente desarrollo de páginas web,
+                responsivas , mobile first, utilizando las últimas tecnologías para ello. En búsqueda constante de aprendizaje y de fortalecer mis conocimientos a través de una experiencia laboral que me permita crecer profesionalmente.
+              </p>
+            </div>
+          </div>
+
         </div>
 
     
@@ -89,8 +98,10 @@
  #github{
   width: 100%;
  }
-
-
+ .con2{
+  display: flex;
+ }
+ 
 }
 @media screen and (min-width: 575px) {
   .foto{
@@ -115,6 +126,8 @@
   top: 3rem;
   width: 75%;
   padding: 3rem;
+    padding-left: 5%;
+
   border-radius: 1rem;
   border: 1px solid gray;
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
@@ -122,6 +135,15 @@
 background: linear-gradient(13deg, rgba(0,230,77,1) 0%, rgba(18,230,198,1) 46%, rgba(66,219,66,1) 100%);
 
 }
+.con2{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.con3{
+  text-align: start;
+}
+
 .logos{
   width: 60%;
   display: flex;
