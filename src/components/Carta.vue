@@ -116,6 +116,8 @@
   margin-bottom: 10%;
   min-width: 100px;
   opacity: .9;
+    border: 1px solid rgba(191, 50, 226, 0.658);
+
 }
   h3{
     font-size: 1.5rem;
@@ -132,7 +134,7 @@
   border: 1px solid rgb(80, 11, 119);
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
-background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(186, 50, 199, 0.863) 96%);
+background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
 }
 .con2{
   display: flex;
