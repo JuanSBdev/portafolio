@@ -1,4 +1,6 @@
 <script setup>
+import { ref } from 'vue';
+
 import { RouterLink, RouterView } from 'vue-router'
 import Footer from './components/Este.vue'
 import Carta from './components/Carta.vue';
