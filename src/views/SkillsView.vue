@@ -6,12 +6,14 @@ import Proyects from '../components/Proyects.vue'
 import Este from '../components/Este.vue'
 import Contacto from '../components/Contacto.vue'
 import Carta from '../components/Carta.vue';
+import Arriba from '../components/Arriba.vue';
 </script>
 
 <template>
+  <Arriba />
   <div class="wraper">
     <div v-motion-fade >
-    <Carta/>
+    <Carta ref="arriba" />
     </div>
     <div v-motion-slide-visible-bottom >
     <div class="container">
@@ -33,6 +35,7 @@ import Carta from '../components/Carta.vue';
     <Contacto/>
     </div>
   </div>
+
   </template>
 <style scoped>
 @media screen and (max-width: 574px) {
