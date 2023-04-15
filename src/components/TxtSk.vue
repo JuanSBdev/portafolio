@@ -8,7 +8,7 @@
     </p>
     <p class="col-sm-4 col-12">
         capacitado en UX/UI, SEO y
-        manejo de versiones de mi codigo con Git y utilizo GitHub para guardar mis proyectos.
+        manejo versiones de codigo con Git y utilizo GitHub para guardar mis proyectos.
         utilizacion de clientes FTP tales como FileZilla.
 
     </p>
