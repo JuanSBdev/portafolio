@@ -1,6 +1,5 @@
 
 <template>
-    
     <div class="contenedor-pro">
         <h5 class="h3-con">
             { Some Proyects }
@@ -26,8 +25,8 @@
 
             </div>
             <div class="api col-6 col-sm-2">
-                <h6>API  Movies fetch</h6>
-                <a href="https://juansbdev.github.io/API-Movies/">
+                <h6>API  React.js fetch</h6>
+                <a href="https://beamish-trifle-472703.netlify.app/">
                     <img src="https://diogorodrigues.dev/assets/img/blog/fetch-api-is-new-old-version-of-ajax.jpg" alt="">
                 </a>
             </div>
