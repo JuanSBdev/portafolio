@@ -13,7 +13,7 @@ import Arriba from '../components/Arriba.vue';
   <Arriba />
   <div class="wraper">
     <div v-motion-fade >
-    <Carta ref="arriba" />
+      <Carta ref="arriba" />
     </div>
     <div v-motion-slide-visible-bottom >
     <div class="container">

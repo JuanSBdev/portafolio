@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="container row">
+    <div class="container  row">
         <div class="profile col-sm-4">
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
@@ -20,6 +20,7 @@
 
         
         <div class="div col-sm-7">
+          <div class="row">asdasd</div>
           <div class="con2">
 
             <div class="info">
@@ -56,7 +57,7 @@
     font-size: 1.5rem;
   }
   .container{
-    left: 13%;
+    left: 3%;
     width: 75%;
     top: 2rem;
     padding: 2rem;
