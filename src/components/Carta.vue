@@ -2,6 +2,12 @@
 </script>
 <template>
     <div class="container  row">
+      <div class="row  links-info">
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">Resume</a>
+            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
+              <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
+          </div>
+
         <div class="profile col-sm-4">
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
@@ -20,11 +26,6 @@
 
         
         <div class="div col-sm-7">
-          <div class="row  links-info">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">RESUME / cv</a>
-            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
-              <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
-          </div>
           <div class="con2">
 
             <div class="info">
@@ -61,10 +62,11 @@
     font-size: 1.5rem;
   }
   .container{
-    left: 3%;
-    width: 75%;
+    width: 90%;
+    margin-left: 5%;
     top: 2rem;
-    padding: 2rem;
+    padding: 1.5rem;
+    padding-top: ;
     border-radius: 1rem;
     border: 1px solid gray;
     box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
@@ -106,6 +108,41 @@
  .con2{
   display: flex;
  }
+ .links-info{
+  display: flex;
+  flex-flow: row nowrap ;
+  position: relative;
+  width: 100%;
+  max-height: 40px;
+  margin-left: 10%;
+  margin-top: -10%;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: end;
+  text-align: center;
+  align-items: center;
+}
+.links-info a{
+  text-decoration: none;
+  color: rgb(46, 43, 226);
+}
+.cv{
+  border-right: 2px solid black;
+  
+}
+:hover.cv{
+  color: rgb(128, 31, 160);
+}
+:hover.pro{
+  color: rgb(128, 31, 160);
+}
+.links-info img{
+    width: 25%;
+    transform: rotate(90deg);
+    -webkit-animation: tit .1s ease alternate infinite;
+    -moz-animation: tit .1s ease alternate infinite;
+    animation: tit 2s ease infinite;
+  }
  
 }
 @media screen and (min-width: 575px) {
@@ -155,6 +192,10 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   text-decoration: none;
   color: rgb(46, 43, 226);
 }
+.cv{
+  border-right: 2px solid black;
+  
+}
 :hover.cv{
   color: rgb(128, 31, 160);
 }
@@ -168,10 +209,6 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
     -moz-animation: tit .1s ease alternate infinite;
     animation: tit 2s ease infinite;
   }
-.cv{
-  border-right: 2px solid black;
-  
-}
 .con2{
   display: flex;
   flex-flow: row wrap;
