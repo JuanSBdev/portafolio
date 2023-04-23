@@ -181,7 +181,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   min-width: 70px;
 }
  #github{
-  width: 120%;
+  width: 110%;
   min-width: 40px;
 
  }
