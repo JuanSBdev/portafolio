@@ -22,7 +22,7 @@
         <div class="div col-sm-7">
           <div class="row  links-info">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">RESUME / cv</a>
-            <a class="col-4 px-2" href="#proyects">proyects</a>
+            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
           </div>
           <div class="con2">
@@ -155,8 +155,11 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   text-decoration: none;
   color: rgb(46, 43, 226);
 }
-:hover.links-info a{
-  color: aqua;
+:hover.cv{
+  color: rgb(128, 31, 160);
+}
+:hover.pro{
+  color: rgb(128, 31, 160);
 }
 .links-info img{
     width: 25%;
