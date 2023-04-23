@@ -66,7 +66,6 @@
     margin-left: 5%;
     top: 2rem;
     padding: 1.5rem;
-    padding-top: ;
     border-radius: 1rem;
     border: 1px solid gray;
     box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
