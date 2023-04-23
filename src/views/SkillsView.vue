@@ -24,7 +24,7 @@ import Arriba from '../components/Arriba.vue';
         <SkillsLogos />
     </div>
             <Donde/>
-    <div v-motion-pop-visible>
+    <div id="proyects" v-motion-pop-visible>
     <Proyects/>
     </div>
     <div v-motion-pop-visible>

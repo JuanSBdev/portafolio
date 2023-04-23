@@ -21,8 +21,8 @@
         
         <div class="div col-sm-7">
           <div class="row links-info">
-            <a class="col-4" href="">RESUME / cv</a>
-            <a class="col-4" href="">proyects</a>
+            <a class="col-4" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">RESUME / cv</a>
+            <a class="col-4" href="#proyects">proyects</a>
           </div>
           <div class="con2">
 
