@@ -21,7 +21,7 @@
         
         <div class="div col-sm-7">
           <div class="row links-info">
-            <a class="col-4" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">RESUME / cv</a>
+            <a class="col-4 cv" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">RESUME / cv</a>
             <a class="col-4" href="#proyects">proyects</a>
           </div>
           <div class="con2">
@@ -146,9 +146,15 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   width: 70%;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .links-info a{
   text-decoration: none;
+  color: rgb(46, 43, 226);
+}
+.cv{
+  border-right: 2px solid black;
+  
 }
 .con2{
   display: flex;
