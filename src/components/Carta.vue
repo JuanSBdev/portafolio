@@ -20,7 +20,10 @@
 
         
         <div class="div col-sm-7">
-          <div class="row">asdasd</div>
+          <div class="row links-info">
+            <a class="col-4" href="">RESUME / cv</a>
+            <a class="col-4" href="">proyects</a>
+          </div>
           <div class="con2">
 
             <div class="info">
@@ -136,6 +139,16 @@
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+}
+.links-info{
+  top: 5%;
+  position: absolute;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+.links-info a{
+  text-decoration: none;
 }
 .con2{
   display: flex;
