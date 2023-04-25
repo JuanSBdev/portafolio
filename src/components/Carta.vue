@@ -45,7 +45,7 @@
           </div>
           <div class="con3">
             <div class="presenta">
-              <p>Desarrollador front-end capacitado en Coderhouse y autodidacta. Específicamente desarrollo de páginas web,
+              <p>Actualmente cursando bootcamp 'Soy Henry' Desarrollador capacitado en Coderhouse y autodidacta. Específicamente desarrollo de páginas web,
                 responsivas , mobile first, utilizando las últimas tecnologías para ello. En búsqueda constante de aprendizaje y de fortalecer mis conocimientos a través de una experiencia laboral que me permita crecer profesionalmente.
               </p>
             </div>
@@ -169,8 +169,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   top: 3rem;
   width: 75%;
   padding: 3rem;
-    padding-left: 5%;
-
+  padding-left: 5%;
   border-radius: 1rem;
   border: 1px solid rgb(80, 11, 119);
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
