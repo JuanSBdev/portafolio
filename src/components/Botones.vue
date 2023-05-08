@@ -7,7 +7,7 @@
             </router-link>
         </div>
         <a class="row dos" target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
-            <p class="col-8">Download CV</p>
+            <p class="col-8">cv - Resume</p>
             <img id="img-d" class="img-down col-4" src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
         </a>
     </div>
