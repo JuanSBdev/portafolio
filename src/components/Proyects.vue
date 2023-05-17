@@ -25,9 +25,9 @@
 
             </div>
             <div class="api col-6 col-sm-2">
-                <h6>API  React.js fetch</h6>
+                <h6>Clima API React.js</h6>
                 <a href="https://beamish-trifle-472703.netlify.app/">
-                    <img src="https://diogorodrigues.dev/assets/img/blog/fetch-api-is-new-old-version-of-ajax.jpg" alt="">
+                    <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
                 </a>
             </div>
             <div class="lista col-6 col-sm-2">
