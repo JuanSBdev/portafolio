@@ -6,7 +6,7 @@
         <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">Resume</a>
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume</a>
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
