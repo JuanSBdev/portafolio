@@ -7,6 +7,7 @@
       </div>
       <div class="row  links-info">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">Resume</a>
+
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
           </div>
@@ -76,6 +77,12 @@ background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
   
   }
+  .brand{
+  position: absolute;
+  top: 1%;
+  left: 4%;
+  font-family: 'Shadows Into Light';
+}
   .foto{
   display: flex;
   flex-flow: column;
@@ -190,7 +197,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   position: absolute;
   width: 30%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
 }
@@ -198,10 +205,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   text-decoration: none;
   color: rgb(47, 19, 158);
 }
-.cv{
-  border-right: 2px solid black;
-  
-}
+
 :hover.cv{
   color: rgb(128, 31, 160);
 }
