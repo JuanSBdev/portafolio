@@ -2,14 +2,16 @@
     <!--    <img class='img-back' src="https://mystickermania.com/cdn/stickers/outer-space/astronaut-planet-balloons-512x512.png" alt="">
 -->
 <div class="containe row">
-    <p class="col-sm-4 col-12">Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, Sass, Flexbox, Grids y Bootstrap.</p>
+    <p class="col-sm-4 col-12">Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, Sass, Flexbox, Grids y Bootstrap.
+    Metodologias agiles.
+    </p>
     <p class="col-sm-4 col-12 "> 
-        Programo con JavaScript Vanilla y en uno de sus frameworks Vue.js 3, aunque tambien realicé pequeños proyectos en React y un CMS WordPress.
+        Programo con JavaScript Vanilla y React.js / redux. Puedo maquetar  en uno de sus frameworks Vue.js 3. Tambien realicé pequeños proyectos en WordPress CMS .
     </p>
     <p class="col-sm-4 col-12">
         capacitado en UX/UI, SEO y
         manejo versiones de codigo con Git y utilizo GitHub para guardar mis proyectos.
-        utilizacion de clientes FTP tales como FileZilla.
+        utilizacion de clientes FTP tales como FileZilla. 
 
     </p>
 
