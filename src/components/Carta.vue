@@ -12,7 +12,7 @@
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
             <h2>i'm Juan Lluvia</h2>
-            <h3> Frontend  Developer</h3>
+            <h3> Software  Developer Jr.</h3>
           </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
@@ -31,21 +31,21 @@
             <div class="info">
               <h3>Basic Info</h3>
              <p>I'm 25 years old. </p>
-             <p>I live in Argentina</p>
+             <p>Based in Argentina.</p>
              <p>Spanish native <br/>
                 i've got an english B1 level<br/>
                 & A2 deustch</p>
             </div>
             <div class="skills ">
               <h3>technologies</h3>
-              <p>HTML5 / CSS - SASS - bootstrap / mockups </p>
-              <p> JavaScript - Vue3 / SEO / UX/UI</p>
-              <p>SFC -Mobile first  / GIT - GITHUB / NPM</p>
+              <p>HTML5 / CSS - SASS - bootstrap. </p>
+              <p> JavaScript - Vue3.JS - REACT.JS + Vite</p>
+              <p>SPA -Mobile first  / GIT - GITHUB / NPM</p>
             </div>
           </div>
           <div class="con3">
             <div class="presenta">
-              <p>Actualmente cursando bootcamp 'Soy Henry' Desarrollador capacitado en Coderhouse y autodidacta. Específicamente desarrollo de páginas web,
+              <p>Actualmente cursando bootcamp 'Soy Henry' Capacitado en Coderhouse, Henry y autodidacta. Desarrollo de páginas web,
                 responsivas , mobile first, utilizando las últimas tecnologías para ello. En búsqueda constante de aprendizaje y de fortalecer mis conocimientos a través de una experiencia laboral que me permita crecer profesionalmente.
               </p>
             </div>
@@ -171,7 +171,6 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   padding: 3rem;
   padding-left: 5%;
   border-radius: 1rem;
-  border: 1px solid rgb(80, 11, 119);
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
