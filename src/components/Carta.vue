@@ -3,7 +3,7 @@
 <template>
     <div class="container  row">
       <div class="brand">
-        <h2>JLSB</h2>
+        <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">Resume</a>
