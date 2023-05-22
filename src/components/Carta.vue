@@ -2,6 +2,9 @@
 </script>
 <template>
     <div class="container  row">
+      <div class="brand">
+        <h2>JLSB</h2>
+      </div>
       <div class="row  links-info">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">Resume</a>
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
@@ -174,6 +177,12 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+}
+.brand{
+  position: absolute;
+  top: 6%;
+  left: 2%;
+  font-family: 'Shadows Into Light';
 }
 .links-info{
   top: 5%;
