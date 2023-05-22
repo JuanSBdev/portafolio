@@ -196,7 +196,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
 }
 .links-info a{
   text-decoration: none;
-  color: rgb(46, 43, 226);
+  color: rgb(47, 19, 158);
 }
 .cv{
   border-right: 2px solid black;
