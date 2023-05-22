@@ -6,7 +6,7 @@
                 <img class="col-4" id="img-p" src="https://cdn-icons-png.flaticon.com/512/5938/5938891.png" alt="">
             </router-link>
         </div>
-        <a class="row dos" target="_blank" href="https://drive.google.com/file/d/1n7PvEbOAO-R4SMNf86ZwE-x65o5mJZBa/view?usp=sharing">
+        <a class="row dos" target="_blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
             <p class="col-8">cv - Resume</p>
             <img id="img-d" class="img-down col-4" src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
         </a>
@@ -15,6 +15,7 @@
 <style scoped>
 .container{
     display: flex;
+    padding: 5%;
     width: 100%;
     flex-flow: column wrap;
     align-items: center;
@@ -43,11 +44,13 @@ align-content: start;
     display: flex;
     width: 15%;
     height:fit-content;
+    max-height: 140px;
     padding: 2%;
     
 }
 #img-d{
+
   width: 20%;
-max-height: 440px;
+    max-height: 140px;
 }
 </style>

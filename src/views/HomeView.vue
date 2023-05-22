@@ -86,7 +86,8 @@ import Botones from '../components/Botones.vue';
     font-size: 4rem;
   }
   h1{
-    
+    padding-left: 10%;
+    padding-right: 10%;
     padding-top: 30%;
     padding-bottom: 15%;
     display: flex;
@@ -117,7 +118,7 @@ import Botones from '../components/Botones.vue';
     box-shadow: -1px 0px 40px 0px rgba(24, 1, 24, 0.904);
      width: 25%;
     margin: 5%;
-    margin-left: 15%;
+    margin-left: 10%;
     border-radius: .5rem;
   }
   
