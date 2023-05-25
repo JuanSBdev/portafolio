@@ -89,6 +89,7 @@ import Botones from '../components/Botones.vue';
     -webkit-animation: tit .1s ease alternate infinite;
     -moz-animation: tit .1s ease alternate infinite;
     animation: tit 2s ease infinite;
+    padding-top: 5%;
   }
 }
 
