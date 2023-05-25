@@ -14,22 +14,21 @@
 </template>
 <style scoped>
 @media screen and ( max-width: 575px ) {
-   
+   .container p{
+    color: rgb(233, 193, 245);
+   }
     .btnDiv{
-
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    text-decoration: none;
-    font-size: 3rem;
-    margin-bottom: 10%;
-    color: black;
-    box-shadow: 0 0 20px 0px;
-    border-radius: 2rem;
-    background: rgb(176,124,201);
-background: linear-gradient(132deg, rgba(176,124,201,1) 36%, rgba(173,69,252,1) 96%);
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 3rem;
+        margin-bottom: 10%;
+        border-radius: 2rem;
+        background: rgb(176,124,201);
+        background: linear-gradient(132deg, rgba(176,124,201,1) 36%, rgba(173,69,252,1) 96%);
 
 }
 #img-p{

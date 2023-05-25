@@ -24,12 +24,12 @@ import Botones from '../components/Botones.vue';
     display: flex;
     flex-flow: column nowrap;
     padding-top: 25%;
-    background-color: #62328dcf;
+    background-color: #411766dd;
   }
   h1{
     font-size: 5rem;
     padding: 8%;
-    
+    color: rgba(233, 193, 245, 0.805);
   }
   .h1{
     display: flex;
@@ -41,6 +41,11 @@ import Botones from '../components/Botones.vue';
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    
+  }
+  .der{
+    transform: rotate(180deg);
+
   }
   .der img{
     width: 100%;
@@ -48,7 +53,7 @@ import Botones from '../components/Botones.vue';
     -webkit-animation: tit .1s ease alternate infinite;
     -moz-animation: tit .1s ease alternate infinite;
     animation: tit 2s ease infinite;
-    margin-top: -20%;
+    margin-bottom: -20%;
   }
 }
 @media screen and ( min-width: 575px ) {
