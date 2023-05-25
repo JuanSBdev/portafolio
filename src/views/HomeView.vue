@@ -108,6 +108,9 @@ h1{
   text-align: center;
   font-size: 4rem;
 }
+.h1{
+    display: none;
+  }
   .izq{
     width: 100%;
     display: flex;
