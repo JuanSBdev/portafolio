@@ -43,8 +43,31 @@
 }
 }
 
+@media screen and ( max-width: 1024px ) {
+    .btnDiv{
+        display: flex;
+        font-size: 2rem;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 3rem;
+        margin-bottom: 10%;
+        border-radius: 2rem;
+        background: rgb(74,43,154);
+        background: linear-gradient(132deg, rgba(74,43,154,0.577468487394958) 8%, rgba(144,44,205,0.6082808123249299) 30%, rgba(74,43,154,0.5690651260504201) 96%);
+        box-shadow: -1px 1px 17px 0 ;
 
-
+}
+    #img-p{
+        margin-top: -5%;
+        margin-left: 1%;
+        padding: 1%;
+    }
+    #img-d{
+    padding: 1%;
+}
+}
 .container{
     display: flex;
     padding: 5%;
@@ -59,7 +82,7 @@ a{
     text-align: center;
     align-items: center;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2rem;
     margin-bottom: 10%;
     color: black;
     padding: 1%;
@@ -75,9 +98,7 @@ p{
     height: 20%;
 }
 #img-p{
-    display: flex;
     width: 15%;
-    height:fit-content;
     max-height: 140px;
     
 }
@@ -85,5 +106,23 @@ p{
 
   width: 20%;
     max-height: 140px;
+}
+@media screen and ( min-width: 1024px ) {
+    a{
+        font-size: 1.8rem;
+    }
+    .btnDiv{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+    }
+    
+    #img-p{
+        margin-top: -5%;
+        margin-left: 1%;
+        padding: 1%;
+    }
 }
 </style>
