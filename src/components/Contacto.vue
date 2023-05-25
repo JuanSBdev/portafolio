@@ -1,9 +1,17 @@
+<script setup>
+function copyEmail() {
+  const email = 'juansb.dev@gmail.com';
+  navigator.clipboard.writeText(email);
+  alert('Correo electrónico copiado: ' + email);
+}
+</script>
 <template>
     <h6 class=""> [ Reach me ]</h6>
     <div class="contenedor">
-        <div class="email">
+        <div class="email"  @click="copyEmail()">
             <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
-            <p>juansb.dev@gmail.com</p>
+            
+                <p >juansb.dev@gmail.com</p>
         </div>
         <div class="linkedin">
             <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?w=2000" alt="">
@@ -114,6 +122,7 @@ p{
     flex-flow: row nowrap;
     align-items: center;
     padding-bottom: 2%;
+
 }
 .email{
     margin-left: -10%;

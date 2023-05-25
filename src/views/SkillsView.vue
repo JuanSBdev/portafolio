@@ -34,7 +34,7 @@ import Arriba from '../components/Arriba.vue';
     <div v-motion-pop-visible>
       <Este/>
     </div>
-    <div v-motion-slide-visible-top >
+    <div v-motion-slide-visible-top class="contact" >
 
     <Contacto/>
     </div>
@@ -88,7 +88,10 @@ import Arriba from '../components/Arriba.vue';
   justify-content: center;
   width: 100%;
 }
-
+.contact{
+  margin-top: 15%;
+margin-bottom: 5%;
+}
 }
 
 </style>
