@@ -23,8 +23,9 @@ import Botones from '../components/Botones.vue';
     width: 100%;
     display: flex;
     flex-flow: column nowrap;
-    padding-top: 25%;
-    background-color: #411766dd;
+    padding-top: 5%;
+    margin-bottom: -10%;
+    background-color: #a824c6;
   }
   h1{
     font-size: 5rem;
@@ -56,7 +57,7 @@ import Botones from '../components/Botones.vue';
     margin-bottom: -20%;
   }
 }
-@media screen and ( min-width: 575px ) {
+@media screen and ( min-width: 575px ) and (max-width:767px) {
   
   .contenedor-home{
     width: 100%;
@@ -91,7 +92,7 @@ import Botones from '../components/Botones.vue';
   }
 }
 
-@media  screen and (min-width: 1100px) {
+@media  screen and (min-width: 1024px) {
   
   
   

@@ -13,7 +13,7 @@
     </div>
 </template>
 <style scoped>
-@media screen and ( max-width: 575px ) {
+@media screen and ( max-width: 574px ) {
    .container p{
     color: rgb(233, 193, 245);
    }
@@ -27,8 +27,9 @@
         font-size: 3rem;
         margin-bottom: 10%;
         border-radius: 2rem;
-        background: rgb(176,124,201);
-        background: linear-gradient(132deg, rgba(176,124,201,1) 36%, rgba(173,69,252,1) 96%);
+        background: rgb(74,43,154);
+        background: linear-gradient(132deg, rgba(74,43,154,0.577468487394958) 8%, rgba(144,44,205,0.6082808123249299) 30%, rgba(74,43,154,0.5690651260504201) 96%);
+        box-shadow: -1px 1px 17px 0 ;
 
 }
 #img-p{
