@@ -4,31 +4,37 @@ import Botones from '../components/Botones.vue';
 </script>
 <template>
   <div class="contenedor-home ">
-    <div class="izq ">
-      <h1>Welcome <div class="h1"><p>{}</p></div> </h1> 
-      <Botones/>
-    </div>
-    <div class="der">
-      <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
-    </div>
+      <div class="izq ">
+        <h1>Welcome <div class="h1"><p>{}</p></div> </h1> 
+        <Botones/>
+      </div>
+      <div class="der">
+       <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
+      </div>
     </div>
 </template>
 
 <style scoped>
-
-@media screen and (max-width:575px) {
+.contenedor-home{
+  background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+}
+@media screen and  (min-width:175px ) and (max-width:574px) {
   .contenedor-home{
     width: 100%;
     display: flex;
-    flex-flow: column wrap;
-    padding-bottom: 50%;
+    flex-flow: column nowrap;
+    padding-top: 25%;
+    background-color: #62328dcf;
   }
   h1{
+    font-size: 5rem;
     padding: 8%;
     
   }
   .h1{
-    display: none;
+    display: flex;
+    justify-content: center;
+
   }
   .izq{
     width: 100%;
@@ -38,15 +44,18 @@ import Botones from '../components/Botones.vue';
   }
   .der img{
     width: 100%;
+    transform: scale(.6);
     -webkit-animation: tit .1s ease alternate infinite;
     -moz-animation: tit .1s ease alternate infinite;
     animation: tit 2s ease infinite;
+    margin-top: -20%;
   }
 }
-@media screen and ( max-width: 1099px ) {
+@media screen and ( min-width: 575px ) {
   
   .contenedor-home{
     width: 100%;
+    padding-top: 10%;
     display: flex;
     flex-flow: column wrap;
   }
@@ -103,8 +112,9 @@ import Botones from '../components/Botones.vue';
     flex-flow: row nowrap;
     width: 100%;
     padding-bottom: 2%;
-    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
     background-size: contain ;
+    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+
   }
   .der img{
     width: 90%;
