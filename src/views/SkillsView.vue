@@ -23,12 +23,16 @@ import Arriba from '../components/Arriba.vue';
     <div class="otro">
         <SkillsLogos />
     </div>
+    <div v-motion-slide-visible-bottom >
+
             <Donde/>
+    </div>
+
     <div id="proyects" v-motion-pop-visible>
     <Proyects/>
     </div>
     <div v-motion-pop-visible>
-    <Este/>
+      <Este/>
     </div>
     <div v-motion-slide-visible-top >
 
@@ -69,6 +73,7 @@ import Arriba from '../components/Arriba.vue';
 
   }
 .container{
+  margin-top: 1%;
     position: relative;
   display: flex;
   justify-content: center;

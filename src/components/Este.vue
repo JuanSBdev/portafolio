@@ -1,18 +1,16 @@
 <template>
-    <div class="contenedor">
-        <h6>Este portfolio (sfc) esta desarrollado en vue.js 3. </h6>
+    <div class="contenedor mx-5">
+        <h6>Portfolio desarrollado en  vue.js sfc </h6>
     </div>
 </template>
 <style scoped>
 .contenedor{
     margin-top: 12%;
-    width: 100%;
+    width: 90%;
     display: flex;
-    background-color: aliceblue;
     justify-content: center;
     padding: 2%;
-    border: 1px solid violet;
-    border-width: 2ex 1.25ex 0.5ex;
+    background-color: rgb(236, 184, 229);
 }
 h6{
     font-size: 3rem;

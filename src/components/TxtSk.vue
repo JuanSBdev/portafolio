@@ -1,7 +1,7 @@
 <template >
     <!--    <img class='img-back' src="https://mystickermania.com/cdn/stickers/outer-space/astronaut-planet-balloons-512x512.png" alt="">
 -->
-<div class="containe row">
+<div class="container row">
     <p class="col-sm-4 col-12"> <spam>{</spam> Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, Sass, Flexbox, Grids y Bootstrap.
     Metodologias agiles.
     <spam>}</spam>
@@ -23,19 +23,28 @@
 @media (max-width:574px) {
     .containe p{
         font-size: 1.5rem;
-        color: black;
+        color: rgb(243, 235, 246);
     }
     
+    .container{
+        top: 1rem;
+        position: relative;
+        width: 100%;
+        border-radius: 1rem;
+        display: flex;
+        text-align: center;
+        padding-top: 5%;
+    }
 }
-.containe{
-    top: 6 rem;
-    position: relative;
-    width: 100%;
-    border-radius: 1rem;
-    display: flex;
-    text-align: center;
-    padding-top: 5%;
-}
+.container{
+        top: 2rem;
+        position: relative;
+        width: 100%;
+        border-radius: 1rem;
+        display: flex;
+        text-align: center;
+        padding-top: 5%;
+    }
 p{
     font-size: 1.5rem;
     color: antiquewhite;
