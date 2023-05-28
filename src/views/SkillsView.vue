@@ -7,6 +7,7 @@ import Este from '../components/Este.vue'
 import Contacto from '../components/Contacto.vue'
 import Carta from '../components/Carta.vue';
 import Arriba from '../components/Arriba.vue';
+
 </script>
 
 <template>

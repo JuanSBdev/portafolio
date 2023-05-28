@@ -1,13 +1,29 @@
+<script setup>
+import { i18n } from '../main.js';
+
+</script>
 <template>
-    <div class="container ">
+    <div v-if="i18n.global.locale === 'es'" class="container ">
         <div class="row uno">
             <router-link  class="btnDiv" to="Skills" >
-                <p class="col-8">ir a portfolio</p>
+                <p class="col-8">Portafolio</p>
                 <img class="col-4" id="img-p" src="https://cdn-icons-png.flaticon.com/512/5938/5938891.png" alt="">
             </router-link>
         </div>
         <a class="row dos btnDiv" target="_blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
-            <p class="col-8">cv - Resume</p>
+            <p class="col-8">Curriculum</p>
+            <img id="img-d" class="img-down col-4" src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
+        </a>
+    </div>
+    <div v-else class="container ">
+        <div class="row uno">
+            <router-link  class="btnDiv" to="Skills" >
+                <p class="col-8">to Portflolio</p>
+                <img class="col-4" id="img-p" src="https://cdn-icons-png.flaticon.com/512/5938/5938891.png" alt="">
+            </router-link>
+        </div>
+        <a class="row dos btnDiv" target="_blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
+            <p class="col-8">Download Resume</p>
             <img id="img-d" class="img-down col-4" src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
         </a>
     </div>
