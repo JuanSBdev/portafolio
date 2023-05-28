@@ -1,6 +1,12 @@
+<script setup>
+import { i18n } from '../main';
+</script>
 <template>
-    <div class="contenedor mx-5">
+    <div v-if="i18n.global.locale=== 'es'" class="contenedor mx-5">
         <h6>Portfolio desarrollado en  vue.js sfc </h6>
+    </div>
+    <div v-else class="contenedor mx-5">
+        <h6>Portfolio developed with vue.js 3 sfc </h6>
     </div>
 </template>
 <style scoped>
