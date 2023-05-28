@@ -12,7 +12,6 @@ import { i18n } from '../main';
 <style scoped>
 .contenedor{
     margin-top: 12%;
-    width: 90%;
     display: flex;
     justify-content: center;
     padding: 2%;
