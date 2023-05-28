@@ -1,18 +1,18 @@
 <script setup>
-
+import {i18n} from '../main'
 
 </script>
 <template>
 <div class="cont mt-5 pt-5">
 
-    <h2> ¿Donde me capacito?</h2>
+    <h2 v-if="i18n.global.locale=== 'es'" > ¿Donde me capacito?</h2>
+    <h2 v-else > Learning Hub</h2>
     <div class="containerDonde">
-        <div class="wraper row">
-            
-            <div class="soy col-sm-4">
+
+        <div v-if="i18n.global.locale=== 'es'"  class="wraper row">
+            <div  class="soy col-sm-4">
                 <h3> Soy Henry </h3>
-                <h4>(JavaScript)</h4>
-                <p>Donde durante la etapa de su prep.course aprendí mucho sobre las bases de JavaScript</p>
+                <p>Donde ya aprendí mucho sobre JavaScript(avanzado) , estructura de datos, React Redux y donde actualmente estudio desarrollo fullstack</p>
                 <img src="https://camo.githubusercontent.com/35b81f213ddb0e019b3567f6982d740bb2d01ae5dd712a1537e09e826e940228/68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67" alt="">
                 
             </div>
@@ -33,6 +33,31 @@
                 <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
                 
             </div>
+        </div>
+        <div v-else class="wraper row">
+            <div class="soy col-sm-4">
+    <h3>Soy Henry</h3>
+    <p>Where I have learned a lot about JavaScript, data structures, React Redux, and currently studying full-stack development.</p>
+    <img src="https://camo.githubusercontent.com/35b81f213ddb0e019b3567f6982d740bb2d01ae5dd712a1537e09e826e940228/68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67" alt="">
+            
+</div>
+<div  class="coder col-sm-3 mr-1">
+    <h3>Coderhouse</h3>
+    <p>HTML5, CSS3, Bootstrap, Sass, GitHub, Git, SEO, server deployment, clients, and budgets.</p>
+    <img src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+    <a target="_blank" href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
+        <div class="ver" >
+            <p id="p2">view certificate</p>
+        </div>    
+    </a>
+</div>
+<div class="udemy col-sm-4 ml-1">
+    <h3>Udemy</h3>
+    <p>Where I learn, reinforce and acquire knowledge in Vue.js 3, JavaScript, API queries with frameworks, and design.</p>
+    <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
+            
+</div>
+
         </div>
     </div>
 </div>
