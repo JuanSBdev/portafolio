@@ -4,7 +4,7 @@
         <h5 class="h3-con">
             { Some Proyects }
         </h5>
-        <div class="wraper row">
+        <div class="wraper row sobra">
             <div class="calculadora col-6 col-sm-2 py-5">
                 <h6>Calculadora</h6>
                 <a href="https://juansbdev.github.io/appCalculadora/">
@@ -52,6 +52,7 @@
         width: 60%;
     }
     .wraper{
+        width: 100%;
         padding-top: 3rem;
         display: flex;
         justify-content: center;
@@ -80,6 +81,7 @@
         margin-right: 1%;
     }
     .wraper{
+        width: -1%;
         padding-top: 3rem;
         display: flex;
         justify-content: center;
