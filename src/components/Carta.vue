@@ -12,7 +12,7 @@ import { i18n } from '../main'
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
-          </div>
+      </div>
 
         <div class="profile col-sm-4">
           <div class="foto">
@@ -21,6 +21,12 @@ import { i18n } from '../main'
             <h2  v-else>Hi i'm Juan Lluvia</h2>
             <h3> Software  Developer Jr.</h3>
           </div>
+          <div class="row  links-info-mobile">
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume</a>
+
+            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
+              <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
+      </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
               <img src="https://static.vecteezy.com/system/resources/previews/018/930/483/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="">
@@ -96,7 +102,8 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   flex-flow: column;
   align-items: center;
   margin-left: 2%;
-  margin-top: -2rem;
+  margin-top: -4rem;
+  margin-bottom: 10%;
 }
 .foto img{
   border-radius: 6rem;
@@ -108,40 +115,54 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   .logos{
   width: 100%;
   display: flex;
-  justify-content:center;
+align-content: center;
+}
+.logos a{
+  display: flex;
+  justify-content: end;
+  align-content: center;
   align-items: center;
 }
-
 .logos img{
-  display: flex;
-  align-items: center;
-  align-content: start;
-
-  width: 40%;
+  width: 35%;
 }
  #github{
-  width: 100%;
+transform: scale(.7);
+width: 100%;
+
  }
  .con2{
   display: flex;
  }
  .links-info{
-  display: flex;
-  flex-flow: row nowrap ;
-  position: relative;
-  width: 100%;
-  max-height: 40px;
-  margin-left: 10%;
-  margin-top: -15%;
-  margin-bottom: 15%;
-  display: flex;
-  justify-content: end;
-  text-align: center;
-  align-items: center;
+  display: none;
+
 }
 .links-info a{
-  text-decoration: none;
-  color: rgb(46, 43, 226);
+  display: none;
+
+}
+.links-info-mobile{
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  width: 80%;
+  justify-content: center;
+  margin-bottom: -20%;
+}
+.links-info-mobile a{
+  width: 60%;
+  margin-bottom: 2%;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 2%;
+  color: rgb(23, 17, 23);
+  box-shadow: 0 0 10px 0;
+text-decoration: none;
+}
+.links-info-mobile img{
+  display: none;
+  position: relative;
 }
 .cv{
   border-right: 2px solid black;
@@ -154,6 +175,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   color: rgb(128, 31, 160);
 }
 .links-info img{
+  display: none;
     width: 25%;
     transform: rotate(90deg);
     -webkit-animation: tit .1s ease alternate infinite;
@@ -198,6 +220,9 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
   top: 6%;
   left: 2%;
   font-family: 'Shadows Into Light';
+}
+.links-info-mobile{
+  display: none;
 }
 .links-info{
   top: 5%;
