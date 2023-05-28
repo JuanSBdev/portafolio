@@ -15,8 +15,6 @@ export const i18n = createI18n({
         button: 'Español',
         img_url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhNtJIukleMQJMm1Ec4pB6UcamkohWzCv0V6MEYg2BkG-WEV2p1p_NfBY2ioRrRsRLF0I&usqp=CAU',
     },
-      
-
       en: {
         button: 'English',
       },

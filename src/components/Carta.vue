@@ -47,7 +47,7 @@ import { i18n } from '../main'
                 & A2 deustch</p>
             </div>
             <div class="skills ">
-              <h3 v-if="i18n.global.locale === 'es'" >technologias</h3>
+              <h3 v-if="i18n.global.locale === 'es'">tecnologías</h3>
               <h3 v-else >technologies</h3>
               <p>HTML5 / CSS - SASS - bootstrap. </p>
               <p> JavaScript - Vue3.JS - REACT.JS + Vite</p>
