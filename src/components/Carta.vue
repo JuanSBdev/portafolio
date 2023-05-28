@@ -1,4 +1,6 @@
 <script setup>
+import { i18n } from '../main'
+
 </script>
 <template>
     <div class="container  row">
@@ -15,7 +17,8 @@
         <div class="profile col-sm-4">
           <div class="foto">
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
-            <h2>i'm Juan Lluvia</h2>
+            <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
+            <h2  v-else>Hi i'm Juan Lluvia</h2>
             <h3> Software  Developer Jr.</h3>
           </div>
           <div class="logos ">
@@ -34,14 +37,18 @@
 
             <div class="info">
               <h3>Basic Info</h3>
-             <p>I'm 25 years old. </p>
-             <p>Based in Argentina.</p>
+             <p v-if="i18n.global.locale === 'es'" >Tengo 25 años </p>
+             <p v-else >I'm 25 years old. </p>
+
+             <p v-if="i18n.global.locale === 'es'" >Viviendo in Argentina.</p>
+             <p v-else>Based in Argentina.</p>
              <p>Spanish native <br/>
                 i've got an english B1 level<br/>
                 & A2 deustch</p>
             </div>
             <div class="skills ">
-              <h3>technologies</h3>
+              <h3 v-if="i18n.global.locale === 'es'" >technologias</h3>
+              <h3 v-else >technologies</h3>
               <p>HTML5 / CSS - SASS - bootstrap. </p>
               <p> JavaScript - Vue3.JS - REACT.JS + Vite</p>
               <p>SPA -Mobile first  / GIT - GITHUB / NPM</p>
@@ -49,9 +56,10 @@
           </div>
           <div class="con3">
             <div class="presenta">
-              <p>Actualmente cursando bootcamp 'Soy Henry' Capacitado en Coderhouse, Henry y autodidacta. Desarrollo de páginas web,
+              <p v-if="i18n.global.locale === 'es'" >Actualmente cursando bootcamp 'Soy Henry' Capacitado en Coderhouse, Henry y autodidacta. Desarrollo de páginas web,
                 responsivas , mobile first, utilizando las últimas tecnologías para ello. En búsqueda constante de aprendizaje y de fortalecer mis conocimientos a través de una experiencia laboral que me permita crecer profesionalmente.
               </p>
+              <p v-else >Currently attending the 'Soy Henry' bootcamp, trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies. Constantly seeking learning opportunities and aiming to strengthen my knowledge through work experience that allows me to grow professionally.</p>
             </div>
           </div>
 

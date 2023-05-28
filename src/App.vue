@@ -20,8 +20,8 @@ function changeLanguage() {
   <main > 
     <div class="language">
       <button class="btn-lang" @click="changeLanguage">  
-        <img  v-if="i18n.global.locale=== 'es'" :src="btnImgEs" class="bandera" alt="change language">
-        <img  v-else :src="btnImgEn" class="bandera" alt="cambiar idioma">
+        <img  v-if="i18n.global.locale=== 'es'" :src="btnImgEn" class="bandera" alt="change language">
+        <img  v-else :src="btnImgEs" class="bandera" alt="cambiar idioma">
       </button>
     </div>
     <router-view></router-view>
