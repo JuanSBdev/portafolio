@@ -1,8 +1,5 @@
         <script setup>
-        import {ref, onMounted, onUpdated} from 'vue'
-        let titi = document.getElementsByClassName('titi');
-        titi = false;
-setTimeout(function() { titi = !titi; console.log(titi) }, 3000);      
+
         </script>
 
 <template>

@@ -1,4 +1,7 @@
 <script setup>
+import { i18n } from '../main';
+
+
 function copyEmail() {
   const email = 'juansb.dev@gmail.com';
   navigator.clipboard.writeText(email);
@@ -6,7 +9,8 @@ function copyEmail() {
 }
 </script>
 <template>
-    <h6 class=""> [ Reach me ]</h6>
+    <h6 v-if="i18n.global.locale=== 'es'" class=""> [ Conecta ]</h6>
+    <h6 v-else class=""> [ Reach me ]</h6>
     <div class="contenedor">
         <div class="email"  @click="copyEmail()">
             <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
@@ -20,7 +24,8 @@ function copyEmail() {
     </div>
     <div class="cv">
         <a id="cv" target="_blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
-            <p> Download CV</p>
+            <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
+            <p v-else> Download Resume</p>
             <img id="img-d" class="img-down " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
 
         </a>
