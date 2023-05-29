@@ -151,4 +151,14 @@
 	.fourth-color { 
 		background: #8a1253;
 	 }
-	 
+	 body::-webkit-scrollbar {
+		width: 10px;              /* width of the entire scrollbar */
+	}
+	body::-webkit-scrollbar-track {
+		background-color: #824ab1;
+	}
+	body::-webkit-scrollbar-thumb {
+
+		border-radius: 0.5rem;       /* roundness of the scroll thumb */
+		background-color: #f3f0f5e5;
+	  }
