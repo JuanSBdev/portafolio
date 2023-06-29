@@ -10,7 +10,7 @@ import {i18n} from '../main'
     <spam>}</spam>
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla y React.js - redux / Node.js - Express / SQL - PostreSQL . Frontend en Vue.js 3. Realicé pequeños proyectos en WordPress CMS.
+        Full stack JavaScript Vanilla y React.js - redux / Node.js - Express / SQL - PostgreSQL. Vue.js 3(frontend) . Realicé pequeños proyectos en WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         
@@ -26,7 +26,7 @@ I am also familiar with agile methodologies.
     <spam>/></spam>
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla & React.js - redux / Node.js - Express / SQL - PostreSQL . Frontend en Vue.js 3.Additionally, I have completed small projects using the WordPress CMS.
+        Full stack JavaScript Vanilla & React.js - redux / Node.js - Express / SQL - PostgreSQL . Vue.js 3 {Frontend} .Additionally, I have completed small projects using the WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. Additionally,
