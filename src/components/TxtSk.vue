@@ -5,12 +5,12 @@ import {i18n} from '../main'
     <!--    <img class='img-back' src="https://mystickermania.com/cdn/stickers/outer-space/astronaut-planet-balloons-512x512.png" alt="">
 --> 
 <div   v-if="i18n.global.locale === 'es'" class="container row">
-    <p class="col-sm-4 col-12"> <spam>{</spam> Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, Sass, Flexbox, Grids y Bootstrap.
+    <p class="col-sm-4 col-12"> <spam>{</spam> Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, SASS, LESS, Flexbox, Grids y Bootstrap.
     Metodologias agiles.
     <spam>}</spam>
     </p>
     <p class="col-sm-4 col-12 "> 
-        Programo con JavaScript Vanilla y React.js / redux. Puedo maquetar  en uno de sus frameworks Vue.js 3. Tambien realicé pequeños proyectos en WordPress CMS .
+        Full stack JavaScript Vanilla y React.js - redux / Node.js - Express / SQL - PostreSQL . Frontend en Vue.js 3. Realicé pequeños proyectos en WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         
@@ -26,7 +26,7 @@ I am also familiar with agile methodologies.
     <spam>/></spam>
     </p>
     <p class="col-sm-4 col-12 "> 
-        I program with Vanilla JavaScript and have experience with React.js/Redux. I am also capable of creating layouts and implementing them using the Vue.js 3 framework. Additionally, I have completed small projects using the WordPress CMS.
+        Full stack JavaScript Vanilla & React.js - redux / Node.js - Express / SQL - PostreSQL . Frontend en Vue.js 3.Additionally, I have completed small projects using the WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. Additionally,
