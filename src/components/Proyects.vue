@@ -13,14 +13,14 @@
                 <p>html- css- javascript</p>
             </div>
             <div class="coderhouse col-6 col-sm-2">
-                <h6>Proyecto Final Coderhouse</h6>
+                <h6>PF Coderhouse</h6>
                 <a href="https://juansbdev.github.io/Proyecto-Coderhouse/">
                     <img src="https://img.freepik.com/iconos-gratis/hamburguesa_318-192560.jpg?w=2000" alt="">
                 </a>
                <p>Landing Page proyecto para coderhouse frontend con html, css, bootstrap, sass, flexbox, git, github, SEO </p> 
             </div>
             <div class="carta col-6 col-sm-2">
-                <h6> App Mobile Carta 'TABAK'</h6>
+                <h6> App Mobile Carta</h6>
                 <a href="https://juansbdev.github.io/carta/">
                     <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
                 </a>
@@ -76,11 +76,17 @@
         justify-content: center;
         margin-top: 6rem;
     }
+    h6{
+        font-size: 1.5rem;
+    }
+    p{
+        margin-top: 5%;
+    }
     img{
         width: 60%;
     }
     img:hover{
-        transform: scale(1.2);
+        /* transform: scale(1.2); */
     }
     .contenedor-pro{
         margin-right: 1%;
@@ -91,7 +97,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        align-items: baseline;
+        align-items: center;
     }
 }
 </style>
