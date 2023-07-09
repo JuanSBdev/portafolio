@@ -19,7 +19,7 @@ import { i18n } from '../main'
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
             <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
             <h2  v-else>Hi i'm Juan Lluvia</h2>
-            <h3> Software  Developer Jr.</h3>
+            <h3> Fullstack Developer Jr.</h3>
           </div>
           <div class="row  links-info-mobile">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume</a>
@@ -63,8 +63,8 @@ import { i18n } from '../main'
           </div>
           <div class="con3">
             <div class="presenta">
-              <p v-if="i18n.global.locale === 'es'" >Actualmente cursando bootcamp 'Soy Henry' Capacitado en Coderhouse, Henry y autodidacta. Desarrollo de páginas web,
-                responsivas , mobile first, utilizando las últimas tecnologías para ello. En búsqueda constante de aprendizaje y de fortalecer mis conocimientos a través de una experiencia laboral que me permita crecer profesionalmente.
+              <p v-if="i18n.global.locale === 'es'" >Capacitado en Coderhouse, Henry y autodidacta en el sector de Desarrollo de páginas web fullstack,
+                responsivas , mobile first, utilizando las últimas tecnologías para ello. 
               </p>
               <p v-else >Currently attending the 'Soy Henry' bootcamp, trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies. Constantly seeking learning opportunities and aiming to strengthen my knowledge through work experience that allows me to grow professionally.</p>
             </div>
@@ -199,6 +199,7 @@ text-decoration: none;
   min-width: 100px;
   opacity: .9;
     border: 1px solid rgba(191, 50, 226, 0.658);
+    box-shadow: 0 0 10px 0;
 
 }
   h3{
@@ -252,6 +253,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
     -webkit-animation: tit .1s ease alternate infinite;
     -moz-animation: tit .1s ease alternate infinite;
     animation: tit 2s ease infinite;
+    
   }
 .con2{
   display: flex;
@@ -276,6 +278,7 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
 
   width: 50%;
   min-width: 70px;
+
 }
  #github{
   width: 110%;
