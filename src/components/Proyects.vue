@@ -10,31 +10,35 @@
                 <a href="https://juansbdev.github.io/appCalculadora/">
                     <img src="https://ayudahosting.online/wp-content/uploads/2021/02/031-calculator.png" alt="">
                 </a>
+                <p>html- css- javascript</p>
             </div>
             <div class="coderhouse col-6 col-sm-2">
                 <h6>Proyecto Final Coderhouse</h6>
                 <a href="https://juansbdev.github.io/Proyecto-Coderhouse/">
                     <img src="https://img.freepik.com/iconos-gratis/hamburguesa_318-192560.jpg?w=2000" alt="">
                 </a>
+               <p>Landing Page proyecto para coderhouse frontend con html, css, bootstrap, sass, flexbox, git, github, SEO </p> 
             </div>
             <div class="carta col-6 col-sm-2">
                 <h6> App Mobile Carta 'TABAK'</h6>
                 <a href="https://juansbdev.github.io/carta/">
                     <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
                 </a>
-
+                <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
             </div>
             <div class="api col-6 col-sm-2">
                 <h6>Clima API React.js</h6>
                 <a href="https://beamish-trifle-472703.netlify.app/">
                     <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
                 </a>
+                <p>App desarrollada en React.js - utilizando HTML5 - CSS - SASS - API REST - DEPLOYED</p>
             </div>
             <div class="lista col-6 col-sm-2">
                 <h6>To Do List.</h6>
                 <a href="https://juansbdev.github.io/listaDeTareas/">
                     <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">
                 </a>
+                <p>App desarrollada utilizando JavaScript Vanilla, HTML 5 Y CSS - DEPLOYED</p>
 
             </div>
         </div>
@@ -65,6 +69,7 @@
     }
 }
 @media screen and (min-width: 575px) {
+    
     h5{
         font-size: 4rem;
         display: flex;
