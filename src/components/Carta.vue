@@ -46,7 +46,7 @@ import { i18n } from '../main'
              <p v-if="i18n.global.locale === 'es'" >Tengo 25 años </p>
              <p v-else >I'm 25 years old. </p>
 
-             <p v-if="i18n.global.locale === 'es'" >Viviendo in Argentina.</p>
+             <p v-if="i18n.global.locale === 'es'" >Vivo en Argentina.</p>
              <p v-else>Based in Argentina.</p>
              <p>Spanish native <br/>
                 i've got an english B1 level<br/>
@@ -55,9 +55,10 @@ import { i18n } from '../main'
             <div class="skills ">
               <h3 v-if="i18n.global.locale === 'es'">tecnologías</h3>
               <h3 v-else >technologies</h3>
-              <p>HTML5 / CSS - SASS - bootstrap. </p>
+              <p>HTML5 - CSS - SASS - bootstrap. </p>
               <p> JavaScript - Vue3.JS - REACT.JS + Vite</p>
-              <p>SPA -Mobile first  / GIT - GITHUB / NPM</p>
+              <p>Node.js - Express - SQL - PostgreSQL  </p>
+              <p>SPA - Mobile first  / GIT - GITHUB / NPM</p>
             </div>
           </div>
           <div class="con3">
