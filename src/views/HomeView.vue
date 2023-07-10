@@ -31,6 +31,11 @@ import Botones from '../components/Botones.vue';
     </div>
 
       <div class="footer">
+        <img class="logo-react" src="https://assets.stickpng.com/images/62a74dfe223343fbc2207d02.png" alt="react logo">
+        <img src="https://miro.medium.com/v2/resize:fit:500/1*CPDIH8BWrGipHRJ6o6E2Vw.png" alt="Vue logo">
+        <img src="https://qualitapps.com/wp-content/uploads/2023/02/102.png" alt="node.js logo">
+        <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="SQL logo">
+        <img src="https://vitejs.dev/logo-with-shadow.png" alt="vite">
       </div>
     </div>
 </template>
@@ -70,7 +75,7 @@ a{
   display: flex;
   flex-flow: row;
   justify-content: space-around;
-  padding: 10%;
+  padding: 6%;
 }
 .izq{
   border-bottom: 2px solid wheat;
@@ -92,9 +97,14 @@ a{
   border-bottom: 2px solid violet;
 }
 .footer{
-  padding-bottom: 10%;
   display: flex;
-  justify-content: end;
+  justify-content: space-around;
+  padding-bottom: 5%;
+}
+.footer img{
+  width: 20%;
+  object-fit: contain;
+  transform: scale(.4);
 }
 
 </style>
