@@ -5,14 +5,18 @@ import Botones from '../components/Botones.vue';
 <template>
   <div class="contenedor-home ">
     <div class="nav">
-      <p>About.</p>
-      <a  target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume.</a>
+      <router-link to="Skills">
+        <p>About.</p>
+      </router-link>
+            <a  target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
+              Resume.
+            </a>
       <router-link to="Contacto">
         <p>Contact.</p>
-
       </router-link>
     </div>
-    <h1>Welcome </h1> 
+    <h1> Fullstack developer</h1> 
+    <h2>Juan SB</h2>
     <div class="wraper">
       <router-link to="Skills">
       <div class="izq ">
@@ -36,9 +40,9 @@ a{
   text-decoration: none;
   color: aliceblue;
 }
-a:hover{
-  color: blueviolet;
-}
+/* a:hover{
+  color: rgb(185, 159, 210);
+} */
 .contenedor-home{
   font-family: 'Ubuntu', sans-serif;
   color: aliceblue;
@@ -48,6 +52,10 @@ a:hover{
   padding: 3%
 }
 .contenedor-home h1{
+  padding-top: 5%;
+  align-self: center;
+}
+.contenedor-home h2{
   align-self: center;
 }
 .nav{
@@ -55,8 +63,8 @@ a:hover{
   justify-content: start;
   width: 100%;
 }
-.nav p{
-  margin: 1%;
+.nav a{
+  margin-inline: 1%;
 }
 .wraper{
   display: flex;
@@ -67,8 +75,21 @@ a:hover{
 .izq{
   border-bottom: 2px solid wheat;
 }
+.izq:hover{
+  transform: scale(1.1);
+  transition: ease-in-out;
+  color: rgb(201, 94, 207);
+  border-bottom: 2px solid violet;
+
+}
 .der{
   border-bottom: 2px solid wheat;
+}
+.der:hover{
+  transform: scale(1.1);
+  transition: ease-in-out;
+  color: rgb(118, 20, 231);
+  border-bottom: 2px solid violet;
 }
 .footer{
   padding-bottom: 10%;
