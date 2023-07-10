@@ -45,9 +45,9 @@ a{
   text-decoration: none;
   color: aliceblue;
 }
-/* a:hover{
-  color: rgb(185, 159, 210);
-} */
+a:hover{
+  color: rgb(221, 45, 209);
+}
 .contenedor-home{
   font-family: 'Ubuntu', sans-serif;
   color: aliceblue;
