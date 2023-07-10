@@ -6,25 +6,27 @@ import Botones from '../components/Botones.vue';
   <div class="contenedor-home ">
     <div class="nav">
       <p>About.</p>
-      <p>Resume.</p>
-      <p>Contact.</p>
+      <a  target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume.</a>
+      <router-link to="Contacto">
+        <p>Contact.</p>
+
+      </router-link>
     </div>
     <h1>Welcome </h1> 
     <div class="wraper">
+      <router-link to="Skills">
       <div class="izq ">
-        <router-link to="Skills">
           <h2>Quiero una pagina web</h2>
-        </router-link>
-      </div>
+        </div>
+      </router-link>
+      <router-link to="Skills">
       <div class="der">
-        <router-link to="Skills">
           <h3>Ver Portafolio</h3>
-        </router-link>
-      </div>
+        </div>
+      </router-link>
     </div>
 
       <div class="footer">
-        <p>Juan LLuvia S.B. fullstack developer</p>
       </div>
     </div>
 </template>
@@ -63,10 +65,10 @@ a:hover{
   padding: 10%;
 }
 .izq{
-  border: 2px solid wheat;
+  border-bottom: 2px solid wheat;
 }
 .der{
-  border: 2px solid wheat;
+  border-bottom: 2px solid wheat;
 }
 .footer{
   padding-bottom: 10%;
