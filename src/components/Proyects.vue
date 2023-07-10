@@ -24,9 +24,7 @@
              @click="redireccionarCarta"
              class="carta col-6 col-sm-2 card">
                 <h6> App Mobile Carta</h6>
-                <a href="https://juansbdev.github.io/carta/">
                     <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
-                </a>
                 <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
             </div>
             <div
@@ -124,13 +122,16 @@ a{
 const redireccionarCalculadora = () => {
   window.open("https://juansbdev.github.io/appCalculadora/");
 };
-const redireccionarCalculadora = () => {
-  window.open("https://juansbdev.github.io/appCalculadora/");
+const redireccionarCarta = () => {
+  window.open("https://juansbdev.github.io/carta/");
 };
 const redireccionarApi = () => {
   window.open("https://beamish-trifle-472703.netlify.app/");
 };
 const redireccionarLista = () => {
+  window.open("https://juansbdev.github.io/listaDeTareas/");
+};
+const redireccionarCoder = () => {
   window.open("https://juansbdev.github.io/listaDeTareas/");
 };
 
