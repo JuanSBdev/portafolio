@@ -30,7 +30,7 @@
             <div
             @click="redireccionarApi"
              class="api col-6 col-sm-2 card">
-                <h6>Clima API React.js</h6>
+                <h6>Clima API</h6>
                     <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
                 <p>App desarrollada en React.js - utilizando HTML5 - CSS - SASS - API REST - DEPLOYED</p>
             </div>
@@ -95,24 +95,40 @@
         margin: 5%;
         padding-top: 3rem;
         display: flex;
-        justify-content: center;
         text-align: center;
         align-items: center;
+        align-content: center;
    
     }
     .card{
         text-decoration: none;
-        color: aliceblue;
-        border: 2px solid white;
-        background-color: rgb(151, 100, 221);
+        border-radius: 1rem;
+        box-shadow: 0 0 10px 0 black;
+        border: 1px solid rgb(130, 26, 222);
+        background-color: rgb(236, 226, 244);
         padding: 2% ;
         margin: 2%;
         max-height: 300px;
         padding-bottom: 8%;
+        display: flex;
+        align-items: center;
+        color: rgb(66, 54, 72);
     }
+
+    .card:hover{
+        transform: scale(1.1);
+    }
+
+    .card h6, p {
+        color:#fff;
+        background-image: linear-gradient(45deg,#4a2d89 0%,#ac43cc 35%,#411f8b 85%,#6c3870 100%);
+    -webkit-text-fill-color: transparent;
+	-webkit-background-clip: text;      
+    }
+
 a{
     text-decoration: none;
-    color: aliceblue;
+    
 }
 
 }
@@ -132,7 +148,7 @@ const redireccionarLista = () => {
   window.open("https://juansbdev.github.io/listaDeTareas/");
 };
 const redireccionarCoder = () => {
-  window.open("https://juansbdev.github.io/listaDeTareas/");
+  window.open("https://juansbdev.github.io/Proyecto-Coderhouse/");
 };
 
 
