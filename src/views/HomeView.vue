@@ -4,25 +4,88 @@ import Botones from '../components/Botones.vue';
 </script>
 <template>
   <div class="contenedor-home ">
+    <div class="nav">
+      <p>About.</p>
+      <p>Resume.</p>
+      <p>Contact.</p>
+    </div>
+    <h1>Welcome </h1> 
+    <div class="wraper">
       <div class="izq ">
-        <h1>Welcome <div class="h1"><p>{}</p></div> </h1> 
-        <Botones/>
+        <router-link to="Skills">
+          <h2>Quiero una pagina web</h2>
+        </router-link>
       </div>
       <div class="der">
-        <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
+        <router-link to="Skills">
+          <h3>Ver Portafolio</h3>
+        </router-link>
+      </div>
+    </div>
+
+      <div class="footer">
+        <p>Juan LLuvia S.B. fullstack developer</p>
       </div>
     </div>
 </template>
 
 <style scoped>
-.contenedor-home{
-  background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+a{
+  text-decoration: none;
+  color: aliceblue;
 }
-@media screen and  (min-width:175px ) and (max-width:574px) {
+a:hover{
+  color: blueviolet;
+}
+.contenedor-home{
+  font-family: 'Ubuntu', sans-serif;
+  color: aliceblue;
+  background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3%
+}
+.contenedor-home h1{
+  align-self: center;
+}
+.nav{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.nav p{
+  margin: 1%;
+}
+.wraper{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  padding: 10%;
+}
+.izq{
+  border: 2px solid wheat;
+}
+.der{
+  border: 2px solid wheat;
+}
+.footer{
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: end;
+}
+
+</style>
+
+
+
+
+
+
+<!-- @media screen and  (min-width:175px ) and (max-width:574px) {
   .contenedor-home{
     width: 100%;
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
     padding-top: 5%;
     margin-bottom: -10%;
     background-color: #a824c6;
@@ -151,7 +214,7 @@ h1{
   .contenedor-home{
     position: relative;
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     width: 100%;
     padding-bottom: 25%;
     padding-top: 10%;
@@ -186,6 +249,4 @@ h1{
     padding-top: 5%;
   }
   
-}
-  
-</style>
+} -->
