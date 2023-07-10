@@ -19,13 +19,13 @@ import Botones from '../components/Botones.vue';
     <h2>Juan SB</h2>
     <div class="wraper">
       <router-link to="Skills">
-      <div class="izq ">
-          <h2>Quiero una pagina web</h2>
+        <div class="der">
+          <h3>Ver Portafolio</h3>
         </div>
       </router-link>
-      <router-link to="Skills">
-      <div class="der">
-          <h3>Ver Portafolio</h3>
+      <router-link to="Contacto">
+      <div class="izq ">
+          <h2>Quiero una pagina web</h2>
         </div>
       </router-link>
     </div>
@@ -83,9 +83,9 @@ a:hover{
 .izq:hover{
   transform: scale(1.1);
   transition: ease-in-out;
-  color: rgb(201, 94, 207);
   border-bottom: 2px solid violet;
-
+  color: rgb(118, 20, 231);
+  
 }
 .der{
   border-bottom: 2px solid wheat;
@@ -93,7 +93,7 @@ a:hover{
 .der:hover{
   transform: scale(1.1);
   transition: ease-in-out;
-  color: rgb(118, 20, 231);
+  color: rgb(201, 94, 207);
   border-bottom: 2px solid violet;
 }
 .footer{
