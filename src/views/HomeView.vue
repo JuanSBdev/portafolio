@@ -31,7 +31,7 @@ import Botones from '../components/Botones.vue';
     </div>
 
       <div class="footer">
-        <img class="logo-react" src="https://assets.stickpng.com/images/62a74dfe223343fbc2207d02.png" alt="react logo">
+        <img class="logo-react" src="https://cms.rootstack.com/sites/default/files/inline-images/React.png" alt="react logo">
         <img src="https://miro.medium.com/v2/resize:fit:500/1*CPDIH8BWrGipHRJ6o6E2Vw.png" alt="Vue logo">
         <img src="https://qualitapps.com/wp-content/uploads/2023/02/102.png" alt="node.js logo">
         <img src="https://1000logos.net/wp-content/uploads/2020/08/PostgreSQL-Logo.png" alt="SQL logo">
@@ -41,37 +41,40 @@ import Botones from '../components/Botones.vue';
 </template>
 
 <style scoped>
-a{
-  text-decoration: none;
-  color: aliceblue;
-}
-a:hover{
-  color: rgb(221, 45, 209);
-}
-.contenedor-home{
-  font-family: 'Ubuntu', sans-serif;
-  color: aliceblue;
-  background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
-  display: flex;
-  flex-flow: column nowrap;
-  padding: 3%
-}
-.contenedor-home h1{
-  padding-top: 5%;
-  align-self: center;
-}
-.contenedor-home h2{
-  align-self: center;
-}
-.nav{
-  display: flex;
-  justify-content: start;
-  width: 100%;
-}
-.nav a{
-  margin-inline: 1%;
-}
-.wraper{
+
+
+  
+  a{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  a:hover{
+    color: rgb(221, 45, 209);
+  }
+  .contenedor-home{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 3%
+  }
+  .contenedor-home h1{
+    padding-top: 5%;
+    align-self: center;
+  }
+  .contenedor-home h2{
+    align-self: center;
+  }
+  .nav{
+    display: flex;
+    justify-content: start;
+    width: 100%;
+  }
+  .nav a{
+    margin-inline: 1%;
+  }
+  .wraper{
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -107,179 +110,20 @@ a:hover{
   transform: scale(.4);
 }
 
-</style>
-
-
-
-
-
-
-<!-- @media screen and  (min-width:175px ) and (max-width:574px) {
-  .contenedor-home{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    padding-top: 5%;
-    margin-bottom: -10%;
-    background-color: #a824c6;
-  }
-  h1{
-    font-size: 5rem;
-    padding: 8%;
-    color: rgba(233, 193, 245, 0.805);
-  }
-  .h1{
-    display: flex;
-    justify-content: center;
-
-  }
-  .izq{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    
-  }
-  .der{
-    transform: rotate(180deg);
-
-  }
-  .der img{
-    width: 100%;
-    transform: scale(.6);
-    -webkit-animation: tit .1s ease alternate infinite;
-    -moz-animation: tit .1s ease alternate infinite;
-    animation: tit 2s ease infinite;
-    margin-bottom: -20%;
-  }
-}
-@media screen and ( min-width: 575px ) and (max-width:766px) {
-  
-  .contenedor-home{
-    width: 100%;
-    padding-top: 10%;
-    display: flex;
-    flex-flow: column wrap;
-  }
-  h1{
-    padding: 8%;
-  }
-  .h1{
-    display: none;
-  }
-  .izq{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-  }
-  .der{
-    display: flex;
-    justify-content: center;
-  }
-  .der img{
-    width: 80%;
-    max-width: 590px;
-    transform: rotate(180deg);
-
-    -webkit-animation: tit .1s ease alternate infinite;
-    -moz-animation: tit .1s ease alternate infinite;
-    animation: tit 2s ease infinite;
-    padding-top: 5%;
-  }
-}
-
-@media  screen and (min-width: 767px) and (max-width:1023px) {
-  .contenedor-home{
-    width: 100%;
-    padding-top: 10%;
-    display: flex;
-    flex-flow: column wrap;
-
-  }
-h1{
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  text-align: center;
-  font-size: 4rem;
-}
-.h1{
-    display: none;
-  }
-  .izq{
-    width: 100%;
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-  }
-  .der{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20%;
-  }
-  .der img{
-    width: 50%;
-    transform: rotate(180deg);
-    -webkit-animation: tit .1s ease alternate infinite;
-    -moz-animation: tit .1s ease alternate infinite;
-    animation: tit 2s ease infinite;
-    margin-top: -10%;
-  }
-  }
-@media  screen and (min-width: 1024px) {
-  
-  
-  
-  .h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 4rem;
-    margin-top: 5%;
-  }
-  h1{
-    display: flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-  }
-  .contenedor-home{
-    position: relative;
+@media screen and (max-width: 575px) {
+  .wraper{
     display: flex;
     flex-flow: column nowrap;
-    width: 100%;
-    padding-bottom: 25%;
-    padding-top: 10%;
-    padding-right: 15%;
-    background-size: cover ;
-    background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
-
+    padding-top: 60%;
+    padding-bottom: 90%;
   }
-  .der{
-    width: 60%;
-    
+  h1{
+    margin-top: 18%;
   }
-  .der img{
-    width: 80%;
-    margin-left: 20%;
-    margin-top: -15%;
-    transform: rotate(90deg);
-    -webkit-animation: fadein .1s ease alternate infinite;
-    -moz-animation: fadein .1s ease alternate infinite;
-    animation: fadein 5s ease infinite;
-
-  }
-  .izq{
-    box-shadow: -1px 0px 40px 0px rgba(24, 1, 24, 0.904);
-     width: 40%;
-     height: 100%;
-    margin: 5%;
-    margin-left: 10%;
-    margin-top: -1%;
-    border-radius: .5rem;
-    padding-bottom: 5%;
-    padding-top: 5%;
-  }
+.wraper a{
+  padding: 8%;
+  margin-bottom: 1%;
+}
   
-} -->
+}
+</style>
