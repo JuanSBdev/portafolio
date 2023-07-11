@@ -60,11 +60,20 @@
         width: 100%;
         padding-top: 3rem;
         display: flex;
-        justify-content: center;
+        flex-flow: row-reverse wrap;
         align-items: center;
-        align-content: center;
-        text-align: center;
-    } 
+        justify-content: space-evenly;
+        } 
+    .card{
+        width: 40%;
+        padding: 2%;
+        min-height: 250px;
+        background-color: rgba(238, 130, 238, 0);
+        border: none;
+    }
+    .card h6{
+        font-size: 2rem;
+    }
     .carta img{
         width:40% ;
     }
