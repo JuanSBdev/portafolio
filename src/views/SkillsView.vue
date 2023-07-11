@@ -31,6 +31,7 @@ import Arriba from '../components/Arriba.vue';
 
     <div id="proyects" v-motion-pop-visible>
     <Proyects/>
+    <video  class="video-pro" src="../assets/resources/pokemonvid1.mp4" controls></video>
     </div>
     <div v-motion-pop-visible>
       <Este/>
@@ -88,6 +89,11 @@ import Arriba from '../components/Arriba.vue';
   display: flex;
   justify-content: center;
   width: 100%;
+}
+.video-pro{
+  width: 70%;
+  display: flex;
+  margin-left: 15%;
 }
 .contact{
   margin-top: 15%;
