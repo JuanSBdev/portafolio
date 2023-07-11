@@ -122,6 +122,7 @@
         display: flex;
         align-items: center;
         color: rgb(66, 54, 72);
+        overflow: hidden;
     }
 
     .card:hover{
