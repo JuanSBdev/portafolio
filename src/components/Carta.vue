@@ -8,7 +8,7 @@ import { i18n } from '../main'
         <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume</a>
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <!-- <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt=""> -->
@@ -22,7 +22,7 @@ import { i18n } from '../main'
             <h3> Fullstack Developer Jr.</h3>
           </div>
           <div class="row  links-info-mobile">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">Resume</a>
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
@@ -88,8 +88,8 @@ import { i18n } from '../main'
     border-radius: 1rem;
     border: 1px solid rgb(65, 31, 144);
     box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
-background: rgb(189,63,223);
-background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+    background: rgb(189,63,223);
+    background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
   
   }
   .brand{
@@ -250,6 +250,9 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
 .links-info img{
     width: 25%;
     transform: rotate(90deg);
+    -webkit-animation: tit .1s ease alternate infinite;
+    -moz-animation: tit .1s ease alternate infinite;
+    animation: tit 2s ease infinite;
     
   }
 .con2{
