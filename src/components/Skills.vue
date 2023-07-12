@@ -29,7 +29,5 @@
       align-items: center;
       justify-content: center;
 }
-img{
-  animation: tit 2s infinite;
-}
+
 </style>

@@ -8,7 +8,7 @@ import Botones from '../components/Botones.vue';
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-            <a  target="blank" href="https://drive.google.com/file/d/1BxcxjX3Y10yMcMxvhvGDx57fE2FRkj6a/view?usp=sharing">
+            <a  target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">
               Resume.
             </a>
       <router-link to="Contacto">

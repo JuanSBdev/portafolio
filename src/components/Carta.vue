@@ -250,9 +250,6 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
 .links-info img{
     width: 25%;
     transform: rotate(90deg);
-    -webkit-animation: tit .1s ease alternate infinite;
-    -moz-animation: tit .1s ease alternate infinite;
-    animation: tit 2s ease infinite;
     
   }
 .con2{
