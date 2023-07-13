@@ -65,6 +65,10 @@ import Arriba from '../components/Arriba.vue';
   justify-content: center;
   width: 100%;
 }
+.video-pro{
+  width: 80%;
+  margin-left: 10%;
+}
 }
 @media screen and (min-width: 575px) {
   .wraper{
