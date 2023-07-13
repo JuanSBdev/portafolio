@@ -4,7 +4,9 @@ import Contacto from '../components/Contacto.vue'
 </script>
 <template>
     <div class="wrapper">
-        <button class="atras">volver</button>
+        <router-link to="/">
+            <button class="atras" >volver</button>
+        </router-link>
         <Contacto></Contacto>
     </div>
 </template>
