@@ -1,11 +1,14 @@
 <script setup>
+import { i18n } from '../main'
 import Contacto from '../components/Contacto.vue'
 
 </script>
 <template>
-    <div class="wrapper">
+    <div  class="wrapper">
         <router-link to="/">
-            <button class="atras" >volver</button>
+            <button v-if="i18n.global.locale === 'es'" class="atras" >volver</button>
+            <button v-else class="atras"> back </button>
+            
         </router-link>
         <Contacto></Contacto>
     </div>
