@@ -1,23 +1,35 @@
 <script setup>
-import Carta from '../components/Carta.vue'
-import Botones from '../components/Botones.vue';
+import { i18n } from '../main'
+
 </script>
 <template>
   <div class="contenedor-home ">
-    <div class="nav">
+    <div v-if="i18n.global.locale === 'es'"  class="nav">
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-            <a  target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">
+            <a   target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">
               Resume.
             </a>
       <router-link to="Contacto">
         <p>Contact.</p>
       </router-link>
     </div>
+    <div v-else class="nav">
+      <router-link to="Skills">
+        <p>About.</p>
+      </router-link>
+            <a   target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">
+              Mi CV.
+            </a>
+      <router-link to="Contacto">
+        <p>Contacto.</p>
+      </router-link>
+    </div>
     <h1> Fullstack developer</h1> 
     <h2>Juan SB</h2>
-    <div class="wraper">
+
+    <div v-if="i18n.global.locale === 'es'" class="wraper">
       <router-link to="Skills">
         <div class="der">
           <h3>Ver Portafolio</h3>
@@ -29,7 +41,19 @@ import Botones from '../components/Botones.vue';
         </div>
       </router-link>
     </div>
-
+    
+    <div v-else class="wraper">
+      <router-link to="Skills">
+        <div class="der">
+          <h3>Explore Portfolio</h3>
+        </div>
+      </router-link>
+      <router-link to="Contacto">
+      <div class="izq ">
+          <h2>I need a website.</h2>
+        </div>
+      </router-link>
+    </div>
       <div class="footer">
         <img class="logo-react" src="https://cms.rootstack.com/sites/default/files/inline-images/React.png" alt="react logo">
         <img src="https://miro.medium.com/v2/resize:fit:500/1*CPDIH8BWrGipHRJ6o6E2Vw.png" alt="Vue logo">
