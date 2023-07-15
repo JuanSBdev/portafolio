@@ -1,9 +1,8 @@
 
-
 <template>
-    <div class="contenedor-pro">
+    <div  v-if="i18n.global.locale === 'es'" class="contenedor-pro">
         <h5 class="h3-con">
-            { Some Proyects }
+            { Mis proyectos }
         </h5>
         <div class="wraper sobra">
             <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
@@ -44,6 +43,51 @@
             </div>
         </div>
     </div>
+
+    <div  v-else class="contenedor-pro">
+        <h5 class="h3-con">
+            { Some Proyects }
+        </h5>
+        <div class="wraper sobra">
+            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
+                    
+                    <h6>Javascript calculator</h6>
+                    
+                    <img src="https://ayudahosting.online/wp-content/uploads/2021/02/031-calculator.png" alt="">
+                    <p>html- css- javascript</p>
+            </div>
+            <div
+             @click="redireccionarCoder"
+             class="coderhouse col-6 col-sm-2 card">
+                <h6>PF Coderhouse</h6>
+                    <img src="https://img.freepik.com/iconos-gratis/hamburguesa_318-192560.jpg?w=2000" alt="">
+               <p>Landing Page proyect for coderhouse institute frontend using html, css, bootstrap, sass, flexbox, git, github, SEO </p> 
+            </div>
+            <div
+             @click="redireccionarCarta"
+             class="carta col-6 col-sm-2 card">
+                <h6> App Mobile Foodtruck</h6>
+                    <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
+                <p> Freelance job - mobile app developed with html5 - css3 - bootstrap - javascript</p>
+            </div>
+            <div
+            @click="redireccionarApi"
+             class="api col-6 col-sm-2 card">
+                <h6>Clima API</h6>
+                    <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
+                <p>App developed with React.js - using HTML5 - CSS - SASS - API REST - DEPLOYED</p>
+            </div>
+            <div
+            @click="redireccionarLista"
+             class="lista col-6 col-sm-2 card">
+                <h6>To Do List.</h6>
+                    <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">
+                <p>App developed with Vanilla JavaScript, localstorage, HTML 5 Y CSS - DEPLOYED</p>
+
+            </div>
+        </div>
+    </div>
+    
 </template>
 <style scoped>
 @media screen and (max-width: 574px) {
@@ -144,6 +188,7 @@ a{
 }
 </style>
 <script setup>
+import { i18n } from '../main'
 
 const redireccionarCalculadora = () => {
   window.open("https://juansbdev.github.io/appCalculadora/");
