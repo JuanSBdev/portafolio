@@ -7,6 +7,7 @@ import Este from '../components/Este.vue'
 import Contacto from '../components/Contacto.vue'
 import Carta from '../components/Carta.vue';
 import Arriba from '../components/Arriba.vue';
+import Videos from '../components/Videos.vue';
 
 </script>
 
@@ -31,7 +32,7 @@ import Arriba from '../components/Arriba.vue';
 
     <div id="proyects" v-motion-pop-visible>
     <Proyects/>
-    <video  class="video-pro" src="../assets/resources/pokemonvid1.mp4" controls></video>
+    <Videos/>
     </div>
     <div v-motion-pop-visible>
       <Este/>
@@ -65,10 +66,7 @@ import Arriba from '../components/Arriba.vue';
   justify-content: center;
   width: 100%;
 }
-.video-pro{
-  width: 80%;
-  margin-left: 10%;
-}
+
 }
 @media screen and (min-width: 575px) {
   .wraper{
@@ -94,11 +92,7 @@ import Arriba from '../components/Arriba.vue';
   justify-content: center;
   width: 100%;
 }
-.video-pro{
-  width: 70%;
-  display: flex;
-  margin-left: 15%;
-}
+
 .contact{
   margin-top: 15%;
 margin-bottom: 5%;
