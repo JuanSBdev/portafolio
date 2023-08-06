@@ -25,15 +25,15 @@ import Videos from '../components/Videos.vue';
     <div class="otro">
         <SkillsLogos />
     </div>
+    <div id="proyects" v-motion-pop-visible>
+      <Proyects/>
+      <Videos/>
+    </div>
     <div v-motion-slide-visible-bottom >
-
             <Donde/>
     </div>
 
-    <div id="proyects" v-motion-pop-visible>
-    <Proyects/>
-    <Videos/>
-    </div>
+
     <div v-motion-pop-visible>
       <Este/>
     </div>
