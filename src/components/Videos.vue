@@ -16,7 +16,7 @@
         <div class="col-11 col-xl-5  div-countries d-flex flex-column  align-items-center py-5">
             <p>Countries API</p>
             <p>App fullstack developed in React / express / PostgreSQL / Sequelize / JavaScript / css modules  </p>
-            <video controls class=" video-country col-12 pt-5" src="../assets/resources/2023-08-05 16-05-14.mp4"></video>
+            <video controls class=" video-country col-12 pt-5" src="../assets/resources/countries-video.mp4"></video>
         </div>
     </div>
 </template>
