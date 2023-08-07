@@ -10,7 +10,7 @@
             <p>Landing page</p>
             <p>  100% responsive / Bootstrap / HTML5 / CSS3 / JavaScript Vanilla /
                 - Web Landing page freelance for NFT - </p>
-            <video controls class="video-nft col-12 mx-1 " src="../assets/resources/sube3 (2).mp4"></video>
+            <video controls class="video-nft col-12 mx-1 " src="../assets/resources/sube3.mp4"></video>
         </div>
 
         <div class="col-11 col-xl-5  div-countries d-flex flex-column  align-items-center py-5">
