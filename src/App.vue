@@ -14,6 +14,14 @@ function changeLanguage() {
 
 <template>
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W07TY3WJ4Z"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W07TY3WJ4Z');
+</script>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/2534/2534928.png" type="image/x-icon">
   </head>
   
