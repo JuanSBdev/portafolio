@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapVue3 from 'bootstrap-vue-3';
 import { MotionPlugin } from '@vueuse/motion';
 import { createI18n } from 'vue-i18n';
+import VueGtag from 'vue-gtag';
 
 
 
@@ -29,5 +30,7 @@ app.use(router);
 app.use(BootstrapVue3);
 app.use(MotionPlugin);
 app.use(i18n);
+
+
 
 app.mount('#app');

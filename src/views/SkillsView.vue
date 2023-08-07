@@ -57,6 +57,19 @@ import Videos from '../components/Videos.vue';
     background-size: cover ;
     background-repeat: repeat-y;
   }
+  .btn-go-home{
+    position: absolute;
+    width: 18%;
+    height: 10%;
+    background-color: transparent;
+    border: none;
+    margin-left: 75%;
+    margin-top: -48%;
+    z-index: 2;
+  }
+  .btn-go-home img{
+    width: 100%;
+  }
   .container{
     position: relative;
     display: flex;
