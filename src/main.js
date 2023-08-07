@@ -6,6 +6,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import BootstrapVue3 from 'bootstrap-vue-3';
 import { MotionPlugin } from '@vueuse/motion';
 import { createI18n } from 'vue-i18n';
+
+
+
 const browserLang = navigator.language || navigator.userLanguage;
 const defaultLocale = browserLang.split('-')[0];
 export const i18n = createI18n({
@@ -26,4 +29,5 @@ app.use(router);
 app.use(BootstrapVue3);
 app.use(MotionPlugin);
 app.use(i18n);
+
 app.mount('#app');

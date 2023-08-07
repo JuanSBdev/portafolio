@@ -12,6 +12,12 @@ import Videos from '../components/Videos.vue';
 </script>
 
 <template>
+      <button class="btn-go-home" >
+        <router-link to="/">
+          <img src="https://www.freepnglogos.com/uploads/logo-home-png/home-logo-images-black-5.png" class="img-logo-home" alt="">
+        </router-link>
+    </button>
+
   <Arriba />
   <div class="wraper">
     <div v-motion-fade >
@@ -75,6 +81,21 @@ import Videos from '../components/Videos.vue';
     overflow: hidden;
 
 
+  }
+  .btn-go-home{
+    position: fixed;
+    width: 5%;
+    background-color: transparent;
+    border: none;
+    margin-left: 3%;
+    margin-top: 1%;
+    z-index: 1;
+  }
+  .btn-go-home:hover{
+    transform: scale(1.1);
+  }
+  .img-logo-home{
+    width: 100%;
   }
 .container{
   margin-top: 1%;
