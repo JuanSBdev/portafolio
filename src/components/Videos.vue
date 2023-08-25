@@ -4,7 +4,7 @@
         <div class="col-11 col-xl-8  div-countries d-flex flex-column  align-items-center py-5">
             <p>Countries API</p>
             <p>App fullstack developed in React using NodeJS, expressJS, PostgreSQL, Sequelize, JavaScript, Redux, CSS modules  </p>
-            <video controls class=" video-country col-12 pt-5" src="../assets/resources/countries-video.mp4"></video>
+            <video controls class=" video-country col-12 pt-5" src="../assets/resources/presentacionCountries.mp4"></video>
         </div>
         <div class="col-11 col-xl-5 div-pokemon d-flex flex-column  align-items-center">
             <p class="justify-content-center"> Pokemon API</p>
