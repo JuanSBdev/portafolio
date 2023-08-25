@@ -9,7 +9,7 @@
                     
                     <h6>Calculadora Javascript</h6>
                     
-                    <img src="https://ayudahosting.online/wp-content/uploads/2021/02/031-calculator.png" alt="">
+                    <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2016/12/oneplusplus-calculator-logo.png" alt="">
                     <p>html- css- javascript</p>
             </div>
             <div
@@ -53,7 +53,7 @@
                     
                     <h6>Javascript calculator</h6>
                     
-                    <img src="https://ayudahosting.online/wp-content/uploads/2021/02/031-calculator.png" alt="">
+                    <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2016/12/oneplusplus-calculator-logo.png" alt="">
                     <p>html- css- javascript</p>
             </div>
             <div
@@ -176,8 +176,8 @@
     .card h6, p {
         color:#fff;
         background-image: linear-gradient(45deg,#4a2d89 0%,#ac43cc 35%,#411f8b 85%,#6c3870 100%);
-    -webkit-text-fill-color: transparent;
-	-webkit-background-clip: text;      
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;      
     }
 
 a{
