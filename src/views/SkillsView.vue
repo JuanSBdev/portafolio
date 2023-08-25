@@ -23,6 +23,10 @@ import Videos from '../components/Videos.vue';
     <div v-motion-fade >
       <Carta ref="arriba" />
     </div>
+    <Proyects id="proyects"/>
+    <div  v-motion-pop-visible>
+    <Videos/>
+    </div>
     <div v-motion-slide-visible-bottom >
     <div class="container">
       <TxtSk></TxtSk>
@@ -30,10 +34,6 @@ import Videos from '../components/Videos.vue';
   </div>
     <div class="otro">
         <SkillsLogos />
-    </div>
-    <div id="proyects" v-motion-pop-visible>
-      <Proyects/>
-      <Videos/>
     </div>
     <div v-motion-slide-visible-bottom >
             <Donde/>
