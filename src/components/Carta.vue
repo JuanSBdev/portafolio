@@ -29,10 +29,10 @@ import { i18n } from '../main'
       </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
-              <img src="https://assets.stickpng.com/images/6297a2f1e01809629f113598.png" alt="">
+              <img src="../assets/resources/linkedin_image.png" alt="linkedin logo">
             </a>
             <a  href="https://github.com/JuanSBdev">
-              <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt="">
+              <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt=" github logo">
             </a>
           </div>
         </div>
