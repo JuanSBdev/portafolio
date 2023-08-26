@@ -19,7 +19,7 @@ import { i18n } from '../main'
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
             <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
             <h2  v-else>Hi i'm Juan Lluvia</h2>
-            <h3> Fullstack Developer Jr.</h3>
+            <h3 class="w-100"> ⚡Full Stack Developer⚡ </h3>
           </div>
           <div class="row  links-info-mobile">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
@@ -49,7 +49,7 @@ import { i18n } from '../main'
              <p v-if="i18n.global.locale === 'es'" >Vivo en Argentina.</p>
              <p v-else>Based in Argentina.</p>
              <p>Spanish native <br/>
-                i've got an english B1 level<br/>
+                i've got an english B2 level<br/>
                 & A2 deustch</p>
             </div>
             <div class="skills ">
@@ -63,11 +63,29 @@ import { i18n } from '../main'
           </div>
           <div class="con3">
             <div class="presenta">
-              <p v-if="i18n.global.locale === 'es'" >Capacitado en Coderhouse, Henry y autodidacta en el sector de Desarrollo de páginas web fullstack,
-                responsivas , mobile first, utilizando las últimas tecnologías para ello. 
-              </p>
-              <p v-else >Currently attending the 'Soy Henry' bootcamp, trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies. Constantly seeking learning opportunities and aiming to strengthen my knowledge through work experience that allows me to grow professionally.</p>
-            </div>
+              <div v-if="i18n.global.locale === 'es'" >
+                <p>
+ ✍React.js - VUE3 / Redux / Node.js - Express / PostgreSQL - SQL - Sequelize / HTML5 / CSS3 - SASS - LESS - BOOTSTRAP - FlexBox / JavaScript ES6.
+✔ Capacitado en Coderhouse, soyHenry, y autodidacta.
+ Desarrollador de páginas web, responsivas, mobile first, front y backend utilizando las últimas tecnologías para ello. 
+</p>
+<p>
+  ⌛ En busca de experiencia laboral y un espacio el cual me permita el seguir formando y capacitándome.⌛ 
+  
+</p>
+</div>
+              <div v-else >
+                  <p>
+                    ✍React.js - VUE3 / Redux / Node.js - Express / PostgreSQL - SQL - Sequelize / HTML5 / CSS3 - SASS - LESS - BOOTSTRAP - FlexBox / JavaScript ES6.
+                   trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies.
+                 </p>
+                 <p>
+                  ⌛ 
+   Constantly seeking learning opportunities and aiming to strengthen my knowledge through work experience that allows me to grow professionally.⌛ 
+  
+                 </p>
+                </div>
+                </div>
           </div>
 
         </div>

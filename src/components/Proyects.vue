@@ -158,7 +158,7 @@
         border-radius: 1rem;
         box-shadow: 0 0 10px 0 black;
         border: 1px solid rgb(130, 26, 222);
-        background-color: rgb(248, 197, 246);
+        background-color: rgb(237, 194, 239);
         padding: 2% ;
         margin: 2%;
         max-height: 300px;
