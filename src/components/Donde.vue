@@ -91,21 +91,21 @@ import {i18n} from '../main'
         justify-content: center;
         margin-top: 1%;
         width: 100%;
+        
+    }
+    .wraper{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: space-evenly;
+        align-items:start;
+        text-align: center;
+        
+    }
 
-}
-.wraper{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 0%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-evenly;
-    align-items:start;
-    text-align: center;
-
-}
-
-.ver{
+    .ver{
         display:flex;
         margin-left: 30%;
         justify-content: center;
@@ -117,7 +117,7 @@ import {i18n} from '../main'
         padding: rem;
         box-shadow: 5px 5px 5px black;
     }
-  
+    
 }
 @media screen and ( max-width: 1023px) {
     img{
@@ -132,7 +132,7 @@ import {i18n} from '../main'
         padding: 4rem;
     }
     #p2 {
-       display: none;
+        display: none;
     }
     .containerDonde{
         display: flex;
@@ -140,25 +140,25 @@ import {i18n} from '../main'
         margin-top: 1%;
         width: 100%;
         margin-bottom: 20%;
-
-}
-.wraper{
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 0%;
-    display: flex;
-    flex-flow: row-reverse wrap;
-    justify-content: space-evenly;
-    align-items:start;
-    text-align: center;
-
-}
-
-:hover.coder img{
-    filter: blur(1px);
+        
+    }
+    .wraper{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 0%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        justify-content: space-evenly;
+        align-items:start;
+        text-align: center;
+        
+    }
     
-}
-.ver{
+    :hover.coder img{
+        filter: blur(1px);
+        
+    }
+    .ver{
         display:flex;
         margin-left: 30%;
         justify-content: center;
@@ -167,20 +167,24 @@ import {i18n} from '../main'
         bottom: 8rem;
         border-radius: 1rem;
         background-color: rgba(119, 61, 184, 0.37);
-        padding: rem;
         box-shadow: 5px 5px 5px black;
     }
 }
 
 @media screen and (min-width: 1024px) {
+    
+    .containerDonde{
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    h2{
+        font-family: 'Ubuntu', sans-serif;
 
-.containerDonde{
-    display: flex;
-    justify-content: center;
-}
-h2{
-    width: 100%;
-    display: flex;
+        color: aliceblue;
+        width: 100%;
+        display: flex;
     justify-content: center;
     padding: 5rem;
 }
@@ -191,7 +195,7 @@ h2{
     justify-content: space-around;
     align-items:start;
     text-align: center;
-
+    
 }
 
 .coder img{
