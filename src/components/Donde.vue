@@ -91,6 +91,8 @@ import {i18n} from '../main'
         justify-content: center;
         margin-top: 1%;
         width: 100%;
+        color: aliceblue;
+        font-family: 'Ubuntu', sans-serif;
         
     }
     .wraper{
@@ -114,7 +116,6 @@ import {i18n} from '../main'
         bottom: 8rem;
         border-radius: 1rem;
         background-color: rgba(119, 61, 184, 0.37);
-        padding: rem;
         box-shadow: 5px 5px 5px black;
     }
     
@@ -130,6 +131,7 @@ import {i18n} from '../main'
         display: flex;
         justify-content: center;
         padding: 4rem;
+        color: aliceblue;
     }
     #p2 {
         display: none;
@@ -140,6 +142,8 @@ import {i18n} from '../main'
         margin-top: 1%;
         width: 100%;
         margin-bottom: 20%;
+        color: aliceblue;
+        font-family: 'Ubuntu', sans-serif;
         
     }
     .wraper{
@@ -180,7 +184,6 @@ import {i18n} from '../main'
         font-family: 'Ubuntu', sans-serif;
     }
     h2{
-        font-family: 'Ubuntu', sans-serif;
 
         color: aliceblue;
         width: 100%;
