@@ -19,7 +19,7 @@ import { i18n } from '../main'
             <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
             <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
             <h2  v-else>Hi i'm Juan Lluvia</h2>
-            <h3 class="w-100"> ⚡Full Stack Developer⚡ </h3>
+            <h3 > ⚡Full Stack Developer⚡ </h3>
           </div>
           <div class="row  links-info-mobile">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
@@ -109,6 +109,8 @@ import { i18n } from '../main'
     background: rgb(189,63,223);
     background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
     color: aliceblue;
+    font-family: 'Ubuntu', sans-serif;
+
   }
   .brand{
   position: absolute;
@@ -118,12 +120,14 @@ import { i18n } from '../main'
 }
   .foto{
   display: flex;
-  flex-flow: column;
+  flex-flow: column nowrap;
   align-items: center;
   margin-left: 2%;
   margin-top: -4rem;
   margin-bottom: 10%;
 }
+
+
 .foto img{
   border-radius: 6rem;
   width: 70%;
@@ -206,7 +210,7 @@ text-decoration: none;
 @media screen and (min-width: 575px) {
   .foto{
   display: flex;
-  flex-flow: column;
+  flex-flow: column wrap;
   align-items: start;
   margin-left: 2%;
 }
@@ -220,8 +224,13 @@ text-decoration: none;
     box-shadow: 0 0 10px 0;
 
 }
+.foto h2{
+  align-self: flex-start;
+  font-size: 1.8rem;
+}
   h3{
-    font-size: 1.5rem;
+    align-self: start;
+    font-size: 1.4rem;
   }
 .container{
   
@@ -234,6 +243,7 @@ text-decoration: none;
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+font-family: 'Ubuntu', sans-serif;
 
 }
 p{
