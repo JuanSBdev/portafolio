@@ -22,8 +22,10 @@
 </template>
 <style scoped>
 .wrapper{
-    color: aliceblue;
     font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(247, 186, 247);
+
 }
 video {
 border-radius: 1rem;
