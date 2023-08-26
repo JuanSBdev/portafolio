@@ -108,7 +108,7 @@ import { i18n } from '../main'
     box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
     background: rgb(189,63,223);
     background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
-  
+    color: aliceblue;
   }
   .brand{
   position: absolute;
@@ -234,6 +234,19 @@ text-decoration: none;
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
 background: rgb(189,63,223);
 background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+
+}
+p{
+  color: rgb(245, 236, 251);
+  
+}
+h2{
+  color: rgb(245, 236, 251);
+  
+}
+h3{
+  color: rgba(143, 21, 231, 0.918);
+
 }
 .brand{
   position: absolute;
@@ -256,14 +269,20 @@ background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123,
 }
 .links-info a{
   text-decoration: none;
-  color: rgb(47, 19, 158);
+  color: rgba(143, 21, 231, 0.918);
+  border-bottom: 1px solid rgba(143, 21, 231, 0.918);
+  display: flex;
+  justify-content: end;
 }
 
 :hover.cv{
-  color: rgb(128, 31, 160);
+  border-bottom: 1px solid rgba(253, 250, 255, 0.918);
+  color: rgb(245, 236, 251);
+  
 }
 :hover.pro{
-  color: rgb(128, 31, 160);
+  border-bottom: 1px solid rgba(253, 250, 255, 0.918);
+  color: rgb(245, 236, 251);
 }
 .links-info img{
     width: 25%;
