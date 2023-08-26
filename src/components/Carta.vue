@@ -41,7 +41,7 @@ import { i18n } from '../main'
         <div class="div col-sm-7">
           <div class="con2">
 
-            <div class="info">
+            <div class="info ">
               <h3>Basic Info</h3>
              <p v-if="i18n.global.locale === 'es'" >Tengo 25 años </p>
              <p v-else >I'm 25 years old. </p>
@@ -307,7 +307,7 @@ h3{
   }
 .con2{
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
 }
 .con3{

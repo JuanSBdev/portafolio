@@ -91,6 +91,11 @@
 </template>
 <style scoped>
 @media screen and (max-width: 574px) {
+    .h3-con{
+        font-family: 'Ubuntu', sans-serif;
+
+        color: rgb(247, 186, 247);
+    }
     h5{
         font-size: 4rem;
         display: flex;
@@ -151,7 +156,14 @@
         text-align: center;
         align-items: center;
         align-content: center;
+
    
+    }
+    .h3-con{
+        color: rgb(247, 186, 247);
+        font-family: 'Ubuntu', sans-serif;
+
+
     }
     .card{
         text-decoration: none;
