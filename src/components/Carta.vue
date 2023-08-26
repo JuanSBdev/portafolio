@@ -29,10 +29,10 @@ import { i18n } from '../main'
       </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
-              <img src="https://static.vecteezy.com/system/resources/previews/018/930/483/original/linkedin-logo-linkedin-icon-transparent-free-png.png" alt="">
+              <img src="https://assets.stickpng.com/images/6297a2f1e01809629f113598.png" alt="">
             </a>
             <a  href="https://github.com/JuanSBdev">
-              <img id="github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">
+              <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt="">
             </a>
           </div>
         </div>
@@ -55,17 +55,17 @@ import { i18n } from '../main'
             <div class="skills ">
               <h3 v-if="i18n.global.locale === 'es'">tecnologías</h3>
               <h3 v-else >technologies</h3>
-              <p>HTML5 - CSS - SASS - bootstrap. </p>
-              <p> JavaScript - Vue3.JS - REACT.JS + Vite</p>
-              <p>Node.js - Express - SQL - PostgreSQL  </p>
-              <p>SPA - Mobile first  / GIT - GITHUB / NPM</p>
+              <p>HTML5 - CSS - SASS - Bootstrap - FlexBox - Figma. </p>
+              <p> JavaScript ES6 - Vue3.JS - React.JS + Vite</p>
+              <p>Node.js - Express - SQL - PostgreSQL - Sequelize  </p>
+              <p>SPA - Mobile first  / GIT - GITHUB / NPM - Yarn</p>
             </div>
           </div>
           <div class="con3">
             <div class="presenta">
               <div v-if="i18n.global.locale === 'es'" >
                 <p>
- ✍React.js - VUE3 / Redux / Node.js - Express / PostgreSQL - SQL - Sequelize / HTML5 / CSS3 - SASS - LESS - BOOTSTRAP - FlexBox / JavaScript ES6.
+ ✍
 ✔ Capacitado en Coderhouse, soyHenry, y autodidacta.
  Desarrollador de páginas web, responsivas, mobile first, front y backend utilizando las últimas tecnologías para ello. 
 </p>
@@ -76,8 +76,8 @@ import { i18n } from '../main'
 </div>
               <div v-else >
                   <p>
-                    ✍React.js - VUE3 / Redux / Node.js - Express / PostgreSQL - SQL - Sequelize / HTML5 / CSS3 - SASS - LESS - BOOTSTRAP - FlexBox / JavaScript ES6.
-                   trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies.
+                    ✍✔
+                   Trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies.
                  </p>
                  <p>
                   ⌛ 
@@ -136,9 +136,11 @@ import { i18n } from '../main'
   opacity: .9;
 }
   .logos{
-  width: 100%;
+  width: 90%;
   display: flex;
 align-content: center;
+justify-content: end;
+margin-left: 25%;
 }
 .logos a{
   display: flex;
@@ -148,6 +150,7 @@ align-content: center;
 }
 .logos img{
   width: 35%;
+  width: 60%;
 }
  #github{
 transform: scale(.7);
