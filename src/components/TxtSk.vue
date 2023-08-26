@@ -40,7 +40,7 @@ I am also familiar with agile methodologies.
 @media (max-width:574px) {
     .containe p{
         font-size: 1.5rem;
-        color: rgb(243, 235, 246);
+    color: rgb(247, 186, 247);
     }
     
     .container{
@@ -51,9 +51,13 @@ I am also familiar with agile methodologies.
         display: flex;
         text-align: center;
         padding-top: 5%;
+        font-family: 'Ubuntu', sans-serif;
+
     }
 }
 .container{
+    font-family: 'Ubuntu', sans-serif;
+
         top: 2rem;
         position: relative;
         width: 100%;
@@ -64,7 +68,7 @@ I am also familiar with agile methodologies.
     }
 p{
     font-size: 1.5rem;
-    color: antiquewhite;
+    color: rgb(247, 186, 247);
     padding: 5%;
 }
 img{
