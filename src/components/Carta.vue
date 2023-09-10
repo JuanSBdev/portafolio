@@ -17,7 +17,7 @@ import { i18n } from '../main'
 
         <div class="profile col-sm-4">
           <div class="foto">
-            <img src="https://i.ibb.co/VNNJzxK/img510.jpg" alt="Imagen cv">
+            <img src="https://i.ibb.co/SfjNPzk/selected-Photo-Room-1.png" alt="Imagen cv">
             <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
             <h2  v-else>Hi i'm Juan Lluvia</h2>
             <h3 > ⚡Full Stack Developer⚡ </h3>
