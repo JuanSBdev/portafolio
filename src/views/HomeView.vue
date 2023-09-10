@@ -8,7 +8,7 @@ import { i18n } from '../main'
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-            <a   target="blank" href="https://drive.google.com/file/d/1_fd6A0GEOfygQNemiUDtzuFfHgqDhPIo/view?usp=sharing">
+            <a   target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
               Resume.
             </a>
       <router-link to="Contacto">
@@ -19,7 +19,7 @@ import { i18n } from '../main'
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-            <a   target="blank" href="https://drive.google.com/file/d/1_fd6A0GEOfygQNemiUDtzuFfHgqDhPIo/view?usp=sharing">
+            <a   target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">
               Mi CV.
             </a>
       <router-link to="Contacto">

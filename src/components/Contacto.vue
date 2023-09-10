@@ -25,7 +25,7 @@ function copyEmail() {
         </div>
     </div>
     <div class="cv">
-        <a id="cv" target="_blank" href="https://drive.google.com/file/d/1_fd6A0GEOfygQNemiUDtzuFfHgqDhPIo/view?usp=sharing">
+        <a id="cv" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
             <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
             <p v-else> Download Resume</p>
             <img id="img-d" class="img-down " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">

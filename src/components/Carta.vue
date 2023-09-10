@@ -8,7 +8,8 @@ import { i18n } from '../main'
         <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
+            <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
+            <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Curriculum</a>
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <!-- <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt=""> -->
@@ -22,7 +23,7 @@ import { i18n } from '../main'
             <h3 > ⚡Full Stack Developer⚡ </h3>
           </div>
           <div class="row  links-info-mobile">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1IrDbfiex3S8UBIk_13wTOAdbcbZSPYk7/view?usp=sharing">Resume</a>
+            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Ressume</a>
 
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
