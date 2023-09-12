@@ -4,13 +4,13 @@ import { i18n } from '../main'
 </script>
 <template>
   <div class="contenedor-home ">
-    <div v-if="i18n.global.locale === 'es'"  class="nav">
+    <div v-if="i18n.global.locale === 'en'"  class="nav">
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-      <a   target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">
-              Resume.
-            </a>
+        <a   target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
+        Resume.
+      </a>
       <router-link to="Contacto">
         <p>Contact.</p>
       </router-link>
@@ -19,7 +19,7 @@ import { i18n } from '../main'
       <router-link to="Skills">
         <p>About.</p>
       </router-link>
-      <a   target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
+      <a   target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">
 
               Mi CV.
             </a>
