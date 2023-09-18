@@ -1,6 +1,7 @@
 <script setup>
 import { i18n } from '../main'
 import Contacto from '../components/Contacto.vue'
+import FormVue from '../components/Form.vue';
 
 </script>
 <template>
@@ -11,6 +12,7 @@ import Contacto from '../components/Contacto.vue'
             
         </router-link>
         <Contacto></Contacto>
+        <FormVue/>
     </div>
 </template>
 <style scoped>
