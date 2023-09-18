@@ -59,7 +59,7 @@ const enviarFormulario = () => {
 
 .info{
   display: flex;
-  width: 80%;
+  width: 100%;
 }
 .name{
   margin: 2%;
@@ -80,7 +80,7 @@ background-color: rgba(202, 164, 243, 0.367);
 border-radius: 1rem;
 }
 .tarea{
-  width: 80%;
+  width: 100%;
   min-height: 100px;
   background-color: rgba(202, 164, 243, 0.367);
   color: aliceblue;

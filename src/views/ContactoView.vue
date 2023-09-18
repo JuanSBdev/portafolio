@@ -5,19 +5,23 @@ import FormVue from '../components/Form.vue';
 
 </script>
 <template>
+    <router-link to="/">
+        <button v-if="i18n.global.locale === 'es'" class="atras" >volver</button>
+        <button v-else class="atras"> back </button>
+        
+    </router-link>
     <div  class="wrapper">
-        <router-link to="/">
-            <button v-if="i18n.global.locale === 'es'" class="atras" >volver</button>
-            <button v-else class="atras"> back </button>
-            
-        </router-link>
+        <FormVue class="formulario" />
         <Contacto></Contacto>
-        <FormVue/>
+       
     </div>
 </template>
 <style scoped>
 .wrapper{
     padding: 6%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
 }
 .atras{
     position: absolute;
@@ -31,6 +35,9 @@ import FormVue from '../components/Form.vue';
 .atras:hover{
     border-bottom: 1px solid rgb(215, 75, 208);
 
+}
+.formulario{
+    align-self: center;
 }
 @media screen and (max-width: 575px) {
     .wrapper{
