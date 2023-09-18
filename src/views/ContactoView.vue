@@ -11,8 +11,8 @@ import FormVue from '../components/Form.vue';
             <button v-else class="atras"> back </button>
             
         </router-link>
-        <!-- <Contacto></Contacto> -->
-        <FormVue/>
+        <Contacto></Contacto>
+        <!-- <FormVue/> -->
     </div>
 </template>
 <style scoped>
