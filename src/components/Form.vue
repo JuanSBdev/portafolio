@@ -1,17 +1,30 @@
 <script setup >
+import { ref } from 'vue';
 
+const name = ref('');
+const email = ref('');
+const tarea = ref('');
+
+const enviarFormulario = () => {
+  const datos = {
+    name: name.value,
+    email: email.value,
+    tarea: tarea.value
+  };
     
 </script>
 <template class="wrapper">
+  <div>
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" v-model="name">
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" v-model="email">
+  </div>
 
-    <div class="">
-        <label for="name">name</label>
-        <input type="text" name="name" id="">
-        <label for="email">email</label>
-        <input type="text" name="email" id="">
-    </div>
-    
-    <textarea name="tarea" placeholder="consulta"/>
+  <textarea name="tarea" placeholder="Consulta" v-model="tarea"></textarea>
+<button>
+    Enviar 
+</button>
 </template> 
 <style scoped>
 .wrapper{
