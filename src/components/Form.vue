@@ -1,4 +1,4 @@
-<script setup >
+<script setup>
 import { ref } from 'vue';
 
 const name = ref('');
@@ -11,8 +11,12 @@ const enviarFormulario = () => {
     email: email.value,
     tarea: tarea.value
   };
+  console.log(datos)
+}
     
 </script>
+
+
 <template class="wrapper">
   <div>
     <label for="name">Name</label>
@@ -22,10 +26,12 @@ const enviarFormulario = () => {
   </div>
 
   <textarea name="tarea" placeholder="Consulta" v-model="tarea"></textarea>
-<button>
+<button @click="enviarFormulario()">
     Enviar 
 </button>
 </template> 
+
+
 <style scoped>
 .wrapper{
     display: flex;

@@ -12,7 +12,7 @@ import FormVue from '../components/Form.vue';
             
         </router-link>
         <Contacto></Contacto>
-        <!-- <FormVue/> -->
+        <FormVue/>
     </div>
 </template>
 <style scoped>
