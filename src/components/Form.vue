@@ -4,23 +4,33 @@ import axios from 'axios'
 
 const name = ref('');
 const email = ref('');
-const tarea = ref('');
+const message = ref('');
 
 const enviarFormulario = () => {
+  
+
   const datos = {
     name: name.value,
     email: email.value,
-    message: tarea.value
+    message: message.value
   };
-  console.log(datos)
+  
+  if (!name.value || !email.value || !message.value) {
+    alert('Por favor, complete todos los campos.');
+    return; 
+  }
+  
   axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
-    .then(response => {
-      alert('email sended')
-      console.log('Solicitud exitosa:', response.data);
-    })
-    .catch(error => {
-      console.error('Error en la solicitud:', error);
-    });
+  .then(response => {
+    alert('email sended')
+    console.log('Solicitud exitosa:', response.data);
+    window.location.reload();
+  })
+  .catch(error => {
+    alert(error.message)
+    console.error('Error en la solicitud:', error);
+  });
+
 }
 
 
@@ -46,7 +56,7 @@ const enviarFormulario = () => {
       </div>
     </div>
     
-    <textarea class="tarea" name="tarea"  v-model="tarea"></textarea>
+    <textarea class="tarea" name="message"  v-model="message"></textarea>
     
     <button class="btn_submit" @click="enviarFormulario()">
       send
