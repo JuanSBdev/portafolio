@@ -20,11 +20,11 @@ const enviarFormulario = () => {
     return; 
   }
   
-  axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
+  axios.post('http://localhost:8080/', datos)
   .then(response => {
     alert('email sended')
     console.log('Solicitud exitosa:', response.data);
-    window.location.reload();
+    window.location.href = '/';
   })
   .catch(error => {
     alert(error.message)
