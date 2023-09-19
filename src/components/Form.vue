@@ -13,8 +13,9 @@ const enviarFormulario = () => {
     message: tarea.value
   };
   console.log(datos)
-  axios.post('http://localhost:3001/', datos)
+  axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
     .then(response => {
+      alert('email sended')
       console.log('Solicitud exitosa:', response.data);
     })
     .catch(error => {
