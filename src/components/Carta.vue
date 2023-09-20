@@ -44,12 +44,12 @@ import { i18n } from '../main'
 
             <div class="info ">
               <h3>Basic Info</h3>
-             <p v-if="i18n.global.locale === 'es'" >Tengo 25 años </p>
-             <p v-else >I'm 25 years old. </p>
-
+             
              <p v-if="i18n.global.locale === 'es'" >Vivo en Argentina.</p>
              <p v-else>Based in Argentina.</p>
-               <p>Spanish native </p>
+             <p v-if="i18n.global.locale === 'es'">25 años</p>
+             <p v-else>25 years old</p>
+             <p>Spanish native </p>
                <p> English - B2 (Conversational)</p>
                <p> Deutsch A2</p>
             </div>
@@ -67,22 +67,22 @@ import { i18n } from '../main'
               <div v-if="i18n.global.locale === 'es'" >
                 <p>
  ✍
-✔ Capacitado en Coderhouse, soyHenry, y autodidacta.
- Desarrollador de páginas web, responsivas, mobile first, front y backend utilizando las últimas tecnologías para ello. 
+✔ Me especializo en la creación de sitios web responsive y mobile first,  poseo un sólido conjunto de habilidades para la resolución de problemas tanto en el desarrollo front-end como en el back-end
 </p>
-<p>
+<p>⌛Siempre dispuesto a seguir aprendiendo⌛</p>
+<!-- <p>
   ⌛ En busca de experiencia laboral y un espacio el cual me permita el seguir formando y capacitándome.⌛ 
   
-</p>
+</p> -->
 </div>
               <div v-else >
                   <p>
                     ✍✔
-                   Trained in Coderhouse, Henry, and self-taught. Developing responsive, mobile-first websites using the latest technologies.
+                    As a proactive web developer, I specialize in crafting responsive, mobile- first websites, and possess a strong problem-solving skillset for both front- end and back-end development, all while leveraging the latest technologies.
                  </p>
                  <p>
                   ⌛ 
-   Constantly seeking learning opportunities and aiming to strengthen my knowledge through work experience that allows me to grow professionally.⌛ 
+   Constantly seeking learning opportunities ⌛ 
   
                  </p>
                 </div>
@@ -230,7 +230,10 @@ text-decoration: none;
 }
 .foto h2{
   align-self: flex-start;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
+  width: 120%;
+  margin-left: -20%;
+  padding: 1%;
 }
   h3{
     align-self: start;

@@ -58,6 +58,7 @@ import Videos from '../components/Videos.vue';
     background-repeat: repeat-y;
   }
   .btn-go-home{
+    display: none;
     position: absolute;
     width: 18%;
     height: 10%;
