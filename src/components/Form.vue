@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue';
+import { i18n } from '../main'
 import axios from 'axios'
 
 const name = ref('');
@@ -40,9 +41,33 @@ const enviarFormulario = () => {
 
 
 <template >
-  <div class="wrapper">
+
+  <div v-if="i18n.global.locale === 'es'" class="wrapper">
 
     <p>dejame aquí tu consulta y te responderé a la brevedad</p>
+    
+    <div class="info">
+      <div class="name">
+        <label for="name">Nombre</label>
+        <input type="text" name="name" id="name" v-model="name">
+      </div>
+
+      <div class="email">
+        <label for="email">e-mail</label>
+        <input type="text" name="email" id="email" v-model="email">
+      </div>
+    </div>
+    
+    <textarea class="tarea" name="message"  v-model="message"></textarea>
+    
+    <button class="btn_submit" @click="enviarFormulario()">
+      enviar
+    </button>
+  
+  </div>
+  <div v-else class="wrapper">
+
+    <p>You can leave your question here, and I'll respond as quickly as possible.</p>
     
     <div class="info">
       <div class="name">
@@ -51,7 +76,7 @@ const enviarFormulario = () => {
       </div>
 
       <div class="email">
-        <label for="email">Email</label>
+        <label for="email">e-mail</label>
         <input type="text" name="email" id="email" v-model="email">
       </div>
     </div>
