@@ -8,8 +8,8 @@ import { i18n } from '../main'
         <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
-            <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Curriculum</a>
-            <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Resume</a>
+            <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Curriculum</a>
+            <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
 
             <a v-if="i18n.global.locale === 'es'" class="col-4 px-2 pro " href="#proyects">Proyectos</a>
             <a v-else class="col-4 px-2 pro " href="#proyects">Projects</a>
