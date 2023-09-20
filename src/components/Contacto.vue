@@ -133,6 +133,7 @@ p{
     justify-content: space-around;
     padding-bottom: 2%;
 
+    
 
 }
 

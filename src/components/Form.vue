@@ -77,14 +77,19 @@ const enviarFormulario = () => {
     box-shadow: 0 0 10px 0;
     border-radius: 1rem;
     background-color: rgba(68, 84, 190, 0.145);
+    
 
     padding: 2%;
 }
-
+.wrapper p{
+  color: azure;
+  
+}
 .info{
   display: flex;
   flex-flow: column wrap;
   width: 100%;
+  color: azure;
 }
 .name{
   margin: 2%;
@@ -94,21 +99,23 @@ const enviarFormulario = () => {
   
 }
 .name input{
-background-color: rgba(202, 164, 243, 0.367);
-border-radius: 1rem;
-
-border: none;
+  background-color: rgba(202, 164, 243, 0.367);
+  border-radius: 1rem;
+  
+  border: none;
+  color: rgb(238, 193, 242);
 }
 .email input{
   border: none;
 background-color: rgba(202, 164, 243, 0.367);
 border-radius: 1rem;
+color: rgb(238, 193, 242);
 }
 .tarea{
   width: 100%;
   min-height: 100px;
   background-color: rgba(202, 164, 243, 0.367);
-  color: aliceblue;
+  color: rgb(238, 193, 242);
 }
 .btn_submit{
   border: none;
