@@ -7,10 +7,13 @@ const name = ref('');
 const email = ref('');
 const message = ref('');
 
+const loading = ref(false);
+
 const enviarFormulario = () => {
   
+loading.value = true;
 
-  const datos = {
+const datos = {
     name: name.value,
     email: email.value,
     message: message.value
@@ -18,16 +21,21 @@ const enviarFormulario = () => {
   
   if (!name.value || !email.value || !message.value) {
     alert('Por favor, complete todos los campos.');
+    loading.value = false;
     return; 
   }
   
   axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
   .then(response => {
+    loading.value = false;
+    
+    
     alert('email sended')
     console.log('Solicitud exitosa:', response.data);
     window.location.href = '/';
   })
   .catch(error => {
+    loading.value = false;
     alert(error.message)
     console.error('Error en la solicitud:', error);
   });
@@ -60,8 +68,11 @@ const enviarFormulario = () => {
     
     <textarea class="tarea" name="message"  v-model="message"></textarea>
     
-    <button class="btn_submit" @click="enviarFormulario()">
+    <button v-if="!loading" class="btn_submit" @click="enviarFormulario()">
       enviar
+    </button>
+    <button v-else class="btn_submit">
+      enviando..
     </button>
   
   </div>
@@ -83,8 +94,11 @@ const enviarFormulario = () => {
     
     <textarea class="tarea" name="message"  v-model="message"></textarea>
     
-    <button class="btn_submit" @click="enviarFormulario()">
+    <button v-if="!loading" class="btn_submit" @click="enviarFormulario()">
       send
+    </button>
+    <button v-else class="btn_submit">
+      sending..
     </button>
   
   </div>
