@@ -11,14 +11,13 @@ import FormVue from '../components/Form.vue';
         
     </router-link>
     <div  class="wrapper">
-        <FormVue class="formulario" />
         <Contacto></Contacto>
        
     </div>
 </template>
 <style scoped>
 .wrapper{
-    padding: 6%;
+    padding: 0 6% ;
     display: flex;
     flex-flow: column wrap;
     justify-content: center;

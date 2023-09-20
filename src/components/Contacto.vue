@@ -1,5 +1,6 @@
 <script setup>
 import { i18n } from '../main';
+import Form from './Form.vue';
 
 
 function copyEmail() {
@@ -13,18 +14,20 @@ function copyEmail() {
     <h6 v-else class=""> [ Reach me ]</h6>
     <div class="contenedor">
         <div class="email"  @click="copyEmail()">
-            <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
-            
+            <div class="maildata">
+                <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
                 <p >juansb.dev@gmail.com</p>
+            </div>
         </div>
         <div class="linkedin">
             <a href="https://www.linkedin.com/in/jlsb/">
-                <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?w=2000" alt="">
+                <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?" alt="">
                  <p>linkedIn  </p>
-                 </a>
+            </a>
         </div>
     </div>
     <div class="cv">
+        <Form class="form_skillsview"></Form>
         <a id="cv" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
             <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
             <p v-else> Download Resume</p>
@@ -126,44 +129,69 @@ p{
 }
 .contenedor{
     display: flex;
-    justify-content: center;
     flex-flow: row nowrap;
-    align-items: center;
+    justify-content: space-around;
     padding-bottom: 2%;
 
+
 }
+
 .email{
-    margin-left: -10%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    
+}
+.maildata{
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 .linkedin{
+    width: 50%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
+    justify-content: center;
 }
 .linkedin a{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: end;
     text-decoration: none;
-    padding-left: 2rem;
-    font-size: 2rem;
-    color: rgb(233, 205, 247);
+    font-size: 1.2rem;
+    color: rgb(247, 232, 255);
 
 
 }
-.linkedin:hover{
+.linkedin p{
+    padding-left: 2%;
+}
+.linkedin img{
+    width: 10%;
+}
+/* .linkedin:hover{
     transform: scale(1.1);
+} */
+.form_skillsview{
+    width: 150%;
+  
 }
 .cv{
     width: 100%;
-    padding-bottom: 1%;
+    margin-top: 5%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    padding-bottom: 5%;
 }
 .cv p{
-    color:black ;
+    color:rgb(245, 228, 254) ;
 }
 #cv{
     display: flex;
@@ -173,13 +201,14 @@ p{
     align-content: center;
     text-align: center;
     text-decoration: none;
+    width: 30%;
 
 }
 
 #img-d{
-    width: 5%;
+    width: 10%;
 }
-:hover.cv{
+#cv:hover{
     transform: scale(1.1);
 }
 }

@@ -77,10 +77,13 @@ const enviarFormulario = () => {
     box-shadow: 0 0 10px 0;
     border-radius: 1rem;
     background-color: rgba(68, 84, 190, 0.145);
+
+    padding: 2%;
 }
 
 .info{
   display: flex;
+  flex-flow: column wrap;
   width: 100%;
 }
 .name{
