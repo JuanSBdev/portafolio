@@ -46,7 +46,7 @@
 
     <div  v-else class="contenedor-pro">
         <h5 class="h3-con">
-            { Some Proyects }
+            { Some Projects }
         </h5>
         <div class="wraper sobra">
             <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
