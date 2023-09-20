@@ -8,11 +8,11 @@ import { i18n } from '../main'
         <h2>JLSB.</h2>
       </div>
       <div class="row  links-info">
-            <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
-            <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Curriculum</a>
+            <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Curriculum</a>
+            <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Resume</a>
 
-            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
-              <!-- <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt=""> -->
+            <a v-if="i18n.global.locale === 'es'" class="col-4 px-2 pro " href="#proyects">Proyectos</a>
+            <a v-else class="col-4 px-2 pro " href="#proyects">Projects</a>
       </div>
 
         <div class="profile col-sm-4">
@@ -49,17 +49,17 @@ import { i18n } from '../main'
 
              <p v-if="i18n.global.locale === 'es'" >Vivo en Argentina.</p>
              <p v-else>Based in Argentina.</p>
-             <p>Spanish native <br/>
-                i've got an english B2 level<br/>
-                & A2 deustch</p>
+               <p>Spanish native </p>
+               <p> English - B2 (Conversational)</p>
+               <p> Deutsch A2</p>
             </div>
             <div class="skills ">
-              <h3 v-if="i18n.global.locale === 'es'">tecnologías</h3>
-              <h3 v-else >technologies</h3>
+              <h3 v-if="i18n.global.locale === 'es'">Tech Stack</h3>
+              <h3 v-else >Tech Stack</h3>
               <p>HTML5 - CSS - SASS - Bootstrap - FlexBox - Figma. </p>
-              <p> JavaScript ES6 - Vue3.JS - React.JS + Vite</p>
+              <p> JavaScript ES6 - Vue3.JS - React.JS + Vite - Redux</p>
               <p>Node.js - Express - SQL - PostgreSQL - Sequelize  </p>
-              <p>SPA - Mobile first  / GIT - GITHUB / NPM - Yarn</p>
+              <p> GIT - GITHUB / NPM - Yarn / Scrum Agile</p>
             </div>
           </div>
           <div class="con3">
@@ -239,9 +239,9 @@ text-decoration: none;
 .container{
   
   left: 13%;
-  top: 3rem;
+  top: 1rem;
   width: 75%;
-  padding: 3rem;
+  padding: 1% 2%;
   padding-left: 5%;
   border-radius: 1rem;
   box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
@@ -310,6 +310,17 @@ h3{
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  padding-bottom: 2%;
+}
+.con2 p{
+  margin: 3%;
+
+}
+.info{
+  display: flex;
+  flex-flow: column wrap;
+  width: 30%;
+  margin-right: 10%;
 }
 .con3{
   text-align: start;
