@@ -24,7 +24,7 @@ import Videos from '../components/Videos.vue';
       <Carta ref="arriba" />
     </div>
     <Proyects id="proyects"/>
-    <div  v-motion-pop-visible>
+    <div  >
     <Videos/>
     </div>
     <div v-motion-slide-visible-bottom >
