@@ -15,7 +15,7 @@
             <div
             @click="redireccionarCarta"
             class="carta col-6 col-sm-2 card">
-            <h6> App Mobile Carta</h6>
+            <h6> Menu Mobile</h6>
             <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
             <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
         </div>
@@ -194,13 +194,16 @@
         display: flex;
         align-items: center;
         height: 100%;
-        margin: 0%;
-        padding: 0%;
         font-size: .8rem; 
     }
 
     .card img{
         margin: 4%;
+    }
+
+    .carta img{
+        margin-top: -5%;
+        width: 100%;
     }
 a{
     text-decoration: none;
