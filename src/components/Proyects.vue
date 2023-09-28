@@ -19,7 +19,7 @@
             <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
             <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
         </div>
-        <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
+        <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2  card">
                 
                 <h6>e-Commerce</h6>
                 
@@ -64,10 +64,8 @@
                     <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
                 <p> Freelance job - mobile app developed with html5 - css3 - bootstrap - javascript</p>
             </div>
-            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
-                
+            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2  card">
                 <h6>e-Commerce</h6>
-                
                 <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="">
                 <p>React.js, JavaScript, HTML5, CSS3, Redux, Bootstrap, Express.JS, PostgreSQL, Sequelize, MercadoPago JWT, Auth0, firebase</p>
         </div>
@@ -125,7 +123,7 @@
         font-size: 2rem;
     }
     .carta img{
-        width:40% ;
+        width: 40% ;
     }
 }
 @media screen and (min-width: 575px) {
@@ -152,10 +150,10 @@
     .wraper{
         width: 90%;
         margin: 5%;
-        padding-top: 3rem;
+
         display: flex;
         text-align: center;
-        align-items: center;
+        align-items: stretch;
         align-content: center;
 
    
@@ -171,14 +169,16 @@
         border-radius: 1rem;
         box-shadow: 0 0 10px 0 rgb(50, 12, 70);
         background-color: rgb(237, 194, 239);
-        padding: 2% ;
+        padding: 2%;
         margin: 2%;
-        max-height: 300px;
-        padding-bottom: 8%;
+        padding-bottom: 0%;
+        min-height: 200px;
+
         display: flex;
+        flex-flow: column nowrap;
         align-items: center;
+        justify-content: space-between;
         color: rgb(66, 54, 72);
-        overflow: hidden;
     }
 
     .card:hover{
@@ -186,12 +186,22 @@
     }
 
     .card h6, p {
-        color:#fff;
         background-image: linear-gradient(45deg,#4a2d89 0%,#ac43cc 35%,#411f8b 85%,#6c3870 100%);
         -webkit-text-fill-color: transparent;
-        -webkit-background-clip: text;      
+        -webkit-background-clip: text;  
+    }
+    .card p{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        margin: 0%;
+        padding: 0%;
+        font-size: .8rem; 
     }
 
+    .card img{
+        margin: 4%;
+    }
 a{
     text-decoration: none;
     
