@@ -5,35 +5,35 @@
             { Mis proyectos }
         </h5>
         <div class="wraper sobra">
-            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
-                    
-                    <h6>Calculadora Javascript</h6>
-                    
-                    <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2016/12/oneplusplus-calculator-logo.png" alt="">
-                    <p>html- css- javascript</p>
-            </div>
             <div
-             @click="redireccionarCoder"
-             class="coderhouse col-6 col-sm-2 card">
-                <h6>PF Coderhouse</h6>
-                    <img src="https://img.freepik.com/iconos-gratis/hamburguesa_318-192560.jpg?w=2000" alt="">
+            @click="redireccionarCoder"
+            class="coderhouse col-6 col-sm-2 card">
+            <h6>PF Coderhouse</h6>
+            <img src="https://img.freepik.com/iconos-gratis/hamburguesa_318-192560.jpg?w=2000" alt="">
                <p>Landing Page proyecto para coderhouse frontend con html, css, bootstrap, sass, flexbox, git, github, SEO </p> 
             </div>
             <div
-             @click="redireccionarCarta"
-             class="carta col-6 col-sm-2 card">
-                <h6> App Mobile Carta</h6>
-                    <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
-                <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
-            </div>
-            <div
-            @click="redireccionarApi"
-             class="api col-6 col-sm-2 card">
-                <h6>Clima API</h6>
-                    <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
-                <p>App desarrollada en React.js - utilizando HTML5 - CSS - SASS - API REST - DEPLOYED</p>
-            </div>
-            <div
+            @click="redireccionarCarta"
+            class="carta col-6 col-sm-2 card">
+            <h6> App Mobile Carta</h6>
+            <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
+            <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
+        </div>
+        <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
+                
+                <h6>e-Commerce</h6>
+                
+                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="">
+                <p>React.js, JavaScript, HTML5, CSS3, Redux, Bootstrap, Express.JS, PostgreSQL, Sequelize, MercadoPago JWT, Auth0, firebase</p>
+        </div>
+        <div
+        @click="redireccionarApi"
+        class="api col-6 col-sm-2 card">
+        <h6>Clima API</h6>
+        <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
+        <p>App desarrollada en React.js - utilizando HTML5 - CSS - SASS - API REST - DEPLOYED</p>
+    </div>
+    <div
             @click="redireccionarLista"
              class="lista col-6 col-sm-2 card">
                 <h6>To Do List.</h6>
@@ -49,13 +49,7 @@
             { Some Projects }
         </h5>
         <div class="wraper sobra">
-            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
-                    
-                    <h6>Javascript calculator</h6>
-                    
-                    <img src="https://www.educaciontrespuntocero.com/wp-content/uploads/2016/12/oneplusplus-calculator-logo.png" alt="">
-                    <p>html- css- javascript</p>
-            </div>
+            
             <div
              @click="redireccionarCoder"
              class="coderhouse col-6 col-sm-2 card">
@@ -70,6 +64,13 @@
                     <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
                 <p> Freelance job - mobile app developed with html5 - css3 - bootstrap - javascript</p>
             </div>
+            <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2 py-5 card">
+                
+                <h6>e-Commerce</h6>
+                
+                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="">
+                <p>React.js, JavaScript, HTML5, CSS3, Redux, Bootstrap, Express.JS, PostgreSQL, Sequelize, MercadoPago JWT, Auth0, firebase</p>
+        </div>
             <div
             @click="redireccionarApi"
              class="api col-6 col-sm-2 card">
@@ -168,8 +169,7 @@
     .card{
         text-decoration: none;
         border-radius: 1rem;
-        box-shadow: 0 0 10px 0 black;
-        border: 1px solid rgb(130, 26, 222);
+        box-shadow: 0 0 10px 0 rgb(50, 12, 70);
         background-color: rgb(237, 194, 239);
         padding: 2% ;
         margin: 2%;
@@ -203,7 +203,7 @@ a{
 import { i18n } from '../main'
 
 const redireccionarCalculadora = () => {
-  window.open("https://juansbdev.github.io/appCalculadora/");
+  window.open("https://dlujo-app.netlify.app/");
 };
 const redireccionarCarta = () => {
   window.open("https://juansbdev.github.io/carta/");
