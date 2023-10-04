@@ -142,6 +142,7 @@ import { i18n } from '../main'
 align-content: center;
 justify-content: end;
 margin-left: 25%;
+margin-top: -110px;
 }
 .logos a{
   display: flex;
