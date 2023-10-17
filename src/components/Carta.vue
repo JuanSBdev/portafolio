@@ -56,8 +56,8 @@ import { i18n } from '../main'
             <div class="skills ">
               <h3 v-if="i18n.global.locale === 'es'">Tech Stack</h3>
               <h3 v-else >Tech Stack</h3>
-              <p>HTML5 - CSS - SASS - Bootstrap - FlexBox - Figma. </p>
-              <p> JavaScript ES6 - Vue3.JS - React.JS + Vite - Redux</p>
+              <p>HTML5 - CSS - SASS - Bootstrap - Tailwinds - FlexBox - Figma. </p>
+              <p> JavaScript ES6 - Vue3.JS - React.JS - Redux  + Vite</p>
               <p>Node.js - Express - SQL - PostgreSQL - Sequelize  </p>
               <p> GIT - GITHUB / NPM - Yarn / Scrum Agile</p>
             </div>
