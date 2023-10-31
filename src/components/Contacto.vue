@@ -29,11 +29,11 @@ function copyEmail() {
         </div>
     </div>
     
+    <div class="elForm w-100  flex justify-center">
+        <Form></Form>
+        <!-- <Form class="form_skillsview"></Form> -->
+    </div>
     <div class="cvu flex w-100 justify-center ">
-        <div class="elForm w-80  flex justify-center">
-            <Form></Form>
-            <!-- <Form class="form_skillsview"></Form> -->
-        </div>
         <a id="cv" class="w-10" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
             <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
             <p v-else> Download Resume</p>
@@ -138,7 +138,7 @@ p{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding-bottom: 2%;
+    padding-bottom: 0%;
 
     
 
