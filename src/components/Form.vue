@@ -53,7 +53,7 @@ const datos = {
 <section class=" flex flex-row justify-center items-center dark:bg-gray-900  w-100" >
   <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md ">
       <p  v-if="i18n.global.locale === 'es'" class="mb-8 lg:mb-6 font-light text-center text-texto-col dark:text-gray-400 sm:text-xl">dejame aquí tu consulta y te responderé a la brevedad.</p>
-      <p  v-else class="mb-8 lg:mb-16 font-light text-center text-texto-col dark:text-gray-400 sm:text-xl">You can leave your question here, and I'll respond as quickly as possible.</p>
+      <p  v-else class="mb-8 lg:mb-6 font-light text-center text-texto-col dark:text-gray-400 sm:text-xl">get in touch I'll respond as quickly as possible.</p>
 
       <form action="#" class="space-y-5 ">
           <div>
