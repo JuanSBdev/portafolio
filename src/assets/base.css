@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+
+
+  @import 'tailwindcss/tailwind.css';;
+
 @keyframes fadein {
     0%{
       opacity: 1;

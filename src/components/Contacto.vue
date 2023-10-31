@@ -12,23 +12,29 @@ function copyEmail() {
 <template>
     <h6 v-if="i18n.global.locale=== 'es'" class=""> [ Conecta ]</h6>
     <h6 v-else class=""> [ Reach me ]</h6>
+
+    
     <div class="contenedor">
         <div class="email"  @click="copyEmail()">
             <div class="maildata">
-                <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="">
+                <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="gmail logo">
                 <p >juansb.dev@gmail.com</p>
             </div>
         </div>
         <div class="linkedin">
             <a href="https://www.linkedin.com/in/jlsb/">
-                <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?" alt="">
+                <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?" alt="linkedin logo">
                  <p>linkedIn  </p>
             </a>
         </div>
     </div>
-    <div class="cv">
-        <Form class="form_skillsview"></Form>
-        <a id="cv" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
+    
+    <div class="cvu flex w-100 justify-center ">
+        <div class="elForm w-80  flex justify-center">
+            <Form></Form>
+            <!-- <Form class="form_skillsview"></Form> -->
+        </div>
+        <a id="cv" class="w-10" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
             <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
             <p v-else> Download Resume</p>
             <img id="img-d" class="img-down " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
@@ -36,6 +42,7 @@ function copyEmail() {
         </a>
 
     </div>
+
 </template>
 <style scoped>
 @media screen and (max-width: 574px) {
@@ -138,22 +145,21 @@ p{
 }
 
 .email{
-    font-size: 1.5rem;
+    font-size: 1rem;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    width: 50%;
+    width: 20%;
     text-align: center;
     
 }
 .maildata{
-    align-items: center;
     display: flex;
+    align-items: end;
     justify-content: center;
 }
 .linkedin{
-    width: 50%;
+    width: 20%;
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
@@ -162,7 +168,7 @@ p{
 .linkedin a{
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: start;
     text-decoration: none;
     font-size: 1.2rem;
     color: rgb(247, 232, 255);
@@ -170,7 +176,7 @@ p{
 
 }
 .linkedin p{
-    padding-left: 2%;
+    margin-left: 2%;
 }
 .linkedin img{
     width: 10%;

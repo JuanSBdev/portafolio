@@ -11,7 +11,7 @@ import Videos from '../components/Videos.vue';
 
 </script>
 
-<template>
+<template >
       <button class="btn-go-home" >
         <router-link to="/">
           <img src="https://www.freepnglogos.com/uploads/logo-home-png/home-logo-images-black-5.png" class="img-logo-home" alt="">
@@ -40,7 +40,7 @@ import Videos from '../components/Videos.vue';
     </div>
 
 
-    <div v-motion-pop-visible>
+    <div v-motion-pop-visible >
       <Este/>
     </div>
     <div v-motion-slide-visible-top class="contact" >

@@ -1,5 +1,7 @@
 import { createApp } from 'vue/dist/vue.esm-bundler.js';
 import App from './App.vue';
+//tailwinds
+import './index.css'
 import router from './router';
 import 'bootstrap-vue-3/dist/bootstrap-vue-3.css';
 import 'bootstrap/dist/css/bootstrap.css';
