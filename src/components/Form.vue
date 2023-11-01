@@ -26,7 +26,7 @@ const datos = {
     return; 
   }
   
-  axios.post('http://localhost:8080/', datos)
+  axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
   .then(response => {
     loading.value = false;
     
