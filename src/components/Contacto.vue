@@ -18,7 +18,7 @@ function copyEmail() {
         <div class="email"  @click="copyEmail()">
             <div class="maildata">
                 <img src="https://aonialearning.com/wp-content/uploads/2021/08/Curso-Google-Gmail.png" alt="gmail logo">
-                <p >juansb.dev@gmail.com</p>
+                <p class="text-texto-claro" >juansb.dev@gmail.com</p>
             </div>
         </div>
         <div class="linkedin">
@@ -35,9 +35,9 @@ function copyEmail() {
     </div>
     <div class="cvu flex w-100 justify-center ">
         <a id="cv" class="w-10" target="_blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">
-            <p v-if="i18n.global.locale=== 'es'"> Descargar CV</p>
-            <p v-else> Download Resume</p>
-            <img id="img-d" class="img-down " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
+            <p v-if="i18n.global.locale=== 'es'" class="text-texto-col"> Descargar CV</p>
+            <p v-else class="text-texto-col"> Download Resume</p>
+            <img id="img-d" class="img-down pb-4 " src="https://static.vecteezy.com/system/resources/previews/015/166/075/original/download-neon-icon-png.png" alt="">
 
         </a>
 
@@ -58,7 +58,6 @@ h6{
 p{
     display: flex;
     justify-content: center;
-
 }
 .contenedor{
     display: flex;
@@ -195,7 +194,6 @@ p{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    padding-bottom: 5%;
 }
 .cv p{
     color:rgb(245, 228, 254) ;
