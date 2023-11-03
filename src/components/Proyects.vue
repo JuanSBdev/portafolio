@@ -216,7 +216,7 @@ a{
 import { i18n } from '../main'
 
 const redireccionarCalculadora = () => {
-  window.open("https://dlujo-app.netlify.app/");
+  window.open("https://venerable-choux-eccf3d.netlify.app/");
 };
 const redireccionarCarta = () => {
   window.open("https://juansbdev.github.io/carta/");
