@@ -1,6 +1,8 @@
 <script setup>
 import {i18n} from '../main'
-
+let verCertHenry = ()=>{
+    window.location.href= "https://certificates.soyhenry.com/new-cert?id=f65faf2e725ec6df6adfa805a01aa29945534edfb1bf8ec84070219fe31ab5d7"
+}
 </script>
 <template>
 <div class="cont mt-5 pt-5">
@@ -9,17 +11,17 @@ import {i18n} from '../main'
     <h2 v-else > Learning Hub</h2>
     <div class="containerDonde">
 
-        <div v-if="i18n.global.locale=== 'es'"  class="wraper row">
-            <div  class="soy col-sm-4">
+        <div v-if="i18n.global.locale=== 'es'"  class="wraper">
+            <div  class="soy col-sm-3">
                 <h3> Soy Henry </h3>
                 <p> JavaScript (avanzado) , estructura de datos, React.js, Redux, Node.js, Express, SQL, PostgreSQL, Sequelize, Figma y más...</p>
-                <img  src="https://i.ibb.co/Bf3J3z0/certificado-henry-page-0001.jpg" alt="">
+                <img  @click="verCertHenry"  src="https://i.ibb.co/zmxgxnq/certificado-henry-page-0001.jpg" alt="Certificate Henry">
                 
             </div>
-            <div  class="coder col-sm-3 mr-1">
+            <div  class="coder  col-sm-3 items-center justify-center ">
                 <h3> Coderhouse</h3>
-                <p>Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
-                <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
+                <p class="mb-10">Html5, css3, bootstrap, Sass, github, git, SEO, subida al servidor, clientes y presupuestos.</p>
+                <img  src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="Certificate CoderHouse">
                 <a target="_blank" href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
                     <div class="ver" >
                         <p id="p2">ver certificado</p>
@@ -27,9 +29,9 @@ import {i18n} from '../main'
                     
                 </a>
             </div>
-            <div class="udemy  col-sm-4 ml-1">
+            <div class="udemy  col-sm-3 ">
                 <h3>Udemy</h3>
-                <p>Donde aprendi, aprendo y refuerzo conocimientos en Vue.js 3, JavaScript, consultas API con framaworks, y diseño.</p>
+                <p class="mb-12" >Donde aprendi, aprendo y refuerzo conocimientos en Vue.js 3, JavaScript, consultas API con framaworks, y diseño.</p>
                 <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
                 
             </div>
@@ -191,7 +193,7 @@ import {i18n} from '../main'
     justify-content: center;
     padding: 5rem;
 }
-.wraper{
+/* .wraper{
     width: 80%;
     display: flex;
     flex-flow: row-reverse wrap;
@@ -199,10 +201,19 @@ import {i18n} from '../main'
     align-items:start;
     text-align: center;
     
+} */
+.wraper{
+    width: 80%;
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items:start;
+    align-content: stretch;
+    justify-content: space-around;
+
 }
 
 .coder img{
-    width:90%;
+    width:100%;
     padding: 0%;
 }
 :hover.coder img{
@@ -240,10 +251,16 @@ import {i18n} from '../main'
         text-decoration: none;
         
 }
+.soy{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 .soy img{
+    display: flex;
+    align-self: center;
     width: 100%;
-    margin-top: 10%;
-    padding-bottom: 20%;
+ 
 }
 .udemy img{
     width:100%;
