@@ -29,6 +29,7 @@
 </template>
 <style scoped>
 .wrapper{
+    width: 99%;
     font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif;
     color: rgb(247, 186, 247);
