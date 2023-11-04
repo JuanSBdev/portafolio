@@ -32,20 +32,20 @@ let verCertHenry = ()=>{
             <div class="udemy  col-sm-3 ">
                 <h3>Udemy</h3>
                 <p class="mb-12" >Donde aprendi, aprendo y refuerzo conocimientos en Vue.js 3, JavaScript, consultas API con framaworks, y diseño.</p>
-                <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
+                <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="Udemy Logo">
                 
             </div>
         </div>
         <div v-else class="wraper row">
-            <div class="soy col-sm-4">
+            <div class="soy col-sm-3">
     <h3>Soy Henry</h3>
-    <p>Where I have learned a lot about JavaScript, data structures, React Redux, and currently studying full-stack development.</p>
-    <img src="https://camo.githubusercontent.com/35b81f213ddb0e019b3567f6982d740bb2d01ae5dd712a1537e09e826e940228/68747470733a2f2f643331757a386c77666d796e38672e636c6f756466726f6e742e6e65742f4173736574732f6c6f676f2d68656e72792d77686974652d6c672e706e67" alt="">
+    <p>Advanced JavaScript, data structures, React, Redux, Node.js, Express, SQL, PostgreSQL, Sequelize, Figma & more.</p>
+    <img src="https://i.ibb.co/zmxgxnq/certificado-henry-page-0001.jpg" alt="Certificate SoyHenry">
             
 </div>
-<div  class="coder col-sm-3 mr-1">
+<div  class="coder col-sm-3 ">
     <h3>Coderhouse</h3>
-    <p>HTML5, CSS3, Bootstrap, Sass, GitHub, Git, SEO, server deployment, clients, and budgets.</p>
+    <p class="mb-10">HTML5, CSS3, Bootstrap, Sass, GitHub, Git, SEO, FileZilla,  server deployment, clients, and budgets.</p>
     <img src="https://i.ibb.co/c3HF8N1/coder-cert.png" alt="">
     <a target="_blank" href="https://i.ibb.co/c3HF8N1/coder-cert.png"> 
         <div class="ver" >
@@ -53,9 +53,9 @@ let verCertHenry = ()=>{
         </div>    
     </a>
 </div>
-<div class="udemy col-sm-4 ml-1">
+<div class="udemy col-sm-3">
     <h3>Udemy</h3>
-    <p>Where I learn, reinforce and acquire knowledge in Vue.js 3, JavaScript, API queries with frameworks, and design.</p>
+    <p class="mb-12">Where I learn, reinforce and acquire knowledge in Vue.js 3, JavaScript, API queries with frameworks, and design.</p>
     <img src="https://companieslogo.com/img/orig/UDMY_BIG.D-125629a7.png?t=1635531363" alt="">
             
 </div>
