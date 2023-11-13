@@ -16,28 +16,28 @@
             @click="redireccionarCarta"
             class="carta col-6 col-sm-2 card">
             <h6> Menu Mobile</h6>
-            <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
+            <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="Logo ">
             <p> Se utiliza para esta mobile app html5 - css3 - bootstrap - javascript</p>
         </div>
         <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2  card">
                 
                 <h6>e-Commerce</h6>
                 
-                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="">
+                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt=" logo">
                 <p>React.js, JavaScript, HTML5, CSS3, Redux, Bootstrap, Express.JS, PostgreSQL, Sequelize, MercadoPago JWT, Auth0, firebase</p>
         </div>
         <div
         @click="redireccionarApi"
         class="api col-6 col-sm-2 card">
         <h6>Clima API</h6>
-        <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
+        <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="logo">
         <p>App desarrollada en React.js - utilizando HTML5 - CSS - SASS - API REST - DEPLOYED</p>
     </div>
     <div
             @click="redireccionarLista"
              class="lista col-6 col-sm-2 card">
                 <h6>To Do List.</h6>
-                    <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="logo">
                 <p>App desarrollada utilizando JavaScript Vanilla, HTML 5 Y CSS - DEPLOYED</p>
 
             </div>
@@ -60,27 +60,27 @@
             <div
              @click="redireccionarCarta"
              class="carta col-6 col-sm-2 card">
-                <h6> App Mobile Foodtruck</h6>
-                    <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="">
+                <h6> Menu Mobile Foodtruck</h6>
+                    <img src="https://juansbdev.github.io/carta/img/logo2-removebg-preview.png" alt="logo">
                 <p> Freelance job - mobile app developed with html5 - css3 - bootstrap - javascript</p>
             </div>
             <div @click="redireccionarCalculadora" class="calculadora col-6 col-sm-2  card">
                 <h6>e-Commerce</h6>
-                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="">
+                <img src="https://www.bluestart.mx/assets/img/iconos/ecommerce.png" alt="logo">
                 <p>React.js, JavaScript, HTML5, CSS3, Redux, Bootstrap, Express.JS, PostgreSQL, Sequelize, MercadoPago JWT, Auth0, firebase</p>
         </div>
             <div
             @click="redireccionarApi"
              class="api col-6 col-sm-2 card">
-                <h6>Clima API</h6>
-                    <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="">
+                <h6>Weather API</h6>
+                    <img src="https://fairbanksmuseum.org/wp-content/uploads/2023/03/partly_sunny.png" alt="logo">
                 <p>App developed with React.js - using HTML5 - CSS - SASS - API REST - DEPLOYED</p>
             </div>
             <div
             @click="redireccionarLista"
              class="lista col-6 col-sm-2 card">
                 <h6>To Do List.</h6>
-                    <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/6194/6194029.png" alt="logo">
                 <p>App developed with Vanilla JavaScript, localstorage, HTML 5 Y CSS - DEPLOYED</p>
 
             </div>
