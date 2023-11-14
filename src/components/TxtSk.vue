@@ -5,12 +5,12 @@ import {i18n} from '../main'
     <!--    <img class='img-back' src="https://mystickermania.com/cdn/stickers/outer-space/astronaut-planet-balloons-512x512.png" alt="">
 --> 
 <div   v-if="i18n.global.locale === 'es'" class="container row">
-    <p class="col-sm-4 col-12">  Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, SASS, LESS, Flexbox, Grids y Bootstrap.
+    <p class="col-sm-4 col-12">  Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, SASS, LESS, Flexbox, Grids, TailwindsCSS, Material UI,  Bootstrap.
     Metodologias agiles.
     
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Realicé tambíen proyectos en WordPress CMS.
+         JavaScript Vanilla (advanced), Vue.js 3,  React.js, Redux, Node.js, Express, SQL, PostgreSQL, Sequelize. Realicé tambíen proyectos en WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         
@@ -21,12 +21,12 @@ import {i18n} from '../main'
 
 </div>
 <div v-else class="container row">
-    <p class="col-sm-4 col-12">  The languages and technologies I use for designing and layout are HTML5, CSS3, SASS, Flexbox, Grids, & Bootstrap. 
+    <p class="col-sm-4 col-12">  The languages and technologies I use for designing and layout are HTML5, CSS3, SASS, Flexbox, Grids, TailwindsCSS, Material UI & Bootstrap. 
     I am also familiar with agile methodologies.
     
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Additionally, I have completed projects using the WordPress CMS.
+        JavaScript Vanilla (advanced), Vue.js 3,  React.js, Redux, Node.js, Express, SQL, PostgreSQL, Sequelize. Additionally, I have completed projects using the WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. Additionally,
