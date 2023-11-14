@@ -10,7 +10,7 @@ import {i18n} from '../main'
     
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Realicé pequeños proyectos en WordPress CMS.
+        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Realicé tambíen proyectos en WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         
@@ -26,7 +26,7 @@ import {i18n} from '../main'
     
     </p>
     <p class="col-sm-4 col-12 "> 
-        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Additionally, I have completed small projects using the WordPress CMS.
+        Full stack JavaScript Vanilla, Vue.js 3,  React.js, Redux - Node.js, Express - SQL, PostgreSQL. Additionally, I have completed projects using the WordPress CMS.
     </p>
     <p class="col-sm-4 col-12">
         I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. Additionally,
