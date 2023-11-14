@@ -6,7 +6,7 @@ import {i18n} from '../main'
 --> 
 <div   v-if="i18n.global.locale === 'es'" class="container row">
     <p class="col-sm-4 col-12">  Los lenguajes y tecnologías que utilizo para diseñar y maquetar son HTML5, CSS3, SASS, LESS, Flexbox, Grids, TailwindsCSS, Material UI,  Bootstrap.
-    Metodologias agiles.
+   
     
     </p>
     <p class="col-sm-4 col-12 "> 
@@ -16,21 +16,20 @@ import {i18n} from '../main'
         
         Capacitado en UX/UI, SEO y
         manejo versiones de codigo con Git y utilizo GitHub para guardar mis proyectos.
-        Utilización de clientes FTP tales como FileZilla. 
+        Utilización de clientes FTP tales como FileZilla.  Metodologias agiles. 
     </p>
 
 </div>
-<div v-else class="container row">
-    <p class="col-sm-4 col-12">  The languages and technologies I use for designing and layout are HTML5, CSS3, SASS, Flexbox, Grids, TailwindsCSS, Material UI & Bootstrap. 
-    I am also familiar with agile methodologies.
-    
-    </p>
+<div v-else class="container row ">
+   
     <p class="col-sm-4 col-12 "> 
         JavaScript Vanilla (advanced), Vue.js 3,  React.js, Redux, Node.js, Express, SQL, PostgreSQL, Sequelize. Additionally, I have completed projects using the WordPress CMS.
     </p>
+    <p class="col-sm-4 col-12">  The languages and technologies I use for designing and layout are HTML5, CSS3, SASS, Flexbox, Grids, TailwindsCSS, Material UI & Bootstrap. 
+    </p>    
     <p class="col-sm-4 col-12">
-        I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. Additionally,
-         I am experienced in working with FTP clients like FileZilla to transfer files to and from servers.
+        I am proficient in UX/UI design, SEO, and version control using Git. I utilize GitHub to store and manage my projects. 
+        FTP clients like FileZilla. I am also familiar with agile methodologies.
     </p>
 
 </div>
