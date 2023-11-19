@@ -108,14 +108,13 @@ p{
     align-content: center;
     text-align: center;
     text-decoration: none;
-
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
+
 #img-d{
-    width: 5%;
-}
-#img-d{
-    width: 10%;
+    width: 100%;
 }
 }
 @media screen and (min-width: 575px) {
