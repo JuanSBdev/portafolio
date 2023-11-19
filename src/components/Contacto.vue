@@ -24,7 +24,7 @@ function copyEmail() {
         <div class="linkedin">
             <a href="https://www.linkedin.com/in/jlsb/">
                 <img src="https://img.freepik.com/iconos-gratis/linkedin_318-157468.jpg?" alt="linkedin logo">
-                 <p>linkedIn  </p>
+                 <p >linkedIn  </p>
             </a>
         </div>
     </div>
@@ -67,16 +67,20 @@ p{
     padding: 10%;
 }
 .email{
-    font-size: 1.5rem;
+    width: 100%;
+    font-size: 1rem;
     display: flex;
     flex-flow: column;
-    justify-content: center;
     align-items: center;
-    width: 100%;
+    justify-content: center;
 }
 .email p{
-    padding: 10%;
 
+}
+.maildata{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 .linkedin{
     width: 100%;
@@ -90,6 +94,9 @@ p{
     text-decoration: none;
     font-size: 1.8rem;
 
+}
+.linkedin p{
+ display: none;
 }
 
 .cv{
