@@ -28,14 +28,14 @@ import { i18n } from '../main'
             <a class="col-4 px-2 pro " href="#proyects">proyects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
       </div>
-          <div class="logos ">
+          <!-- <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
               <img src="../assets/resources/linkedin_image.png" alt="linkedin logo">
             </a>
             <a  href="https://github.com/JuanSBdev">
               <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt=" github logo">
             </a>
-          </div>
+          </div> -->
         </div>
 
         

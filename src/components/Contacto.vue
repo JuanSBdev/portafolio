@@ -74,9 +74,7 @@ p{
     align-items: center;
     justify-content: center;
 }
-.email p{
 
-}
 .maildata{
     display: flex;
     flex-flow: column nowrap;
