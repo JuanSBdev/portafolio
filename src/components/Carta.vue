@@ -59,7 +59,7 @@ import { i18n } from '../main'
               <p>HTML5 - CSS - SASS - Bootstrap - Tailwinds - FlexBox - Figma. </p>
               <p> JavaScript ES6 - Vue3.JS - React.JS - Redux  + Vite</p>
               <p>Node.js - Express - SQL - PostgreSQL - Sequelize  </p>
-              <p> GIT - GITHUB / NPM - Yarn / Scrum Agile</p>
+              <p> Git - GitHub - NPM - Yarn - Scrum Agile - FTP</p>
             </div>
           </div>
           <div class="con3">
