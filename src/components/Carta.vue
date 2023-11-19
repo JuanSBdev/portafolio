@@ -69,7 +69,7 @@ import { i18n } from '../main'
  ✍
 ✔ Me especializo en la creación de sitios web responsive y mobile first,  poseo un sólido conjunto de habilidades para la resolución de problemas tanto en el desarrollo front-end como en el back-end
 </p>
-<p>⌛Siempre dispuesto a seguir aprendiendo⌛</p>
+<p>⌛actualmente trabajando en una App de alquileres fullstack ⌛</p>
 <!-- <p>
   ⌛ En busca de experiencia laboral y un espacio el cual me permita el seguir formando y capacitándome.⌛ 
   
@@ -82,7 +82,7 @@ import { i18n } from '../main'
                  </p>
                  <p>
                   ⌛ 
-   Constantly seeking learning opportunities ⌛ 
+   Currently working on a rental fullstack App⌛ 
   
                  </p>
                 </div>
