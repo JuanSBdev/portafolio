@@ -25,7 +25,7 @@ import { i18n } from '../main'
           <div class="row  links-info-mobile">
             <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Ressume</a>
 
-            <a class="col-4 px-2 pro " href="#proyects">proyects</a>
+            <a class="col-4 px-2 pro " href="#proyects">projects</a>
               <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
       </div>
           <div class="logos ">
