@@ -26,7 +26,7 @@ const datos = {
     return; 
   }
   
-  axios.post('https://mailer-nodejs-oziw-dev.fl0.io/', datos)
+  axios.post('https://mailer-nodejs-dev-cqsx.1.us-1.fl0.io', datos)
   .then(response => {
     loading.value = false;
     
