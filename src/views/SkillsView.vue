@@ -20,8 +20,8 @@ import Videos from '../components/Videos.vue';
 
   <Arriba />
   <div class="wraper">
-    <div v-motion-fade >
-      <Carta ref="arriba" />
+    <div v-motion-fade class="arriba" >
+      <Carta  />
     </div>
     <Proyects id="proyects"/>
     <div  >
@@ -51,7 +51,7 @@ import Videos from '../components/Videos.vue';
 
   </template>
 <style scoped>
-@media screen and (max-width: 574px) {
+@media screen and (max-width: 768px) {
   .wraper{
     background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
     background-size: cover ;
@@ -86,9 +86,14 @@ import Videos from '../components/Videos.vue';
   justify-content: center;
   width: 100%;
 }
+.arriba{
+  display: flex;
+  justify-content: center;
+}
+
 
 }
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 769px) {
   .wraper{
     background-image: url('https://www.pngmart.com/files/13/Pattern-Transparent-Background.png');
     background-size: cover ;

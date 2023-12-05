@@ -2,12 +2,12 @@
 import { i18n } from '../main'
 
 </script>
-<template>
+<template >
     <div class="container  row">
       <div class="brand">
         <h2>JLSB.</h2>
       </div>
-      <div class="row  links-info">
+      <div class=" links-info">
             <a v-if="i18n.global.locale === 'es'" class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/17b1no5yYz4RjfN5kT-c3Mq4bGes02Ig9/view?usp=sharing">Curriculum</a>
             <a v-else class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
 
@@ -15,7 +15,7 @@ import { i18n } from '../main'
             <a v-else class="col-4 px-2 pro " href="#proyects">Projects</a>
       </div>
 
-        <div class="profile col-sm-4">
+        <div class="profile col-md-4">
           <div class="foto">
             <img src="https://i.ibb.co/SfjNPzk/selected-Photo-Room-1.png" alt="Imagen cv">
             <h2  v-if="i18n.global.locale === 'es'">Hola, soy Juan Lluvia</h2>
@@ -23,11 +23,11 @@ import { i18n } from '../main'
             <h3 > ⚡Full Stack Developer⚡ </h3>
           </div>
           <div class="row  links-info-mobile">
-            <a class="col-4  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Ressume</a>
+            <a class="  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
 
-            <a class="col-4 px-2 pro " href="#proyects">projects</a>
-              <img src="https://images.fineartamerica.com/images/artworkimages/medium/3/neon-binary-tree-pcb-computer-coding-programmer-noirty-designs-transparent.png" alt="">
-      </div>
+            <a class=" px-2 pro " href="#proyects">projects</a>
+            
+          </div>
           <div class="logos ">
             <a href="https://www.linkedin.com/in/jlsb/">
               <img src="../assets/resources/linkedin_image.png" alt="linkedin logo">
@@ -212,7 +212,125 @@ text-decoration: none;
   }
  
 }
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 575px ) and (max-width:774px) {
+  h3{
+    font-size: 1.5rem;
+  }
+  .container{
+    width: 100%;
+    top: 2rem;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-flow: column wrap;
+    
+    
+    border-radius: 1rem;
+    border: 1px solid rgb(65, 31, 144);
+    box-shadow: 0px 0px 15px 0px rgba(53, 5, 53, 0.671);
+    background: rgb(189,63,223);
+    background: linear-gradient(315deg, rgba(112, 13, 241, 0.644) 15%, rgb(203, 123, 243) 56%, rgba(203, 54, 216, 0.863) 96%);
+    color: aliceblue;
+    
+    font-family: 'Ubuntu', sans-serif;
+    
+
+  }
+  .brand{
+  position: absolute;
+  top: 1%;
+  left: 4%;
+  font-family: 'Shadows Into Light';
+}
+  .foto{
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+
+.foto img{
+  border-radius: 20rem;
+  width: 80%;
+  margin-bottom: 10%;
+  min-width: 200px;
+  opacity: .9;
+}
+.links-info{
+  display: none;
+
+}
+.links-info a{
+  display: none;
+
+}
+.links-info-mobile{
+  padding: 5%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.links-info-mobile a{
+  width: 45%;
+  text-align: center;
+  border-radius: 2rem;
+  padding: 4%;
+  color: rgb(23, 17, 23);
+  box-shadow: 0 0 10px 0;
+  text-decoration: none;
+}
+.links-info-mobile img{
+  display: none;
+  position: relative;
+}
+.logos{
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+}
+.logos a{
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.logos img{
+  max-width: 90px;
+}
+ /* #github{
+transform: scale(.7);
+width: 100%;
+
+ } */
+ .con2{
+  display: flex;
+ }
+ 
+.cv{
+  border-right: 2px solid black;
+  
+}
+:hover.cv{
+  color: rgb(128, 31, 160);
+}
+:hover.pro{
+  color: rgb(128, 31, 160);
+}
+.links-info img{
+  display: none;
+    width: 25%;
+    transform: rotate(90deg);
+    -webkit-animation: tit .1s ease alternate infinite;
+    -moz-animation: tit .1s ease alternate infinite;
+    animation: tit 2s ease infinite;
+  }
+  
+.div{
+  margin-top: 20%;
+}
+}
+@media screen and (min-width: 775px) {
   .foto{
   display: flex;
   flex-flow: column wrap;
