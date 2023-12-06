@@ -126,7 +126,52 @@
         width: 40% ;
     }
 }
-@media screen and (min-width: 575px) {
+@media screen and (min-width: 575px) and (max-width:768px) {
+    .h3-con{
+        font-family: 'Ubuntu', sans-serif;
+
+        color: rgb(237, 56, 243);
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+        margin-top: 6rem;
+    }
+   
+    
+    img{
+        width: 20%;
+        min-width: 150px;
+        max-width: 200px;
+    }
+    .contenedor-pro{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+    }
+    .wraper{
+        width: 80%;
+        padding-top: 5%;
+        display: flex;
+        flex-flow: row-reverse wrap;
+        align-items: stretch;
+        justify-content: space-evenly;
+        color: rgb(241, 215, 241);
+        } 
+    .card{
+        width: 40%;
+        padding: 2%;
+        background-color: rgba(238, 130, 238, 0);
+        border: none;
+    }
+    .card h6{
+        font-size: 2rem;
+    }
+    .carta img{
+        width: 40% ;
+    }
+
+}
+@media screen and (min-width: 769px) {
     
     h5{
         font-size: 4rem;
