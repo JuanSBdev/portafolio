@@ -39,7 +39,7 @@ import { i18n } from '../main'
         </div>
 
         
-        <div class="div col-sm-7">
+        <div class="div col-md-7">
           <div class="con2">
 
             <div class="info ">
@@ -272,7 +272,7 @@ text-decoration: none;
   justify-content: space-between;
 }
 .links-info-mobile a{
-  font-family: 'ubuntu';
+  font-family: 'Ubuntu', sans-serif;
   width: 45%;
   text-align: center;
   border-radius: 2rem;
@@ -300,13 +300,10 @@ text-decoration: none;
 .logos img{
   max-width: 90px;
 }
- /* #github{
-transform: scale(.7);
-width: 100%;
 
- } */
  .con2{
   display: flex;
+  width: 100%;
  }
  
 
