@@ -19,6 +19,7 @@ import Videos from '../components/Videos.vue';
     </button>
 
   <Arriba />
+  
   <div class="wraper">
     <div v-motion-fade class="arriba" >
       <Carta  />
@@ -89,6 +90,7 @@ import Videos from '../components/Videos.vue';
 .arriba{
   display: flex;
   justify-content: center;
+  width: 97%;
 }
 
 

@@ -158,12 +158,16 @@
         color: rgb(241, 215, 241);
         } 
     .card{
+        display: flex;
+        flex-wrap: nowrap;
         width: 40%;
         padding: 2%;
+        
         background-color: rgba(238, 130, 238, 0);
         border: none;
     }
     .card h6{
+     
         font-size: 2rem;
     }
     .carta img{
