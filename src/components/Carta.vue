@@ -272,12 +272,14 @@ text-decoration: none;
   justify-content: space-between;
 }
 .links-info-mobile a{
+  font-family: 'ubuntu';
   width: 45%;
   text-align: center;
   border-radius: 2rem;
   padding: 4%;
-  color: rgb(23, 17, 23);
-  box-shadow: 0 0 10px 0;
+  color: rgb(255, 255, 255);
+  box-shadow:  -10px -10px 15px rgb(205, 152, 241),
+    10px 10px 15px rgb(171, 79, 191);
   text-decoration: none;
 }
 .links-info-mobile img{
@@ -307,10 +309,7 @@ width: 100%;
   display: flex;
  }
  
-.cv{
-  border-right: 2px solid black;
-  
-}
+
 :hover.cv{
   color: rgb(128, 31, 160);
 }
