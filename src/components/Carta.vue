@@ -275,10 +275,11 @@ import { i18n } from '../main'
   border-radius: 2rem;
   padding: 4%;
   color: rgb(255, 255, 255);
-  box-shadow:  -10px -10px 15px rgb(205, 152, 241),
-    10px 10px 15px rgb(171, 79, 191);
+  box-shadow:  -5px -10px 15px rgb(205, 152, 241),
+    5px 10px 15px rgb(132, 56, 149);
   text-decoration: none;
 }
+
 .links-info-mobile img{
   display: none;
   position: relative;

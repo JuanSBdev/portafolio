@@ -151,4 +151,20 @@ import { i18n } from '../main'
 }
   
 }
+@media screen and (min-width: 576px) and (max-width: 678px) {
+  .wraper{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20%;
+    padding-bottom: 30%;
+  }
+  h1{
+    margin-top: 18%;
+  }
+.wraper a{
+  padding: 8%;
+  margin-bottom: 1%;
+}
+  
+}
 </style>
