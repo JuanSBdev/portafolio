@@ -90,7 +90,6 @@ import Videos from '../components/Videos.vue';
 .arriba{
   display: flex;
   justify-content: center;
-  width: 97%;
 }
 
 

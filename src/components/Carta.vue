@@ -22,7 +22,8 @@ import { i18n } from '../main'
             <h2  v-else>Hi i'm Juan Lluvia</h2>
             <h3 > ⚡Full Stack Developer⚡ </h3>
           </div>
-          <div class="row  links-info-mobile">
+          <div class="logos-mobile">
+            <div class="row  links-info-mobile">
             <a class="  cv  px-2" target="blank" href="https://drive.google.com/file/d/1qVXrlQJ3aOj-I5usOSJDtsi_8kPdfXxX/view?usp=sharing">Resume</a>
 
             <a class=" px-2 pro " href="#proyects">projects</a>
@@ -35,6 +36,7 @@ import { i18n } from '../main'
             <a  href="https://github.com/JuanSBdev">
               <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt=" github logo">
             </a>
+          </div>
           </div>
         </div>
 
@@ -101,7 +103,6 @@ import { i18n } from '../main'
   }
   .container{
     width: 90%;
-    margin-left: 5%;
     top: 2rem;
     padding: 1.5rem;
     border-radius: 1rem;
@@ -130,35 +131,26 @@ import { i18n } from '../main'
 
 
 .foto img{
-  border-radius: 6rem;
+  border-radius: 100%;
   width: 70%;
   margin-bottom: 10%;
   min-width: 100px;
   opacity: .9;
 }
+.logos-mobile{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: stretch;
+}
   .logos{
-  width: 90%;
+  width: 20%;
   display: flex;
-align-content: center;
-justify-content: end;
-margin-left: 25%;
-margin-top: -110px;
+  flex-flow: column wrap;
 }
-.logos a{
-  display: flex;
-  justify-content: end;
-  align-content: center;
-  align-items: center;
-}
-.logos img{
-  width: 35%;
-  width: 60%;
-}
- #github{
-transform: scale(.7);
-width: 100%;
 
- }
+
  .con2{
   display: flex;
  }
@@ -174,28 +166,24 @@ width: 100%;
   display: flex;
   flex-flow: column wrap;
   position: relative;
-  width: 80%;
+  width: 100%;
   justify-content: center;
-  margin-bottom: -20%;
 }
 .links-info-mobile a{
-  width: 60%;
-  margin-bottom: 2%;
+  width: 90%;
+  margin: 4%;
   text-align: center;
   border-radius: 2rem;
   padding: 2%;
-  color: rgb(23, 17, 23);
-  box-shadow: 0 0 10px 0;
-text-decoration: none;
+  color: rgb(255, 255, 255);
+  box-shadow:  -10px -10px 15px rgb(205, 152, 241),
+    10px 10px 15px rgb(171, 79, 191);text-decoration: none;
 }
 .links-info-mobile img{
   display: none;
   position: relative;
 }
-.cv{
-  border-right: 2px solid black;
-  
-}
+
 :hover.cv{
   color: rgb(128, 31, 160);
 }
@@ -204,13 +192,22 @@ text-decoration: none;
 }
 .links-info img{
   display: none;
-    width: 25%;
-    transform: rotate(90deg);
-    -webkit-animation: tit .1s ease alternate infinite;
-    -moz-animation: tit .1s ease alternate infinite;
-    animation: tit 2s ease infinite;
+   
   }
- 
+ /* .logos{
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+ }
+ .logos a{
+  display: flex;
+  align-items: end;
+ }
+ .logos img{
+  max-width: 80px;
+  display: flex;
+ } */
 }
 @media screen and (min-width: 575px ) and (max-width:774px) {
   h3{
@@ -251,7 +248,7 @@ text-decoration: none;
 
 .foto img{
   border-radius: 20rem;
-  width: 80%;
+  width: 60%;
   margin-bottom: 10%;
   min-width: 200px;
   opacity: .9;
@@ -304,6 +301,7 @@ text-decoration: none;
  .con2{
   display: flex;
   width: 100%;
+  margin-top: -15%;
  }
  
 
