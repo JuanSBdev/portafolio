@@ -50,4 +50,11 @@ import FormVue from '../components/Form.vue';
         border-bottom: 1px solid rgb(255, 255, 255);
     }
 }
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .wrapper{
+        padding-top: 32%;
+        padding-bottom: 42%;
+    }
+}
 </style>
