@@ -140,22 +140,6 @@ import { i18n } from '../main'
     display: flex;
     flex-flow: column nowrap;
     padding-top: 60%;
-    padding-bottom: 90%;
-  }
-  h1{
-    margin-top: 18%;
-  }
-.wraper a{
-  padding: 8%;
-  margin-bottom: 1%;
-}
-  
-}
-@media screen and (min-width: 576px) and (max-width: 678px) {
-  .wraper{
-    display: flex;
-    flex-flow: column nowrap;
-    padding-top: 20%;
     padding-bottom: 30%;
   }
   h1{
@@ -164,6 +148,32 @@ import { i18n } from '../main'
 .wraper a{
   padding: 8%;
   margin-bottom: 1%;
+}
+.footer{
+  padding-bottom: 30%;
+
+}
+  
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .wraper{
+    display: flex;
+    flex-flow: column nowrap;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+  }
+  h1{
+    margin-top: 18%;
+  }
+.wraper a{
+  padding: 8%;
+  margin-bottom: 1%;
+}
+.footer{
+  padding-bottom: 60%;
+
 }
   
 }
