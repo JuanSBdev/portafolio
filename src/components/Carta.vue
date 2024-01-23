@@ -34,7 +34,7 @@ import { i18n } from '../main'
               <img src="../assets/resources/linkedin_image.png" alt="linkedin logo">
             </a>
             <a  href="https://github.com/JuanSBdev">
-              <img id="github" src="https://icons-for-free.com/iconfiles/png/512/coding+development+github+programming+social+icon-1320086085448562008.png" alt=" github logo">
+              <img id="github" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt=" github logo">
             </a>
           </div>
           </div>
